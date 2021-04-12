@@ -1,0 +1,12 @@
+name: "bootcamp_website"
+title: "Bootcamp Website"
+description: |
+  Bootcamp Website
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
