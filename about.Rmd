@@ -8,3 +8,4 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+This site is for information about Kane's Free Data Science High School Bootcamp, to be held for four weeks in the summer of 2021
