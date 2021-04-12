@@ -5,16 +5,16 @@
       "title": "About this site",
       "description": "Some additional details about the website",
       "author": [],
-      "contents": "\nThis site is for information about Kane’s Free Data Science High School Bootcamp, to be held for four weeks in the summer of 2021\n\n\n\n",
-      "last_modified": "2021-04-12T16:19:51-04:00"
+      "contents": "\nThis site is for information about Kane’s Free Data Science High School Bootcamp, to be held for four weeks in the summer of 2021.\n\n\n\n",
+      "last_modified": "2021-04-12T16:30:34-04:00"
     },
     {
       "path": "index.html",
       "title": "Bootcamp Website",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "description": "Welcome to the website.\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-12T16:19:53-04:00"
+      "last_modified": "2021-04-12T16:30:35-04:00"
     }
   ],
   "collections": []
