@@ -1,0 +1,51 @@
+---
+title: "Staff"
+description: |
+  Some additional details about the website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Meet the staff members of the 2021 Summer Data Science Bootcamp!
+
+&nbsp;
+
+**David Kane**
+
+```{r}
+knitr::include_graphics("/Users/beccagill/Desktop/Gov-50/bootcamp_website/staff/images/david_kane.png")
+```
+
+David Kane is the Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University
+
+&nbsp;
+
+**Becca Gill**
+
+```{r}
+#insert photo here
+```
+
+Becca Gill is class of 2025 at Yale University. 
+
+&nbsp;
+
+**Dario Anaya**
+
+```{r}
+#insert photo here
+```
+
+Dario Anaya a junior at Andrean High School in Merrillville, Indiana.
+
+&nbsp;
+
+**Nosa Lawani**
+
+```{r}
+#insert photo here
+```
+
+Nosa Lawani is class of 2024 at Harvard University. 

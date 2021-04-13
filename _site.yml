@@ -11,4 +11,6 @@ navbar:
       href: about.html
     - text: "Staff"
       href: staff.html
+    - text: "Schedule"
+      href: schedule.html
 output: distill::distill_article
