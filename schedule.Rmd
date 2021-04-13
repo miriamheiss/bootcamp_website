@@ -1,0 +1,28 @@
+---
+title: "Schedule"
+description: |
+  Some additional details about the website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Here is the schedule for each of the four weeks. 
+
+**Week 1** 
+The first week will cover Visualization.
+
+&nbsp;
+
+**Week 2**
+The second week will cover Data.
+
+&nbsp;
+
+**Week 3**
+The third week will cover Projects that the students will create. 
+
+**Week 4**
+
+TBD
