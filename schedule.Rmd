@@ -1,14 +1,13 @@
 ---
 title: "Schedule"
 description: |
-  Some additional details about the website
+  Here is the schedule for each of the four weeks.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Here is the schedule for each of the four weeks. 
 
 **Week 1** 
 The first week will cover Visualization.
