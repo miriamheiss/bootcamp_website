@@ -35,7 +35,7 @@ Becca Gill is class of 2025 at Yale University.
 **Dario Anaya**
 
 ```{r}
-#insert photo here
+knitr::include_graphics("/Users/beccagill/Desktop/Gov-50/bootcamp_website/staff/images/dario.png")
 ```
 
 Dario Anaya a junior at Andrean High School in Merrillville, Indiana.
