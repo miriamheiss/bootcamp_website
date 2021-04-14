@@ -1,14 +1,16 @@
 ---
 title: "Staff"
 description: |
-  Meet the staff members of the 2021 Summer Data Science Bootcamp!
+  Some additional details about the website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+Meet the staff members of the 2021 Summer Data Science Bootcamp!
 
+&nbsp;
 
 **David Kane**
 
