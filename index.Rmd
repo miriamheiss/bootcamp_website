@@ -1,11 +1,15 @@
 ---
 title: "2021 Data Science Bootcamp"
 description: |
-  Welcome to the home page.
+  Welcome to our home page.
 site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
+library(gapminder)
+library(tidyverse)
+library(gganimate)
+
 knitr::opts_chunk$set(echo = FALSE)
 
 # Learn more about creating websites with Distill at:
@@ -14,5 +18,18 @@ knitr::opts_chunk$set(echo = FALSE)
 # Learn more about publishing to GitHub Pages at:
 # https://rstudio.github.io/distill/publish_website.html#github-pages
 
+```
+
+
+## Introduction
+
+We are very excited to introduce a free data science bootcamp for high school students across the country. The bootcamp will run from June 28th- July 18th. Students that participate will complete a total of 15 hours of work per week. Five hours will be spent online with the staff, and 10 hours of work will be completed by the students on their own. By the end of this bootcamp, students will be able to do basic data science!
+
+&nbsp;
+
+For example, you will be able to create graphics like these! 
+
+```{r, cache = TRUE}
+#interactive graph here
 ```
 
