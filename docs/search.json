@@ -13,8 +13,8 @@
       "title": "Schedule",
       "description": "Here is the schedule for each of the four weeks.",
       "author": [],
-      "contents": "\nWeek 1\nThe first week will cover Visualization.\n \nWeek 2\nThe second week will cover Wrangling Data.\n \nWeek 3\nThe third week will cover Data.\n \nWeek 4\nThee last week will consist of projects that the students will make.\n\n\n\n",
-      "last_modified": "2021-04-14T20:23:51-04:00"
+      "contents": "\nWeek 1: Visualization\nReadings: Students will read Chapter 1 Visualization and the first three parts of the Appendix on Tools: “Working with the terminal,” “Git, GitHub, and RStudio,” and “PDF.”\n \nAssignment:Five tutorials (Visualization-A, Visualization-B, Visualization-C and Visualization-D, Tools)\n \nOptional:Read and watch the videos from Getting Used to R, RStudio, and R Markdown by Chester Ismay and Patrick C. Kennedy\n \nWeek 2: Wrangling Data\nReadings: Students will read Chapter 2 Wrangling Data.\n \nAssignment:Four tutorials (Wrangling A through D)\n \nOptional: RStudio Essentials Videos. Most relevant for us are “Writing code in RStudio”, “Projects in RStudio” and “Github and RStudio”. Again, these are optional! But they are very useful for students who find traditional lectures to be a helpful supplement to classroom practice.\n \nWeek 3: Data\nReadings: Students will read Chapter 3 Data.\n \nAssignment: TBD\n \nOptional: TBA\n \nWeek 4: Projects\nThe last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers. Further requirements and guidelines will be provided before the students begin their work.\n\n\n\n",
+      "last_modified": "2021-04-15T11:18:00-04:00"
     },
     {
       "path": "staff.html",
