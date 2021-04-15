@@ -1,14 +1,6 @@
 {
   "articles": [
     {
-      "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
-      "author": [],
-      "contents": "\nThis site is for information about Kane’s Free Data Science High School Bootcamp, to be held for four weeks in the summer of 2021.\n\n\n\n",
-      "last_modified": "2021-04-14T10:30:52-04:00"
-    },
-    {
       "path": "index.html",
       "title": "Bootcamp Website",
       "description": "Welcome to the website.\n",
@@ -21,8 +13,8 @@
       "title": "Schedule",
       "description": "Here is the schedule for each of the four weeks.",
       "author": [],
-      "contents": "\nWeek 1\nThe first week will cover Visualization.\n \nWeek 2\nThe second week will cover Wrangling Data.\n \nWeek 3\nThe third week will cover Data.\n \nWeek 4\nTHe last week will consist of projects that the students will make.\n\n\n\n",
-      "last_modified": "2021-04-14T20:17:47-04:00"
+      "contents": "\nWeek 1\nThe first week will cover Visualization.\n \nWeek 2\nThe second week will cover Wrangling Data.\n \nWeek 3\nThe third week will cover Data.\n \nWeek 4\nThee last week will consist of projects that the students will make.\n\n\n\n",
+      "last_modified": "2021-04-14T20:20:27-04:00"
     },
     {
       "path": "staff.html",
