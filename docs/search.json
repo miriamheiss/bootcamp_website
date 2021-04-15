@@ -21,8 +21,8 @@
       "title": "Schedule",
       "description": "Here is the schedule for each of the four weeks.",
       "author": [],
-      "contents": "\nWeek 1 The first week will cover Visualization.\n \nWeek 2 The second week will cover Data.\n \nWeek 3 The third week will cover Projects that the students will create.\n \nWeek 4\nTBD\n\n\n\n",
-      "last_modified": "2021-04-14T10:30:53-04:00"
+      "contents": "\nWeek 1\nThe first week will cover Visualization.\n \nWeek 2\nThe second week will cover Wrangling Data.\n \nWeek 3\nThe third week will cover Data.\n \nWeek 4\nTHe last week will consist of projects that the students will make.\n\n\n\n",
+      "last_modified": "2021-04-14T20:17:47-04:00"
     },
     {
       "path": "staff.html",

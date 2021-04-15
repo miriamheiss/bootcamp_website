@@ -9,21 +9,22 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-**Week 1** 
-The first week will cover Visualization.
+# Week 1 
+The first week will cover [Visualization](https://ppbds.github.io/primer/visualization.html).
 
 &nbsp;
 
-**Week 2**
-The second week will cover Data.
+# Week 2
+The second week will cover [Wrangling Data](https://ppbds.github.io/primer/wrangling.html).
 
 &nbsp;
 
-**Week 3**
-The third week will cover Projects that the students will create. 
+# Week 3
+The third week will cover [Data](https://ppbds.github.io/primer/data.html).
 
 &nbsp;
 
-**Week 4**
+# Week 4
+Thee last week will consist of projects that the students will make.
 
-TBD
+
