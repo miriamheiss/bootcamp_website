@@ -23,8 +23,8 @@ David Kane is the Preceptor in Statistical Methods and Mathematics in the Depart
 
 ## Becca Gill
 
-```{r}
-#insert photo here
+```{r, out.width = "50%"}
+knitr::include_graphics("/Users/beccagill/Desktop/Gov-50/bootcamp_website/staff/images/becca.jpg")
 ```
 
 Becca Gill is an incoming freshman of the class of 2025 at Yale University. To view Becca's GitHub page, visit [here](https://github.com/BeccaGill).
