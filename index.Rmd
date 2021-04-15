@@ -27,5 +27,5 @@ We are very excited to introduce a free data science bootcamp for high school st
 
 &nbsp;
 
-There are no prerequisites. The programming language we will be using is [R](. You must have a laptop with R, RStudio and [Git](https://happygitwithr.com) installed. 
+There are no prerequisites. The programming language we will be using is R. You must have a laptop with R, RStudio and [Git](https://happygitwithr.com) installed. 
 
