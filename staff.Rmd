@@ -27,7 +27,7 @@ David Kane is the Preceptor in Statistical Methods and Mathematics in the Depart
 knitr::include_graphics("/Users/beccagill/Desktop/Gov-50/bootcamp_website/staff/images/becca.jpg")
 ```
 
-Becca Gill is an incoming freshman of the class of 2025 at Yale University. To view Becca's GitHub page, visit [here](https://github.com/BeccaGill).
+Becca Gill is an incoming freshman of the Class of 2025 at Yale University. To view Becca's GitHub page, visit [here](https://github.com/BeccaGill).
 
 &nbsp;
 
@@ -47,4 +47,4 @@ Dario Anaya a rising senior at Andrean High School in Merrillville, Indiana.
 knitr::include_graphics("/Users/beccagill/Desktop/Gov-50/bootcamp_website/staff/images/nosa.jpg")
 ```
 
-Nosa Lawani is a student in the class of 2024 at Harvard University. To view Nosa's GitHub page, visit [here](https://github.com/lawanin).
+Nosa Lawani is a student in the Class of 2024 at Harvard University. To view Nosa's GitHub page, visit [here](https://github.com/lawanin).
