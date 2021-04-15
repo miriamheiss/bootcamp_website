@@ -1,7 +1,7 @@
 name: "bootcamp_website"
-title: "Bootcamp Website"
+title: "2021 Data Science Bootcamp"
 description: |
-  Bootcamp Website
+  2021 Data Science Bootcamp
 output_dir: "docs"
 navbar:
   right:

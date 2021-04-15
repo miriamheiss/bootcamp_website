@@ -1,7 +1,7 @@
 ---
-title: "Bootcamp Website"
+title: "2021 Data Science Bootcamp"
 description: |
-  Welcome to the website.
+  Welcome to the home page.
 site: distill::distill_website
 ---
 

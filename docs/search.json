@@ -2,11 +2,11 @@
   "articles": [
     {
       "path": "index.html",
-      "title": "Bootcamp Website",
-      "description": "Welcome to the website.\n",
+      "title": "2021 Data Science Bootcamp",
+      "description": "Welcome to the home page.\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-14T10:30:52-04:00"
+      "last_modified": "2021-04-14T20:28:09-04:00"
     },
     {
       "path": "schedule.html",
@@ -14,7 +14,7 @@
       "description": "Here is the schedule for each of the four weeks.",
       "author": [],
       "contents": "\nWeek 1\nThe first week will cover Visualization.\n \nWeek 2\nThe second week will cover Wrangling Data.\n \nWeek 3\nThe third week will cover Data.\n \nWeek 4\nThee last week will consist of projects that the students will make.\n\n\n\n",
-      "last_modified": "2021-04-14T20:20:27-04:00"
+      "last_modified": "2021-04-14T20:23:51-04:00"
     },
     {
       "path": "staff.html",
