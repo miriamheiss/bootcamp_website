@@ -27,9 +27,5 @@ We are very excited to introduce a free data science bootcamp for high school st
 
 &nbsp;
 
-For example, you will be able to create graphics like these! 
 
-```{r, cache = TRUE}
-#interactive graph here
-```
 
