@@ -1,51 +1,50 @@
 ---
 title: "Staff"
 description: |
-  Some additional details about the website
+  Meet the staff members of the 2021 Summer Data Science Bootcamp!
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Meet the staff members of the 2021 Summer Data Science Bootcamp!
 
 &nbsp;
 
-**David Kane**
+## David Kane
 
-```{r}
+```{r david, out.width="50%"}
 knitr::include_graphics("/Users/beccagill/Desktop/Gov-50/bootcamp_website/staff/images/david_kane.png")
 ```
 
-David Kane is the Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University
+David Kane is the Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University. For further background on David Kane, visit [here](https://www.davidkane.info).
 
 &nbsp;
 
-**Becca Gill**
+## Becca Gill
 
 ```{r}
 #insert photo here
 ```
 
-Becca Gill is class of 2025 at Yale University. 
+Becca Gill is an incoming freshman of the class of 2025 at Yale University. To view Becca's GitHub page, visit [here](https://github.com/BeccaGill).
 
 &nbsp;
 
-**Dario Anaya**
+## Dario Anaya
 
-```{r}
-knitr::include_graphics("/Users/beccagill/Desktop/Gov-50/bootcamp_website/staff/images/dario.png")
+```{r dario, out.width="50%"}
+knitr::include_graphics("/Users/beccagill/Desktop/Gov-50/bootcamp_website/staff/images/dario.jpg")
 ```
 
-Dario Anaya a junior at Andrean High School in Merrillville, Indiana.
+Dario Anaya a rising senior at Andrean High School in Merrillville, Indiana.
 
 &nbsp;
 
-**Nosa Lawani**
+## Nosa Lawani
 
-```{r}
-#insert photo here
+```{r nosa, out.width="50%"}
+knitr::include_graphics("/Users/beccagill/Desktop/Gov-50/bootcamp_website/staff/images/nosa.jpg")
 ```
 
-Nosa Lawani is class of 2024 at Harvard University. 
+Nosa Lawani is a student in the class of 2024 at Harvard University. To view Nosa's GitHub page, visit [here](https://github.com/lawanin).
