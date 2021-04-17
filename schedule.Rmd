@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 &nbsp;
 
-# Week 2: Wrangling Data
+# Week 2: Wrangling
 
 * **Readings:** Students will read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html).
 
