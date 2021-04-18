@@ -6,15 +6,15 @@
       "description": "Welcome to our home page.\n",
       "author": [],
       "contents": "\nIntroduction\nWe are very excited to introduce a free data science bootcamp for high school students across the country. The bootcamp will run from June 28th- July 18th. Students that participate will complete a total of 15 hours of work per week. Five hours will be spent online with the staff, and 10 hours of work will be completed by the students on their own. By the end of this bootcamp, students will be able to do basic data science!\n \nThere are no prerequisites. The programming language we will be using is R. You must have a laptop with R, RStudio and Git installed.\n\n\n\n",
-      "last_modified": "2021-04-15T14:43:35-04:00"
+      "last_modified": "2021-04-18T19:07:03-04:00"
     },
     {
       "path": "schedule.html",
       "title": "Schedule",
       "description": "Here is the schedule for each of the four weeks.",
       "author": [],
-      "contents": "\nWeek 1: Visualization\nReadings: Students will read Chapter 1 Visualization and the first three parts of the Appendix on Tools: “Working with the terminal,” “Git, GitHub, and RStudio,” and “PDF.”\n \nAssignment:Five tutorials (Visualization-A, Visualization-B, Visualization-C and Visualization-D, Tools)\n \nOptional:Read and watch the videos from Getting Used to R, RStudio, and R Markdown by Chester Ismay and Patrick C. Kennedy\n \nWeek 2: Wrangling Data\nReadings: Students will read Chapter 2 Wrangling Data.\n \nAssignment:Four tutorials (Wrangling A through D)\n \nOptional: RStudio Essentials Videos. Most relevant for us are “Writing code in RStudio”, “Projects in RStudio” and “Github and RStudio”. Again, these are optional! But they are very useful for students who find traditional lectures to be a helpful supplement to classroom practice.\n \nWeek 3: Data\nReadings: Students will read Chapter 3 Data.\n \nAssignment: TBD\n \nOptional: TBA\n \nWeek 4: Projects\nThe last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers. Further requirements and guidelines will be provided before the students begin their work.\n\n\n\n",
-      "last_modified": "2021-04-15T14:43:36-04:00"
+      "contents": "\nWeek 1: Visualization\nReadings: Students will read Chapter 1 Visualization and the first three parts of the Appendix on Tools: “Working with the terminal,” “Git, GitHub, and RStudio,” and “PDF.”\n \nAssignment:Five tutorials (Visualization-A, Visualization-B, Visualization-C and Visualization-D, Tools)\n \nOptional:Read and watch the videos from Getting Used to R, RStudio, and R Markdown by Chester Ismay and Patrick C. Kennedy\n \nWeek 2: Wrangling\nReadings: Students will read Chapter 2 Wrangling Data.\n \nAssignment:Four tutorials (Wrangling A through D)\n \nOptional: RStudio Essentials Videos. Most relevant for us are “Writing code in RStudio”, “Projects in RStudio” and “Github and RStudio”. Again, these are optional! But they are very useful for students who find traditional lectures to be a helpful supplement to classroom practice.\n \nWeek 3: Data\nReadings: Students will read Chapter 3 Data.\n \nAssignment: TBD\n \nOptional: TBA\n \nWeek 4: Projects\nThe last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers. Further requirements and guidelines will be provided before the students begin their work.\n\n\n\n",
+      "last_modified": "2021-04-18T19:07:03-04:00"
     },
     {
       "path": "staff.html",
@@ -22,7 +22,7 @@
       "description": "Meet the staff members of the 2021 Summer Data Science Bootcamp!",
       "author": [],
       "contents": "\n \nDavid Kane\n\n\n\nDavid Kane is the Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University. For further background on David Kane, visit here.\n \nBecca Gill\n\n\n\nBecca Gill is an incoming freshman of the Class of 2025 at Yale University. To view Becca’s GitHub page, visit here.\n \nDario Anaya\n\n\n\nDario Anaya a rising senior at Andrean High School in Merrillville, Indiana.\n \nNosa Lawani\n\n\n\nNosa Lawani is a student in the Class of 2024 at Harvard University. To view Nosa’s GitHub page, visit here.\n\n\n\n",
-      "last_modified": "2021-04-15T14:43:36-04:00"
+      "last_modified": "2021-04-18T19:07:04-04:00"
     }
   ],
   "collections": []
