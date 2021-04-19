@@ -1,7 +1,5 @@
 ---
 title: "2021 Data Science Bootcamp"
-description: |
-  Welcome to our home page.
 site: distill::distill_website
 ---
 
@@ -9,6 +7,7 @@ site: distill::distill_website
 library(gapminder)
 library(tidyverse)
 library(gganimate)
+library(htmltools)
 
 knitr::opts_chunk$set(echo = FALSE)
 
@@ -20,10 +19,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+# Kane's Free Data Science High School Bootcamp
 
-## Introduction
+We are very excited to introduce a free data science bootcamp for high school students across the country. The bootcamp will run from Tuesday, June 1st through Friday, June 25th. Students that participate will complete a total of 15 hours of work per week. Five hours will be spent online with the staff, and ten hours of work will be completed by the students on their own. By the end of this bootcamp, students will be able to do basic data science! [Sign up for our e-mail list](https://davidkane.substack.com/embed) to receive updates as we move forward.
 
-We are very excited to introduce a free data science bootcamp for high school students across the country. The bootcamp will run from June 28th- July 18th. Students that participate will complete a total of 15 hours of work per week. Five hours will be spent online with the staff, and 10 hours of work will be completed by the students on their own. By the end of this bootcamp, students will be able to do basic data science!
 
 &nbsp;
 

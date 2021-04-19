@@ -1,12 +1,12 @@
 ---
 title: "Schedule"
-description: |
-  Here is the schedule for each of the four weeks.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) and its associated tutorials.
 
 
 
@@ -14,35 +14,33 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * **Readings:** Students will read [Chapter 1 Visualization](https://ppbds.github.io/primer/visualization.html) and the first three parts of the Appendix on [Tools](https://ppbds.github.io/primer/tools.html): “Working with the terminal,” “Git, GitHub, and RStudio,” and “PDF.”
 
-&nbsp;
+
 
 * **Assignment:**Five tutorials (Visualization-A, Visualization-B, Visualization-C and Visualization-D, Tools)
 
-&nbsp;
+
 
 * **Optional:**Read and watch the videos from [Getting Used to R, RStudio, and R Markdown](https://ismayc.github.io/rbasics-book/) by Chester Ismay and Patrick C. Kennedy
 
-&nbsp;
+
 
 # Week 2: Wrangling
 
 * **Readings:** Students will read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html).
 
-&nbsp;
 
 * **Assignment:**Four tutorials (Wrangling A through D)
 
-&nbsp;
 
 * **Optional:** [RStudio Essentials Videos](https://resources.rstudio.com/wistia-rstudio-essentials-2). Most relevant for us are [“Writing code in RStudio”](https://www.rstudio.com/resources/webinars/), [“Projects in RStudio”](https://www.rstudio.com/resources/webinars/) and [“Github and RStudio”](https://www.rstudio.com/resources/webinars/). Again, these are optional! But they are very useful for students who find traditional lectures to be a helpful supplement to classroom practice.
 
-&nbsp;
+
 
 # Week 3: Data
 
 * **Readings:** Students will read [Chapter 3 Data](https://ppbds.github.io/primer/data.html).
 
-&nbsp;
+
 
 * **Assignment:** TBD
 
