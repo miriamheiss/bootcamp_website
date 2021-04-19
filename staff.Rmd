@@ -21,15 +21,6 @@ David Kane is the Preceptor in Statistical Methods and Mathematics in the Depart
 
 &nbsp;
 
-## Becca Gill
-
-```{r, out.width = "50%"}
-knitr::include_graphics("images/becca.jpg")
-```
-
-Becca Gill is an incoming freshman of the Class of 2025 at Yale University. To view Becca's GitHub page, visit [here](https://github.com/BeccaGill).
-
-&nbsp;
 
 ## Dario Anaya
 
@@ -38,6 +29,18 @@ knitr::include_graphics("images/dario.jpg")
 ```
 
 Dario Anaya a rising senior at Andrean High School in Merrillville, Indiana.
+
+&nbsp;
+
+## Becca Gill
+
+```{r, out.width = "50%"}
+knitr::include_graphics("images/becca.jpg")
+```
+
+Becca Gill is an incoming freshman of the Class of 2025 at Yale University. To view Becca's GitHub page, visit [here](https://github.com/BeccaGill).
+
+
 
 &nbsp;
 

@@ -16,7 +16,7 @@ Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbd
 
 
 
-* **Assignment:**Five tutorials (Visualization-A, Visualization-B, Visualization-C and Visualization-D, Tools)
+* **Assignment:** Five tutorials (Visualization-A, Visualization-B, Visualization-C and Visualization-D, Tools)
 
 
 
@@ -29,7 +29,7 @@ Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbd
 * **Readings:** Students will read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html).
 
 
-* **Assignment:**Four tutorials (Wrangling A through D)
+* **Assignment:** Four tutorials (Wrangling A through D)
 
 
 * **Optional:** [RStudio Essentials Videos](https://resources.rstudio.com/wistia-rstudio-essentials-2). Most relevant for us are [“Writing code in RStudio”](https://www.rstudio.com/resources/webinars/), [“Projects in RStudio”](https://www.rstudio.com/resources/webinars/) and [“Github and RStudio”](https://www.rstudio.com/resources/webinars/). Again, these are optional! But they are very useful for students who find traditional lectures to be a helpful supplement to classroom practice.
@@ -40,15 +40,11 @@ Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbd
 
 * **Readings:** Students will read [Chapter 3 Data](https://ppbds.github.io/primer/data.html).
 
-
-
-* **Assignment:** TBD
-
-&nbsp;
+* **Assignment:** Three tutorials (Data A through C)
 
 * **Optional:** TBA
 
-&nbsp;
+
 
 # Week 4: Projects
 
