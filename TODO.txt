@@ -10,3 +10,13 @@ It does not work. There is space for an image/thing, but the rectangle is empty.
 
 * Need to figure out the relevant readings for week 4, mainly devoted to distill, but also, perhaps, to project organization. And Github pages. Would also be nice to have three or four example distill projects to show students.
 
+
+Is whimsical a useful tool for teaching the class itself?
+
+## Marketing
+
+Rweekly.
+
+#rstats
+
+
