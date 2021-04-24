@@ -26,7 +26,7 @@ read_rds("animation.rds")
 
 We are very excited to introduce a free data science bootcamp for high school students across the country. The bootcamp will run from Tuesday, June 1st through Friday, June 25th. Students that participate will complete a total of 15 hours of work per week. Five hours will be spent online with the staff, and ten hours of work will be completed by the students on their own. By the end of this bootcamp, students will be able to do basic data science! 
 
-There are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git [installed](https://happygitwithr.com). Here is an example of what we will learn to create.
+There are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git [installed](https://happygitwithr.com). 
 
 [Sign up for our e-mail list](https://davidkane.substack.com/embed) to receive updates as we move forward.
 

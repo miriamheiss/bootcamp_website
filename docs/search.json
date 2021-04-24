@@ -4,15 +4,15 @@
       "path": "index.html",
       "title": "Free High School Data Science Bootcamp",
       "author": [],
-      "contents": "\nSign up for our e-mail list to receive updates as we move forward.\n\n\n\nWe are very excited to introduce a free data science bootcamp for high school students across the country. The bootcamp will run from Tuesday, June 1st through Friday, June 25th. Students that participate will complete a total of 15 hours of work per week. Five hours will be spent online with the staff, and ten hours of work will be completed by the students on their own. By the end of this bootcamp, students will be able to do basic data science!\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. Here is an example of what we will learn to create.\nSign up for our e-mail list to receive updates as we move forward.\n\n\n\n",
-      "last_modified": "2021-04-24T09:01:03-04:00"
+      "contents": "\nSign up for our e-mail list to receive updates as we move forward.\n\n\n\nWe are very excited to introduce a free data science bootcamp for high school students across the country. The bootcamp will run from Tuesday, June 1st through Friday, June 25th. Students that participate will complete a total of 15 hours of work per week. Five hours will be spent online with the staff, and ten hours of work will be completed by the students on their own. By the end of this bootcamp, students will be able to do basic data science!\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed.\nSign up for our e-mail list to receive updates as we move forward.\n\n\n\n",
+      "last_modified": "2021-04-24T09:31:10-04:00"
     },
     {
       "path": "schedule.html",
       "title": "Schedule",
       "author": [],
       "contents": "\nTwo key resources: Preceptor’s Primer for Bayesian Data Science and its associated tutorials.\nWeek 1: Visualization\nReadings: Students will read Chapter 1 Visualization and the first three parts of the Appendix on Tools: “Working with the terminal,” “Git, GitHub, and RStudio,” and “PDF.”\nAssignment: Five tutorials (Visualization-A, Visualization-B, Visualization-C and Visualization-D, Tools)\nOptional:Read and watch the videos from Getting Used to R, RStudio, and R Markdown by Chester Ismay and Patrick C. Kennedy\nWeek 2: Wrangling\nReadings: Students will read Chapter 2 Wrangling Data.\nAssignment: Four tutorials (Wrangling A through D)\nOptional: RStudio Essentials Videos. Most relevant for us are “Writing code in RStudio”, “Projects in RStudio” and “Github and RStudio”. Again, these are optional! But they are very useful for students who find traditional lectures to be a helpful supplement to classroom practice.\nWeek 3: Data\nReadings: Students will read Chapter 3 Data.\nAssignment: Three tutorials (Data A through C)\nOptional: TBA\nWeek 4: Projects\nThe last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers. Further requirements and guidelines will be provided before the students begin their work.\n\n\n\n",
-      "last_modified": "2021-04-24T09:01:06-04:00"
+      "last_modified": "2021-04-24T09:31:11-04:00"
     },
     {
       "path": "staff.html",
@@ -20,7 +20,7 @@
       "description": "Meet the staff members of the 2021 Summer Data Science Bootcamp!",
       "author": [],
       "contents": "\n \nDavid Kane\n\n\n\nDavid Kane is the Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University. For further background on David Kane, visit here.\n \nDario Anaya\n\n\n\nDario Anaya a rising senior at Andrean High School in Merrillville, Indiana.\n \nBecca Gill\n\n\n\nBecca Gill is an incoming freshman of the Class of 2025 at Yale University. To view Becca’s GitHub page, visit here.\n \nNosa Lawani\n\n\n\nNosa Lawani is a student in the Class of 2024 at Harvard University. To view Nosa’s GitHub page, visit here.\n\n\n\n",
-      "last_modified": "2021-04-24T09:01:08-04:00"
+      "last_modified": "2021-04-24T09:31:12-04:00"
     }
   ],
   "collections": []
