@@ -8,7 +8,8 @@ gap_anim <- gapminder %>%
   geom_point(show.legend = FALSE, alpha = 0.7) +
   facet_wrap(~continent, nrow = 1) +
   scale_size(range = c(2, 12)) +
-  scale_x_log10() +
+  scale_x_log10(breaks = c(500, 5000, 50000),
+                labels = scales::dollar_format(accuracy = 1)) +
   labs(subtitle = "Life Expectancy and GDP per Capita (1952-2007)",
        x = "GDP per Capita, USD",
        y = "Life Expectancy, Years") +
