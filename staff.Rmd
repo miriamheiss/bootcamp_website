@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("images/david_kane.png")
 ```
 
-David Kane is the Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University. For further background on David Kane, visit [here](https://www.davidkane.info).
+[David Kane](https://www.davidkane.info) is the Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University. 
 
 &nbsp;
 
@@ -28,7 +28,8 @@ David Kane is the Preceptor in Statistical Methods and Mathematics in the Depart
 knitr::include_graphics("images/dario.jpg")
 ```
 
-Dario Anaya a rising senior at Andrean High School in Merrillville, Indiana.
+[Dario Anaya](http://linkedin.com/in/dario-anaya-b9a206198) is the Program Director for *Kane’s Data Science Bootcamp* and a rising senior at Andrean High Sschool, near the Chicago. Please contact Dario (danaya.student@andreanhs.com) with any questions about the program.
+
 
 &nbsp;
 
@@ -38,7 +39,7 @@ Dario Anaya a rising senior at Andrean High School in Merrillville, Indiana.
 knitr::include_graphics("images/becca.jpg")
 ```
 
-Becca Gill is an incoming freshman of the Class of 2025 at Yale University. To view Becca's GitHub page, visit [here](https://github.com/BeccaGill).
+[Becca Gill](https://github.com/BeccaGill) is an (incoming) student in the Class of 2025 at Yale University.
 
 
 
@@ -50,4 +51,4 @@ Becca Gill is an incoming freshman of the Class of 2025 at Yale University. To v
 knitr::include_graphics("images/nosa.jpg")
 ```
 
-Nosa Lawani is a student in the Class of 2024 at Harvard University. To view Nosa's GitHub page, visit [here](https://github.com/lawanin).
+[Nosa Lawani](https://github.com/lawanin) is a student in the Class of 2024 at Harvard University.
