@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = FALSE)
 read_rds("animation.rds")
 ```
 
-**Kane's Free High School Data Science Bootcamp** will run from Tuesday, June 1st through Friday, June 25th. The expected workload is 15 hours per week. Five hours will occur in class with [Harvard Preceptor David Kane](https://www.davidkane.info/), and ten hours of work will be completed by students on their own. By the end of this bootcamp, students will be able to do basic data science! The course covers the first three weeks or so in Kane's introductory data science class, [Gov 1005: Data](https://www.davidkane.info/files/gov_1005_spring_2021.html).
+**Kane's Free High School Data Science Bootcamp** will run from Tuesday, June 1st through Friday, June 25th. The expected workload is 15 hours per week. Five hours will occur in class with [Harvard Preceptor David Kane](https://www.davidkane.info/), occurring around 8:00 PM EDT. Ten hours of work will be completed by students on their own. By the end of this bootcamp, students will be able to do basic data science! The course covers the first three weeks or so in Kane's introductory data science class, [Gov 1005: Data](https://www.davidkane.info/files/gov_1005_spring_2021.html).
 
 There are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git [installed](https://happygitwithr.com). 
 
