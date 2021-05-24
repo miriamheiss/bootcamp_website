@@ -6,31 +6,29 @@ title: "Schedule"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) and its associated tutorials.
-
+Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) and its [associated tutorials](https://ppbds.github.io/primer.tutorials/). Assignments associated with a specific lecture must be completed before that lecture.
 
 
 # Week 1: Visualization
 
-* **Readings:** Students will read [Chapter 1 Visualization](https://ppbds.github.io/primer/visualization.html) and the first three parts of the Appendix on [Tools](https://ppbds.github.io/primer/tools.html): “Working with the terminal,” “Git, GitHub, and RStudio,” and “PDF.”
+* Tuesday, June 1, 8:00 -- 9:00 PM.  Read [Getting Started](https://ppbds.github.io/primer/getting-started.html) and follow all the associated instructions. We will do the Getting Started tutorial together in class.
+
+* Wednesday, June 2, 8:00 -- 9:00 PM. Read [Chapter 1 Visualization](https://ppbds.github.io/primer/visualization.html) and the first two parts of the Appendix on [Tools](https://ppbds.github.io/primer/tools.html): "Working with the terminal" and "Git, GitHub, and RStudio." Complete Visualization A and Visualization B tutorials. 
+
+* Thursday, June 3, 8:00 -- 9:00 PM. Complete Visualization C, Visualization D, and Git/Github tutorials.  
 
 
-
-* **Assignment:** Five tutorials (Visualization-A, Visualization-B, Visualization-C and Visualization-D, Tools)
-
-
-
-* **Optional:**Read and watch the videos from [Getting Used to R, RStudio, and R Markdown](https://ismayc.github.io/rbasics-book/) by Chester Ismay and Patrick C. Kennedy
+* **Optional:** Read and watch the videos from [Getting Used to R, RStudio, and R Markdown](https://ismayc.github.io/rbasics-book/) by Chester Ismay and Patrick C. Kennedy
 
 
 
 # Week 2: Wrangling
 
-* **Readings:** Students will read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html).
+* Monday, June 7, 8:00 -- 9:15 PM.  Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html). Complete Wrangling A.
 
+* Wednesday, June 9, 8:00 -- 9:15 PM. Read "How to Get Help" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). Complete Wrangling B, C, D and Terminal.
 
-* **Assignment:** Four tutorials (Wrangling A through D)
-
+* Thursday, June 10, 8:00 -- 9:15 PM. Optional lecture and catch up session. Supervised by course teaching fellows.
 
 * **Optional:** [RStudio Essentials Videos](https://resources.rstudio.com/wistia-rstudio-essentials-2). Most relevant for us are [“Writing code in RStudio”](https://www.rstudio.com/resources/webinars/), [“Projects in RStudio”](https://www.rstudio.com/resources/webinars/) and [“Github and RStudio”](https://www.rstudio.com/resources/webinars/). Again, these are optional! But they are very useful for students who find traditional lectures to be a helpful supplement to classroom practice.
 
@@ -38,9 +36,11 @@ Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbd
 
 # Week 3: Data
 
-* **Readings:** Students will read [Chapter 3 Data](https://ppbds.github.io/primer/data.html).
+* Monday, June 14, 8:00 -- 9:15 PM.  Read [Chapter 3 Data](https://ppbds.github.io/primer/data.html). Complete Data A.
 
-* **Assignment:** Three tutorials (Data A through C)
+* Wednesday, June 16, 8:00 -- 9:15 PM.  Complete Data A, Data Webscraping and Data API.
+
+* Thursday, June 17, 8:00 -- 9:15 PM. Optional lecture and catch up session. Supervised by course teaching fellows.
 
 * **Optional:** TBA
 
