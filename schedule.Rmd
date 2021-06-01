@@ -16,7 +16,7 @@ Completed tutorials are sent to kane.datacamp@gmail.com with your name and the n
 
 * Wednesday, June 2, 8:00 -- 9:00 PM. Read [Chapter 1 Visualization](https://ppbds.github.io/primer/visualization.html). Complete Visualization A and Visualization B tutorials. 
 
-* Thursday, June 3, 8:00 -- 9:00 PM.  Read "Git, GitHub, and RStudio" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html) and Complete Visualization C, Visualization D, and Git/Github tutorials.  
+* Thursday, June 3, 8:00 -- 9:00 PM.  Read "Git, GitHub, and RStudio" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html) and complete Visualization C and Git/Github tutorials.  
 
 
 * **Optional:** Read and watch the videos from [Getting Used to R, RStudio, and R Markdown](https://ismayc.github.io/rbasics-book/) by Chester Ismay and Patrick C. Kennedy
@@ -27,7 +27,7 @@ Completed tutorials are sent to kane.datacamp@gmail.com with your name and the n
 
 * Monday, June 7, 8:00 -- 9:00 PM.  Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html) and "Working with the terminal" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). Complete Wrangling A and Terminal tutorials.
 
-* Wednesday, June 9, 8:00 -- 9:00 PM. Read "How to Get Help" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). Complete Wrangling B, C and  D.
+* Wednesday, June 9, 8:00 -- 9:00 PM. Read "How to Get Help" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). Complete Wrangling B, C and D.
 
 * Thursday, June 10, 8:00 -- 9:00 PM. Optional lecture and catch up session. Supervised by course teaching fellows.
 
