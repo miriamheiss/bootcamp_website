@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) and its [associated tutorials](https://ppbds.github.io/primer.tutorials/). Assignments associated with a specific lecture must be completed before that lecture.
 
-Completed tutorials are sent to kane.datacamp@gmail.com with your name and the name of the tutorial (like "Sarah Jones; Getting Started") in the subject line.
+Completed tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial (like "Sarah Jones; Getting Started") in the subject line.
 
 # Week 1: Visualization
 
