@@ -10,6 +10,8 @@ Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbd
 
 Completed tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial (like "Sarah Jones; Getting Started") in the subject line.
 
+Join the Discord server here: https://discord.gg/5wyvDv6HbU
+
 # Week 1: Visualization
 
 * Tuesday, June 1, 8:00 -- 9:00 PM.  Read [Getting Started](https://ppbds.github.io/primer/getting-started.html) and follow all the associated instructions. We will do the Getting Started tutorial together in class.
