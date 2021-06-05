@@ -42,6 +42,7 @@ knitr::include_graphics("images/becca.jpg")
 [Becca Gill](https://github.com/BeccaGill) is an (incoming) student in the Class of 2025 at Yale University.
 
 
+
 &nbsp;
 
 ## Nosa Lawani
@@ -61,3 +62,22 @@ knitr::include_graphics("images/nuowen.jpg")
 ```
 
 [Nuo Wen Lei](https://github.com/NuoWenLei) is a student in the Class of 2022 at Concord Academy.
+
+&nbsp;
+
+## Heather Li 
+
+```{r heather, out.width="50%"}
+knitr::include_graphics("images/heather.jpg")
+```
+
+[Heather Li](https://github.com/heatherli12) is an incoming student in the Class of 2024 at the University of Oxford.
+
+## Ajay Malik
+
+```{r ajay, out.width="50%"}
+knitr::include_graphics("images/am.jpg")
+```
+
+[Ajay Malik](https://github.com/AM-lmn) is an incoming senior at William Fremd High School, graduating in 2022.
+
