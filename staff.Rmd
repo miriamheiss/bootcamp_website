@@ -73,6 +73,8 @@ knitr::include_graphics("images/heather.jpg")
 
 [Heather Li](https://github.com/heatherli12) is an incoming student in the Class of 2024 at the University of Oxford.
 
+&nbsp;
+
 ## Ajay Malik
 
 ```{r ajay, out.width="50%"}
@@ -80,4 +82,14 @@ knitr::include_graphics("images/am.jpg")
 ```
 
 [Ajay Malik](https://github.com/AM-lmn) is an incoming senior at William Fremd High School, graduating in 2022.
+
+&nbsp;
+
+## Stephanie Saab
+
+```{r saab, out.width="50%"}
+knitr::include_graphics("images/saab.jpg")
+```
+
+[Stephanie Saab](https://github.com/AM-lmn) is an incoming first-year student at the University of Toronto.
 
