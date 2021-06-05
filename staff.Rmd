@@ -42,7 +42,6 @@ knitr::include_graphics("images/becca.jpg")
 [Becca Gill](https://github.com/BeccaGill) is an (incoming) student in the Class of 2025 at Yale University.
 
 
-
 &nbsp;
 
 ## Nosa Lawani
@@ -52,3 +51,13 @@ knitr::include_graphics("images/nosa.jpg")
 ```
 
 [Nosa Lawani](https://github.com/lawanin) is a student in the Class of 2024 at Harvard University.
+
+&nbsp;
+
+## Nuo Wen Lei
+
+```{r nuowen, out.width="50%"}
+knitr::include_graphics("images/nuowen.jpg")
+```
+
+[Nuo Wen Lei](https://github.com/NuoWenLei) is a student in the Class of 2022 at Concord Academy.
