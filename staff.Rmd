@@ -91,5 +91,5 @@ knitr::include_graphics("images/am.jpg")
 knitr::include_graphics("images/saab.jpg")
 ```
 
-[Stephanie Saab]() is an incoming first-year student at the University of Toronto.
+[Stephanie Saab](https://github.com/stephaniesaab) is an incoming first-year student at the University of Toronto.
 
