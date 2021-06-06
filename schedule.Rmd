@@ -27,7 +27,7 @@ Join the Discord server here: https://discord.gg/5wyvDv6HbU
 
 # Week 2: Wrangling
 
-* Monday, June 7, 8:00 -- 9:00 PM.  Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html) and "Working with the terminal" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). Complete Wrangling A and Terminal tutorials.
+* Monday, June 7, 8:00 -- 9:00 PM.  Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html) and "Working with the terminal" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). Complete Wrangling A and Terminal tutorials. Also read [How to use Rpubs](https://ppbds.github.io/primer/tools.html#how-to-use-rpubs).
 
 * Wednesday, June 9, 8:00 -- 9:00 PM. Read "How to Get Help" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). Complete Wrangling B, C and D.
 
