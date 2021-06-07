@@ -28,7 +28,7 @@ knitr::include_graphics("images/david_kane.png")
 knitr::include_graphics("images/dario.jpg")
 ```
 
-[Dario Anaya](http://linkedin.com/in/dario-anaya-b9a206198) is the Program Director for *Kane’s Data Science Bootcamp* and a rising senior at Andrean High School, near the Chicago. Please contact Dario (kanes.datacamp@gmail.com) with any questions about the program.
+[Dario Anaya](http://linkedin.com/in/dario-anaya-b9a206198) is the Program Director for *Kane’s Data Science Bootcamp* and a rising senior at Andrean High School, near the Chicago. Please contact Dario (kanes.datacamp@gmail.com) with any questions about the program. Breakout rooms 1 to 3.
 
 
 &nbsp;
@@ -39,7 +39,7 @@ knitr::include_graphics("images/dario.jpg")
 knitr::include_graphics("images/becca.jpg")
 ```
 
-[Becca Gill](https://github.com/BeccaGill) is an (incoming) student in the Class of 2025 at Yale University.
+[Becca Gill](https://github.com/BeccaGill) is an (incoming) student in the Class of 2025 at Yale University. Breakout rooms 4 to 6.
 
 
 
@@ -51,7 +51,7 @@ knitr::include_graphics("images/becca.jpg")
 knitr::include_graphics("images/nosa.jpg")
 ```
 
-[Nosa Lawani](https://github.com/lawanin) is a student in the Class of 2024 at Harvard University.
+[Nosa Lawani](https://github.com/lawanin) is a student in the Class of 2024 at Harvard University. Breakout rooms 7 to 9.
 
 &nbsp;
 
@@ -61,7 +61,7 @@ knitr::include_graphics("images/nosa.jpg")
 knitr::include_graphics("images/nuowen.jpg")
 ```
 
-[Nuo Wen Lei](https://github.com/NuoWenLei) is a student in the Class of 2022 at Concord Academy.
+[Nuo Wen Lei](https://github.com/NuoWenLei) is a student in the Class of 2022 at Concord Academy. Breakout rooms 10 to 12.
 
 &nbsp;
 
@@ -71,7 +71,7 @@ knitr::include_graphics("images/nuowen.jpg")
 knitr::include_graphics("images/heather.jpg")
 ```
 
-[Heather Li](https://github.com/heatherli12) is an incoming student in the Class of 2024 at the University of Oxford.
+[Heather Li](https://github.com/heatherli12) is an incoming student in the Class of 2024 at the University of Oxford. Breakout rooms 13 to 15.
 
 &nbsp;
 
@@ -81,7 +81,7 @@ knitr::include_graphics("images/heather.jpg")
 knitr::include_graphics("images/am.jpg")
 ```
 
-[Ajay Malik](https://github.com/AM-lmn) is an incoming senior at William Fremd High School, graduating in 2022.
+[Ajay Malik](https://github.com/AM-lmn) is an incoming senior at William Fremd High School, graduating in 2022. Breakout rooms 16 to 18.
 
 &nbsp;
 
@@ -91,5 +91,5 @@ knitr::include_graphics("images/am.jpg")
 knitr::include_graphics("images/saab.jpg")
 ```
 
-[Stephanie Saab](https://github.com/stephaniesaab) is an incoming first-year student at the University of Toronto.
+[Stephanie Saab](https://github.com/stephaniesaab) is an incoming first-year student at the University of Toronto. Breakout rooms 19 to 21.
 
