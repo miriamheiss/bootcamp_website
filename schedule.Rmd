@@ -39,13 +39,13 @@ Join the Discord server here: https://discord.gg/5wyvDv6HbU
 
 # Week 3: Data
 
-* Monday, June 14, 8:00 -- 9:00 PM.  Read [Chapter 3 Data](https://ppbds.github.io/primer/data.html). Complete Data A tutorial.
+NOTE THE CHANGE IN FIRST CLASS THIS WEEK T0 TUESDAY.
+
+* Tuesday, June 15, 8:00 -- 9:00 PM.  Read [Chapter 3 Data](https://ppbds.github.io/primer/data.html). Read the [Style Guide](https://ppbds.github.io/primer/tools.html#style-guide). Complete Data A tutorial.
 
 * Wednesday, June 16, 8:00 -- 9:00 PM.  Complete Data Webscraping and Data API tutorials.
 
-* Thursday, June 17, 8:00 -- 9:00 PM. Optional lecture and catch up session. Supervised by course teaching fellows.
-
-* **Optional:** TBA
+* Thursday, June 17, 8:00 -- 9:00 PM. Read [Maps](https://ppbds.github.io/primer/maps.html) and [IPUMS](https://ppbds.github.io/primer/ipums.html). Determine the data source you will use for your final project. Don't come to class without one!
 
 
 # Week 4: Projects
