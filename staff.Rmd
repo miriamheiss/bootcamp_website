@@ -101,6 +101,6 @@ knitr::include_graphics("images/saab.jpg")
 knitr::include_graphics("images/agupta.jpg")
 ```
 
-[Anmay Gupta]() is an incoming junior at James B. Conant High School, graduating in 2023. Breakout rooms 15 to 16.
+[Anmay Gupta](https://github.com/AnmayG) is an incoming junior at James B. Conant High School, graduating in 2023. Breakout rooms 15 to 16.
 
 
