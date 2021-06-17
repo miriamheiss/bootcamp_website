@@ -59,8 +59,9 @@ Recommended readings: [Distill for R Markdown](https://rstudio.github.io/distill
 
 ## Schedule
 
-* Monday, June 21, 8:00 -- 9:00 PM. Introduction to distill.
+* Monday, June 21, 8:00 -- 9:00 PM. Introduction to distill. Complete the distill tutorial and place a (rough!) graphic using the data for your final project in the #final-project Discord channel.
 
-* Wednesday, June 23, 8:00 -- 9:00 PM. Practice presentations and feedback.  
+* Wednesday, June 23, 8:00 -- 9:00 PM. Practice presentations and feedback. You must have your presentation ready to go!  
 
-* Thursday, June 24, 8:00 -- 9:00 PM. Final project presentations. 
+* Thursday, June 24, 8:00 -- 9:00 PM. Final project presentations. You must invite either your parents or someone else in your family.
+
