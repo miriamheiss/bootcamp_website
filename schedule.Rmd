@@ -14,6 +14,8 @@ Join the Discord server here: https://discord.gg/5wyvDv6HbU
 
 # Week 1: Visualization
 
+Looking at the data is the first step in data science.
+
 * Tuesday, June 1, 8:00 -- 9:00 PM.  Read [Getting Started](https://ppbds.github.io/primer/getting-started.html) and follow all the associated instructions. We will do the Getting Started tutorial together in class.
 
 * Wednesday, June 2, 8:00 -- 9:00 PM. Read [Chapter 1 Visualization](https://ppbds.github.io/primer/visualization.html). Complete Visualization A and Visualization B tutorials. 
@@ -23,9 +25,9 @@ Join the Discord server here: https://discord.gg/5wyvDv6HbU
 
 * **Optional:** Read and watch the videos from [Getting Used to R, RStudio, and R Markdown](https://ismayc.github.io/rbasics-book/) by Chester Ismay and Patrick C. Kennedy
 
-
-
 # Week 2: Wrangling
+
+Now that we know how to visualize data that is already clean, we need to learn how to clean up data which might come to us quite messy.
 
 * Monday, June 7, 8:00 -- 9:00 PM.  Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html) and "Working with the terminal" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). Complete Wrangling A and Terminal tutorials. Also read [How to use Rpubs](https://ppbds.github.io/primer/tools.html#how-to-use-rpubs).
 
@@ -36,9 +38,9 @@ Join the Discord server here: https://discord.gg/5wyvDv6HbU
 * **Optional:** [RStudio Essentials Videos](https://resources.rstudio.com/wistia-rstudio-essentials-2). Most relevant for us are [“Writing code in RStudio”](https://www.rstudio.com/resources/webinars/), [“Projects in RStudio”](https://www.rstudio.com/resources/webinars/) and [“Github and RStudio”](https://www.rstudio.com/resources/webinars/). Again, these are optional! But they are very useful for students who find traditional lectures to be a helpful supplement to classroom practice.
 
 
-
 # Week 3: Data
 
+Now that we know how to clean and organize messy data, we need to learn how to get some.
 
 * Tuesday, June 15, 8:00 -- 9:00 PM.  Read [Chapter 3 Data](https://ppbds.github.io/primer/data.html). Read the [Style Guide](https://ppbds.github.io/primer/tools.html#style-guide). Read [How to Get Help](https://ppbds.github.io/primer/tools.html#how-to-get-help). Complete Data A tutorial.
 
@@ -51,17 +53,13 @@ Join the Discord server here: https://discord.gg/5wyvDv6HbU
 
 The last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers. Further requirements and guidelines will be provided before the students begin their work.
 
-Recommended readings: [Distill for R Markdown](https://rstudio.github.io/distill/) is the main documentation page. Key sections are [Creating a Website](https://rstudio.github.io/distill/website.html) and [Publishing Websites](https://rstudio.github.io/distill/publish_website.html). Step-by-step guides include:
-
-  + [Building a blog with distill](https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/) by Thomas Mock.  
-  + [Building a {distill} website](https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/) by Lisa Lendway.  
-  + [Create a distill website](https://aosmith16.github.io/spring-r-topics/materials.html#week-2-create-a-distill-website) and [More on distill articles and deploy website](https://aosmith16.github.io/spring-r-topics/materials.html#week-3-more-on-distill-articles-and-deploy-website) by Ariel Muldoon.
-
-## Schedule
-
 * Monday, June 21, 8:00 -- 9:00 PM. Introduction to distill. Complete the distill tutorial and place a (rough!) graphic using the data for your final project in the #final-project Discord channel.
 
 * Wednesday, June 23, 8:00 -- 9:00 PM. Practice presentations and feedback. You must have your presentation ready to go!  
 
 * Thursday, June 24, 8:00 -- 9:00 PM. Final project presentations. You must invite either your parents or someone else in your family.
+
+* **Optional:** [Distill for R Markdown](https://rstudio.github.io/distill/) is the main documentation page. Key sections are [Creating a Website](https://rstudio.github.io/distill/website.html) and [Publishing Websites](https://rstudio.github.io/distill/publish_website.html). 
+
+
 
