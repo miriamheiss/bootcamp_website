@@ -6,7 +6,9 @@ title: "Final Projects"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-We had 43 students complete the Bootcamp. Congratulations! Here are their Final Projects:
+A total of 43 students have completed the Bootcamp. Congratulations! Here are their Final Projects.
+
+## June 2021
 
 [Sophia Zhu](http://github.com/zhusophia): [BREAKING NEWS: FBI Says They Found 'Man Child' In The Woods!](https://zhusophia.github.io/testingdolalrsign/) An analysis of the length and wording of 2018 fake news articles titles. 
 

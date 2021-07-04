@@ -1,7 +1,5 @@
 ---
 title: "Staff"
-description: |
-  Meet the staff members of the 2021 Summer Data Science Bootcamp!
 ---
 
 ```{r setup, include=FALSE}
@@ -17,90 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("images/david_kane.png")
 ```
 
-[David Kane](https://www.davidkane.info) is the Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University. 
+[David Kane](https://www.davidkane.info) is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University. 
 
 &nbsp;
-
-
-## Dario Anaya
-
-```{r dario, out.width ="50%"}
-knitr::include_graphics("images/dario.jpg")
-```
-
-[Dario Anaya](http://linkedin.com/in/dario-anaya-b9a206198) is the Program Director for *Kane’s Data Science Bootcamp* and a rising senior at Andrean High School, near the Chicago. Please contact Dario (kanes.datacamp@gmail.com) with any questions about the program. Breakout rooms 1 to 2.
-
-
-&nbsp;
-
-## Becca Gill
-
-```{r, out.width = "50%"}
-knitr::include_graphics("images/becca.jpg")
-```
-
-[Becca Gill](https://github.com/BeccaGill) is an (incoming) student in the Class of 2025 at Yale University. Breakout rooms 3 to 4.
-
-
-
-&nbsp;
-
-## Nosa Lawani
-
-```{r nosa, out.width="50%"}
-knitr::include_graphics("images/nosa.jpg")
-```
-
-[Nosa Lawani](https://github.com/lawanin) is a student in the Class of 2024 at Harvard University. Breakout rooms 5 to 6.
-
-&nbsp;
-
-## Nuo Wen Lei
-
-```{r nuowen, out.width="50%"}
-knitr::include_graphics("images/nuowen.jpg")
-```
-
-[Nuo Wen Lei](https://github.com/NuoWenLei) is a student in the Class of 2022 at Concord Academy. Breakout rooms 7 to 8.
-
-&nbsp;
-
-## Heather Li 
-
-```{r heather, out.width="50%"}
-knitr::include_graphics("images/heather.jpg")
-```
-
-[Heather Li](https://github.com/heatherli12) is an incoming student in the Class of 2024 at the University of Oxford. Breakout rooms 9 to 10.
-
-&nbsp;
-
-## Ajay Malik
-
-```{r ajay, out.width="50%"}
-knitr::include_graphics("images/am.jpg")
-```
-
-[Ajay Malik](https://github.com/AM-lmn) is an incoming senior at William Fremd High School, graduating in 2022. Breakout rooms 11 to 12.
-
-&nbsp;
-
-## Stephanie Saab
-
-```{r saab, out.width="50%"}
-knitr::include_graphics("images/saab.jpg")
-```
-
-[Stephanie Saab](https://github.com/stephaniesaab) is an incoming first-year student at the University of Toronto. Breakout rooms 13 to 14.
-
-&nbsp;
-
-## Anmay Gupta
-
-```{r gupta, out.width="50%"}
-knitr::include_graphics("images/agupta.jpg")
-```
-
-[Anmay Gupta](https://github.com/AnmayG) is an incoming junior at James B. Conant High School, graduating in 2023. Breakout rooms 15 to 16.
-
 
