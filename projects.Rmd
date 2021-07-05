@@ -82,7 +82,7 @@ A total of 43 students have completed the Bootcamp. Congratulations! Here are th
 
 [Daniel Wang](https://github.com/DanWang725): [Effects of Covid-19 on Student's Educational Stress](https://danwang725.github.io/EducationStress/). Examination of the stress levels experienced by students before and during Covid-19.  
 
-[Arghayan Jeiyasarangkan](https://github.com/JArghayan): [How The Overall Gold Difference Changes Throughout Professional League of Legends Games](https://jarghayan.github.io/Final-Project/). 
+[Arghayan Jeiyasarangkan](https://github.com/JArghayan): [How The Overall Gold Difference Changes Throughout Professional League of Legends Games](https://jarghayan.github.io/Final-Project/). Examining the relationship between gold difference and game duration in professional League of Legends matches. 
 
 [Kyle Sabo](https://github.com/sabokyle12): [How Speed Affects Offensive Ability in Baseball](https://sabokyle12.github.io/baseball-project/). Determining the extent that speed enables players to get more hits.  
 
