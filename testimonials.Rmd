@@ -1,0 +1,16 @@
+---
+title: "Testimonials"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+The data science course was an invaluable experience that provided me with the building blocks to pursue future data science investigations and analyses. The course was well-structured and taught me the fundamentals of not only producing stunning visualizations in R, but most importantly how to think like a data scientist and manage your code effectively. If you are someone interested in dipping their toes in an emerging field of data science, this course will guide you well! --- Dhruv Syngol, Junior, Metea Valley High School
+
+The final project allowed me to draw from real world data about mental health disorders and learn how to make conclusions, moving me to be captivated by the data science field. —-- Isaac Frank, Senior, Dublin Coffman High School
+
+
+This course was really helpful! I learned a lot about data science and how to code in R. My favorite part were the breakout rooms since it allowed for students to share ideas and solve problems together.  --- Gabriel You (dengxuanjia@gmail.com), Senior, White Oaks Secondary School
+

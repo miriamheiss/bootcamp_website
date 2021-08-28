@@ -1,12 +1,14 @@
 name: "bootcamp_website"
-title: "Kane's Data Science Bootcamp"
+title: "Kane's Data Science Course"
 description: |
-  2021 Data Science Bootcamp
+  2021 Data Science Course
 output_dir: "docs"
 navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: "Testimonials"
+      href: testimonials.html
     - text: "Staff"
       href: staff.html
     - text: "Schedule"

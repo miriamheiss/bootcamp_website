@@ -6,7 +6,7 @@ title: "Final Projects"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-A total of 43 students have completed the Bootcamp. Congratulations! Here are their Final Projects.
+A total of 43 students have completed the Course. Congratulations! Here are their Final Projects.
 
 ## June 2021
 
