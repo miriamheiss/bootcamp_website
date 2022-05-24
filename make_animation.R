@@ -2,6 +2,13 @@ library(tidyverse)
 library(gapminder)
 library(gganimate)
 
+# Getting this warning when building:
+
+# The `negative_parens` argument of `dollar()` is deprecated as of scales 1.2.0.
+# Please use the `style_negative` argument instead.
+# This warning is displayed once every 8 hours.
+# Call `lifecycle::last_lifecycle_warnings()` to see where this warning was generated. 
+
 gap_anim <- gapminder %>%
   filter(continent != "Oceania") %>%
   ggplot(aes(gdpPercap, lifeExp, color = continent)) +

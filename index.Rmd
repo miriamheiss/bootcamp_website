@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 read_rds("animation.rds")
 ```
 
-**Kane's Data Science Course** is run occasionally. It lasts for four weeks. The expected workload is 10 hours per week: 2 hours in class with [former Harvard Preceptor David Kane](https://www.davidkane.info/), lecturing live at around 8:00 PM EDT and 8 hours of work completed by students on their own. By the end of this Course, students will be able to do basic data science! 
+**Kane's Data Science Course** will be offered for four weeks, starting on Monday, June 13, 2022. The expected workload is 10 hours per week: 2 hours in class with [former Harvard Preceptor David Kane](https://www.davidkane.info/), lecturing live at around 8:00 PM EDT and 8 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! 
 
 There are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git [installed](https://happygitwithr.com). The course is designed for absolute beginners. No programming or statistics experience is required.
 
