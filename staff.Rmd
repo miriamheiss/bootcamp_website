@@ -29,4 +29,14 @@ knitr::include_graphics("images/yuhan.jpg")
 
 &nbsp;
 
+## Nuo Wen Lei
+
+```{r nuowen, out.width ="50%"}
+knitr::include_graphics("images/nuowen.jpy")
+```
+
+[Nuo Wen Lei](https://github.com/NuoWenLei) is a graduating senior from Concord Academy.
+
+&nbsp;
+
 
