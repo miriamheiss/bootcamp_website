@@ -19,3 +19,14 @@ knitr::include_graphics("images/david_kane.png")
 
 &nbsp;
 
+## Yuhan Wu
+
+```{r yuhan, out.width ="50%"}
+knitr::include_graphics("images/yuhan.jpg")
+```
+
+[Yuhan Wu](https://github.com/UhanWu) is a upcoming junior at Newton North High School.
+
+&nbsp;
+
+
