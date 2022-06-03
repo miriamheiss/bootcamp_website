@@ -37,7 +37,7 @@ knitr::include_graphics("images/nuowen.jpg")
 <!-- There is something weird, I think, about this photo. It always shows up rotated unless I do the hack-o-rame below. Note that I also needed an extra  &nbsp; in between the photo and the sentence. -->
 
 
-```{r tejas, out.width ="50%", out.extra = 'style="transform:rotate(90deg);"'}
+```{r tejas, out.width ="50%"}
 knitr::include_graphics("images/tejas.jpeg")
 ```
 
