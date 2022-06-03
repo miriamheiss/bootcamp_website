@@ -34,15 +34,12 @@ knitr::include_graphics("images/nuowen.jpg")
 
 ## Tejas Mundhe
 
-<!-- There is something weird, I think, about this photo. It always shows up rotated unless I do the hack-o-rame below. Note that I also needed an extra  &nbsp; in between the photo and the sentence. -->
+<!-- There is something weird, I think, about this photo. It always shows up when I build it locally. But, once pushed to the web, it is fine. -->
 
 
 ```{r tejas, out.width ="50%"}
 knitr::include_graphics("images/tejas.jpeg")
 ```
-
-&nbsp;
-
 
 [Tejas Mundhe](https://github.com/TejasMundhe) is an incoming Sophomore at Walnut Hills High School with a passion for Data Science.
 
