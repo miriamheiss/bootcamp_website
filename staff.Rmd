@@ -25,7 +25,7 @@ knitr::include_graphics("images/david_kane.png")
 knitr::include_graphics("images/yuhan.jpg")
 ```
 
-[Yuhan Wu](https://github.com/UhanWu) is a upcoming junior at Newton North High School.
+[Yuhan Wu](https://github.com/UhanWu) is an upcoming junior at Newton North High School.
 
 &nbsp;
 
@@ -33,7 +33,7 @@ knitr::include_graphics("images/yuhan.jpg")
 ## Nuo Wen Lei
 
 ```{r nuowen, out.width ="50%"}
-knitr::include_graphics("images/nuowen.jpy")
+knitr::include_graphics("images/nuowen.jpg")
 ```
 
 [Nuo Wen Lei](https://github.com/NuoWenLei) is a graduating senior from Concord Academy.
