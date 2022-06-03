@@ -29,6 +29,7 @@ knitr::include_graphics("images/yuhan.jpg")
 
 &nbsp;
 
+
 ## Nuo Wen Lei
 
 ```{r nuowen, out.width ="50%"}
@@ -40,3 +41,13 @@ knitr::include_graphics("images/nuowen.jpy")
 &nbsp;
 
 
+## Ryan Southward
+
+
+```{r ryan, out.width ="50%"}
+knitr::include_graphics("images/ryan.jpeg")
+```
+
+Ryan Southward is an incoming freshman at Stanford University likely studying Computer Science.
+
+&nbsp;
