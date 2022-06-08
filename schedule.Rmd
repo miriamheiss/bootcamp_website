@@ -16,12 +16,21 @@ Completed tutorials are sent to kanes.datacamp@gmail.com with your name and the 
 
 Looking at the data is the first step in data science.
 
+## Monday June 13
+
 * Read [Getting Started](https://ppbds.github.io/primer/getting-started.html) and follow all the associated instructions. We will do the Getting Started tutorial together in class.
 
-* Read [Chapter 1 Visualization](https://ppbds.github.io/primer/visualization.html). Complete the RStudio and Friends, Visualization A and Visualization B tutorials. 
+## Thursday June 16
 
-* Read [How to use Rpubs](https://ppbds.github.io/primer/tools.html#how-to-use-rpubs). Complete Visualization C and Visualization D tutorials.  
+* Read [Chapter 1 Visualization](https://ppbds.github.io/primer/visualization.html). 
 
+* Complete the four Visualization tutorials: Basic Plots, Tidyverse, Advanced Plotting, and Case Studies.
+
+* Read [How to use Rpubs](https://ppbds.github.io/primer/tools.html#how-to-use-rpubs). 
+
+* Complete R Studio and Friends tutorial.
+
+Reminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
 
 * **Optional:** Read and watch the videos from [Getting Used to R, RStudio, and R Markdown](https://ismayc.github.io/rbasics-book/) by Chester Ismay and Patrick C. Kennedy
 
@@ -29,9 +38,21 @@ Looking at the data is the first step in data science.
 
 Now that we know how to visualize data that is already clean, we need to learn how to clean up data which might come to us quite messy.
 
-* Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html). Complete Wrangling A and Terminal tutorials. 
 
-* Read "How to Get Help" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). Complete Wrangling B, C and D.
+## Monday June 20
+
+* Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html). 
+
+* Complete two Wrangling tutorials: Overview and Plots.
+
+
+## Thursday June 23
+
+* Complete remaining two Wrangling tutorials: More Plots and Statistics.
+
+* Complete Terminal tutorial.
+
+* Read "How to Get Help" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). 
 
 * Read the [Style Guide](https://ppbds.github.io/primer/tools.html#style-guide). 
 
@@ -42,20 +63,30 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 Now that we know how to clean and organize messy data, we need to learn how to get some.
 
-* Read [Chapter 3 Data](https://ppbds.github.io/primer/data.html). Complete Data A tutorial.
+## Monday June 27
 
-* Complete Data Webscraping and Data API tutorials.
+* Read [Chapter 3 Data](https://ppbds.github.io/primer/data.html). 
+
+* Complete Data tutorials: Files, API, and Webscraping
+
+
+## Thursday June 30
 
 * Read [Maps](https://ppbds.github.io/primer/maps.html) and [IPUMS](https://ppbds.github.io/primer/ipums.html). Determine the data source you will use for your final project. Don't come to class without one!
 
 
 # Week 4: Projects
 
-The last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers. Further requirements and guidelines will be provided before the students begin their work.
+The last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers.
 
-* Introduction to Distill. Complete the Distill tutorial and place a (rough!) graphic using the data for your final project in the #final-project Discord channel.
+
+## Tuesday July 5
+
+* Complete the Distill tutorial and place a (rough!) graphic using the data for your final project in the #final-project Discord channel.
 
 * Practice presentations and feedback. You must have your presentation ready to go!  
+
+## Thursday July 7
 
 * Final project presentations. You must invite either your parents or someone else in your family.
 
