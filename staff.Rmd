@@ -57,6 +57,16 @@ Ryan Southward is an incoming freshman at Stanford University likely studying Co
 
 &nbsp;
 
+## Stephanie Saab
+
+```{r saab, out.width ="50%"}
+knitr::include_graphics("images/saab.jpg")
+```
+
+[Stephanie Saab](https://github.com/AM-lmn) is a second year student at the University of Toronto.
+
+&nbsp;
+
 
 
 ## Yuhan Wu
@@ -66,6 +76,16 @@ knitr::include_graphics("images/yuhan.jpg")
 ```
 
 [Yuhan Wu](https://github.com/UhanWu) is an upcoming junior at Newton North High School.
+
+&nbsp;
+
+## Arghayan Jeiyasarangkan
+
+```{r arghayan, out.width ="50%"}
+knitr::include_graphics("images/arghayan.png")
+```
+
+Arghayan Jeiyasarangkan is an upcoming sophomore at the University Of Ottawa studying biomedical science in French Immersion
 
 &nbsp;
 
