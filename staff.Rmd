@@ -28,7 +28,7 @@ knitr::include_graphics("images/david_kane.png")
 knitr::include_graphics("images/nuowen.jpg")
 ```
 
-[Nuo Wen Lei](https://github.com/NuoWenLei) is a graduating senior from Concord Academy.
+[Nuo Wen Lei](https://github.com/NuoWenLei) is an incoming first year at Brown University.
 
 &nbsp;
 
