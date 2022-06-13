@@ -8,9 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) and its [associated tutorials](https://ppbds.github.io/primer.tutorials/). Assignments associated with a specific lecture must be completed before that lecture.
 
-Completed tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial (like "Sarah Jones; Getting Started") in the subject line.
-
-<!-- Join the Discord server here: https://discord.gg/5wyvDv6HbU -->
+Completed tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon  --- like "Sarah Jones; Getting Started" --- in the subject line.
 
 # Week 1: Visualization
 
@@ -38,8 +36,13 @@ Reminder: All work must be completed before class. Failure to submit your tutori
 
 Now that we know how to visualize data that is already clean, we need to learn how to clean up data which might come to us quite messy.
 
-
 ## Monday June 20
+
+* Read "How to Get Help" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). 
+
+* Complete Getting Help tutorial.
+
+* Complete Workflow tutorial.
 
 * Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html). 
 
@@ -51,8 +54,6 @@ Now that we know how to visualize data that is already clean, we need to learn h
 * Complete remaining two Wrangling tutorials: More Plots and Statistics.
 
 * Complete Terminal tutorial.
-
-* Read "How to Get Help" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). 
 
 * Read the [Style Guide](https://ppbds.github.io/primer/tools.html#style-guide). 
 
@@ -67,22 +68,29 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * Read [Chapter 3 Data](https://ppbds.github.io/primer/data.html). 
 
-* Complete Data tutorials: Files, API, and Webscraping
+* Complete Data - Files, Data - API, and Data - Webscraping tutorials.
 
 
 ## Thursday June 30
 
+* Complete Tables tutorial.
+
+* Complete Distill tutorial.
+
 * Read [Maps](https://ppbds.github.io/primer/maps.html) and [IPUMS](https://ppbds.github.io/primer/ipums.html). Determine the data source you will use for your final project. Don't come to class without one!
+
+* Complete Downloading Census Data and Mapping tutorials.
 
 
 # Week 4: Projects
+
 
 The last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers.
 
 
 ## Tuesday July 5
 
-* Complete the Distill tutorial and place a (rough!) graphic using the data for your final project in the #final-project Discord channel.
+* Place a (rough!) graphic using the data for your final project in the #final-project Discord channel.
 
 * Practice presentations and feedback. You must have your presentation ready to go!  
 
