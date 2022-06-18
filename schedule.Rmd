@@ -42,8 +42,6 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 * Complete Getting Help tutorial.
 
-* Complete Terminal tutorial.
-
 * Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html). 
 
 * Complete two Wrangling tutorials: Overview and Plots.
@@ -52,6 +50,8 @@ Now that we know how to visualize data that is already clean, we need to learn h
 ## Thursday June 23
 
 * Complete remaining two Wrangling tutorials: More Plots and Statistics.
+
+* Complete Terminal tutorial.
 
 * Complete Workflow tutorial.
 
