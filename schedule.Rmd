@@ -53,11 +53,9 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 * Complete Terminal tutorial.
 
-* Complete Workflow tutorial.
-
 * Read the [Style Guide](https://ppbds.github.io/primer/tools.html#style-guide). 
 
-* **Optional:** [RStudio Essentials Videos](https://resources.rstudio.com/wistia-rstudio-essentials-2). Most relevant for us are [“Writing code in RStudio”](https://www.rstudio.com/resources/webinars/), [“Projects in RStudio”](https://www.rstudio.com/resources/webinars/) and [“Github and RStudio”](https://www.rstudio.com/resources/webinars/). Again, these are optional! But they are very useful for students who find traditional lectures to be a helpful supplement to classroom practice.
+* **Optional:** [RStudio Essentials Videos](https://resources.rstudio.com/wistia-rstudio-essentials-2). Most relevant for us are [“Writing code in RStudio”](https://www.rstudio.com/resources/webinars/), [“Projects in RStudio”](https://www.rstudio.com/resources/webinars/) and [“Github and RStudio”](https://www.rstudio.com/resources/webinars/). Again, these are optional! But they are very useful for students who find traditional lectures to be a helpful supplement to classroom practice. The Workflow tutorial is also optional.
 
 
 # Week 3: Data
@@ -70,12 +68,12 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * Complete Data - Files, Data - API, and Data - Webscraping tutorials.
 
+* Complete Distill tutorial.
+
 
 ## Thursday June 30
 
 * Complete Tables tutorial.
-
-* Complete Distill tutorial.
 
 * Read [Maps](https://ppbds.github.io/primer/maps.html) and [IPUMS](https://ppbds.github.io/primer/ipums.html). Determine the data source you will use for your final project. Don't come to class without one!
 
