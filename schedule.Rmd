@@ -6,27 +6,33 @@ title: "Schedule"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Classes run from 8:00 to 9:00 PM EDT.
+
 Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) and its [associated tutorials](https://ppbds.github.io/primer.tutorials/). Assignments associated with a specific lecture must be completed before that lecture.
 
-Completed tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon  --- like "Sarah Jones; Getting Started" --- in the subject line. If you do not complete the tutorials one time, you will be removed from the class. Send in your tutorial answers saved in *rds* format. If you want to save a copy for your own records, use *html*. 
+Completed tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon  --- like "Sarah Jones; Getting Started" --- in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *rds* format. If you want to save a copy for your own records, use *html*. 
 
 # Week 1: Visualization
 
 Looking at the data is the first step in data science.
 
-## Monday June 13
+## Monday July 25
 
 * Read [Getting Started](https://ppbds.github.io/primer/getting-started.html) and follow all the associated instructions. We will do the Getting Started tutorial together in class.
 
-## Thursday June 16
+## Wednesday July 27
 
 * Read [Chapter 1 Visualization](https://ppbds.github.io/primer/visualization.html). 
 
-* Complete the four Visualization tutorials: Basic Plots, Tidyverse, Advanced Plotting, and Case Studies.
+* Complete the two Visualization tutorials: Basic Plots and Tidyverse.
 
-* Read [How to use Rpubs](https://ppbds.github.io/primer/tools.html#how-to-use-rpubs). 
+## Thursday July 28
 
 * Complete R Studio and Friends tutorial.
+
+* Complete the two Visualization tutorials: Advanced Plotting and Case Studies.
+
+* Read [How to use Rpubs](https://ppbds.github.io/primer/tools.html#how-to-use-rpubs). 
 
 Reminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
 
@@ -36,20 +42,21 @@ Reminder: All work must be completed before class. Failure to submit your tutori
 
 Now that we know how to visualize data that is already clean, we need to learn how to clean up data which might come to us quite messy.
 
-## Monday June 20
-
-* Read "How to Get Help" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). 
-
-* Complete Getting Help tutorial.
+## Monday August 1
 
 * Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html). 
 
 * Complete two Wrangling tutorials: Overview and Plots.
 
+## Wednesday August 3
 
-## Thursday June 23
+* Read "How to Get Help" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). 
+
+* Complete Getting Help tutorial.
 
 * Complete remaining two Wrangling tutorials: More Plots and Statistics.
+
+## Thursday August 4
 
 * Complete Terminal tutorial.
 
@@ -62,16 +69,18 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 Now that we know how to clean and organize messy data, we need to learn how to get some.
 
-## Monday June 27
+## Monday August 8
 
 * Read [Chapter 3 Data](https://ppbds.github.io/primer/data.html). 
 
-* Complete Data - Files, Data - API, and Data - Webscraping tutorials.
-
-* Complete Distill tutorial.
+* Complete Data - Files and  Distill tutorial. .
 
 
-## Thursday June 30
+## Wednesday August 10
+
+* Complete Data - AP, and Data - Webscraping tutorials.
+
+## Thursday August 11
 
 * Complete Tables tutorial.
 
@@ -86,65 +95,17 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 The last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers.
 
 
-## Tuesday July 5
+## Monday August 15
 
 * Place a (rough!) graphic using the data for your final project in the #final-project Discord channel.
 
-* Practice presentations and feedback. You must have your presentation ready to go!  
+* Practice presentations and feedback. You must have your presentation ready to go! 
 
-## Thursday July 7
+## Wednesday August 17
+
+## Thursday August 18
 
 * Final project presentations. You must invite either your parents or someone else in your family.
 
 * **Optional:** [Distill for R Markdown](https://rstudio.github.io/distill/) is the main documentation page. Key sections are [Creating a Website](https://rstudio.github.io/distill/website.html) and [Publishing Websites](https://rstudio.github.io/distill/publish_website.html). 
-
-# Details
-
-This section outlines the overall philosophy of the course and some implementation details. You are unlikely to find it interesting! I include it here for two reasons. First, I believe in transparency. I am happy for students to "see behind the curtain," to understand the reasoning behind our pedagogical choices. Second, I want to provide teaching staff with links which they may find interesting.
-
-First, the syllabus [pdf](https://www.davidkane.info/files/gov_1005_spring_2020.pdf) for my Harvard class includes a "Course Philosophy" section which applies just as much to this course. Indeed, my goal here is to cover the exact same material as I would in the first four weeks of that course. Highlights:
-
-> The central metaphor for this class is Ulysses and the Sirens. You are Ulysses. Ithaca is the future you want.
-The Sirens are the many distractions of the modern world. I am the rope. No course at Harvard does more
-to increase students’ chances of getting the future they want.
-
-```{r, echo = FALSE}
-knitr::include_graphics("images/sirens.jpg")
-```
-
-
-> *No Lectures*: The worst method for transmitting information from my head to yours is for me to lecture you.
-There are no lectures. We work on problems together during class. You learn soccer with the ball at your
-feet. You learn about data with your hands on the keyboard.
-
-> *Professionalism*: We use professional tools. Your workflow will be very similar to the workflow involved in
-paid employment. Your problem sets and final project will be public, the better to impress others with your
-abilities. High quality work will be shared with your classmates. 
-
-Second, "Kill The Math and Let the Introductory Course Be Born" is an [article](https://arxiv.org/abs/2012.14390) ([pdf](https://arxiv.org/pdf/2012.14390.pdf)) which explains why the course includes no (meaningful) mathematics. Abstract:
-
-> Our introductory classes in statistics and data science use too much mathematics. The key causal effect which our students want our classes to have is to improve their future performance and opportunities. The more professional their computing skills (in the context of data analysis), the greater their likely success. Introductory courses should feature almost no mathematical/statistical formulas beyond simple algebra.
-
-Any introductory course which, for example, does not teach Git/Github is doing its students a disservice.
-
-Third, the heart of the course is the [tutorials](https://ppbds.github.io/primer.tutorials/) which students complete on their own. This [essay](https://ppbds.github.io/primer.tutorials/articles/instructions.html) about how to write tutorials provides some background details. Highlights:
-
-> Imagine the shallowest possible learning curve. Almost every student should be able to answer almost every Exercise, albeit perhaps with the help of the Hint. There are no hard questions. In fact, there really aren’t questions at all. Instead, there are instructions: Do this. Do that. Next do this other thing.
-
-> Assume that you are giving the student a private lesson. You ask them a question. They give you an answer. What would you say next to them? What do you want to teach them, given that context?
-
-> There are 1,000,000 bits of R knowledge which we might provide to students: tips, tricks, cool packages, fun websites, et cetera. We don’t have time to mention all of them. The art of teaching is to, first, decide which 10,000 of the bits are most important to mention and, second, figure out the best time to mention them. Tutorials are a key location for doing that mentioning. Which bits do we mention and where do we mention them?
-
-> We are building a “pit of success.” Generally, students don’t do the assigned reading, at least in a large class. But, they will complete required work. They will do the tutorials. Our promise: If you complete the tutorials, you will become a data scientist. There is simply no way not to.
-
-
-Fourth, I will (try to) ensure that students are always engaged in class, always doing data science. Part of that is the "no lectures" philosophy. Zoom also makes some group work easy. The rhythm of class centers around solving a specific problem. I say a few words and then open the breakout rooms, each of which includes four students. One student shares her screen, a different student each time we go to breakout rooms. A different student is the "guide," the person who tells the screen-sharer what to type. The other two students should be coding along as well. Course staff is moving from room to room, ensuring that the sharing and guiding students are different each time. Course staff will also often, when first entering a room, ask a different student to share his screen. After a few minutes of working together, I will bring the whole class back together. I then ask a random student to tell me what their group came up with. Recall:
-
-> *Cold Calling*: I call on students during class. This keeps every student involved, makes for a more lively
-discussion and helps to prepare students for the real world, in which you can’t hide in the back row. Want to
-be left alone? Don’t take this course.
-
-I share my screen with the class, typing what the random student tells me to type, providing commentary of the approach and, perhaps, suggesting a different answer. My goal is to ensure that all the groups are "caught up," so that when I send them back into the breakout rooms, they can all start from, more or less, the same place.
-
-
 
