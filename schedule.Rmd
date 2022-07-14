@@ -104,15 +104,14 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Wednesday August 10
 
-* Complete Data - AP, and Data - Webscraping tutorials.
+* Complete Data - AP tutorial.
+
+* Determine the data source you will use for your final project. Don't come to class without one!
+
 
 ## Thursday August 11
 
-* Complete Tables tutorial.
-
-*  Determine the data source you will use for your final project. Don't come to class without one!
-
-
+* Complete Data - Webscraping tutorial.
 
 
 # Week 4: Projects
@@ -123,11 +122,13 @@ The last week will consist of projects that the students will make. Do you love 
 
 ## Monday August 15
 
-* Place a (rough!) graphic using the data for your final project in the #final-project Discord channel.
+* You must have a draft of your final project ready to go, including a Distill website and your four sentence introduction. 
 
-* Practice presentations and feedback. You must have your presentation ready to go! 
+<!-- Create a presentation tutorial which collects this work. End with "Add this information to the spreadsheet." -->
 
 ## Wednesday August 17
+
+* Practice presentations and feedback. You must have your presentation ready to go! 
 
 ## Thursday August 18
 
