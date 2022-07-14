@@ -1,3 +1,11 @@
+## Priorities
+
+
+
+
+
+## Other
+
 * We want some graphics, even an animation, on the main page. But we don't want it to take forever to knit that page. So, we should probably have a .R file which creates the graphics we want --- and saves the results as rds files --- and then have the index.Rmd read_rds those files and then display the graphics.
 
 * We want the sign-up-for-the-email to be more prominent. We have the raw html which, I think, we need to include. It is in sign_up.html. But when I follow the instructions here:
@@ -18,5 +26,10 @@ Is whimsical a useful tool for teaching the class itself?
 Rweekly.
 
 #rstats
+
+# TFs
+jacksonrroe@gmail.com
+vdommeti3@gmail.com
+tejasnm07@gmail.com
 
 

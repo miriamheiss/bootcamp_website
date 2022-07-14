@@ -6,7 +6,59 @@ title: "Final Projects"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-A total of 43 students have completed the Course. Congratulations! Here are their Final Projects.
+A total of 68 students have completed the Course. Congratulations! Here are their Final Projects.
+
+## June 2022
+
+[Allison Bubar](https://github.com/allisonbubar): [Newton North High School Basketball Evaluation](https://github.com/allisonbubar/distill-tutorial/blob/main/README.md). The NNHS basketball teams success was determined by FG% and defensive success.  
+
+[Varun Dommeti](https://github.com/d-varun): [Prevalent Emotions in Mainstream Music, by Decade](https://d-varun.github.io/final-bootcamp-project/). Exploration of emotions in the billboard top 100, sorted by decade.  
+
+[Soham Gunturu](https://github.com/SohamGunturu): [Mortality rate of babies under different variables](https://github.com/SohamGunturu/final-project). Relationship between mortality rate of children under 5 per 1,000 live births and year, country, and economic class.  
+
+[Suvan Dommeti](https://github.com/SuvanD0): [Presence of Polarzing Words in Australian Media](https://suvand0.github.io/Polarizing-words-in-media-over-time/). Does Australian media excessively use the word "riot" over "protest" to convey a biased message?  
+
+[Jackson Roe](https://github.com/jacksonrroe): [March Madness: How to Pick a Perfect Bracket](https://jacksonrroe.github.io/march_madness_analysis/). Analysis of the trends in every March Madness bracket since the 1985 expansion to 64 teams.  
+
+[Farhan Sadeek](https://github.com/FarhanSadeek21): [Analysis of World Population](https://farhansadeek21.github.io/population_analysis/). Life Index is proportional to the Per Capita GDP of a country.  
+
+[Alex Kuai](https://github.com/AlexKuaiR): [Microchip Market](https://alexkuair.github.io/Microchip-Market/). Dramatic increase in microchip market demand in the Asia Pacific region  
+
+[Ethan Hu](https://github.com/ethanhu89): [Breakdown of the S&P 500](https://ethanhu89.github.io/Final-Project/). Shows the basic trends that are seen in the top 500 public companies in the US.  
+
+[Nathan Rothschild](https://github.com/NathanRothschild): [Comparison of Three 33 y/o Professional Tennis Players' Effectiveness](https://nathanrothschild.github.io/tenniswebsite/). Professional players of the same age, career length, and similar career success had vastly different effectiveness trajectories during their career.  
+
+[Shivangi Nadkar](https://github.com/ShivangiNadkar): [COVID deaths by race and education level](https://shivanginadkar.github.io/COVID_deaths_project/). Graphs that display COVID-19 deaths and are faceted by race and education level.  
+
+[Henry Sippel](https://github.com/sipphen): [Fish Stocking Data in Lake Michigan by Species](https://sipphen.github.io/fish-stocking/). Movement of fish stocking in Lake Michigan.  
+
+[Pooja Kawatkar](https://github.com/pkawatkar): [Analysis of Superbowl Statistics](https://pkawatkar.github.io/football_statistics/). In 1990, the San Francisco 49ers defeated the Denver Broncos by 45 points, the greatest point difference in Superbowl history  
+
+[Samruddhi Naik](https://github.com/samnaik10): [Wages by Gender and Occupation](https://samnaik10.github.io/wages-by-gender/). The biggest wage gap is in the financial industry where men earn around $45,000 more than women do.  
+
+[Awais Choudhary](https://github.com/awaischoudhary): [Traffic Violations](https://awaischoudhary.github.io/Traffic-Violations/). What a driver should avoid on the road; an examination of traffic infraction records.  
+
+[Sai Gottemukkula](https://github.com/SaiGottemukkula): [An Exploration of COVID-19](https://saigottemukkula.github.io/FinalProject/). Graphs that look at some under-explored information of the pandemic.  
+
+[Akhilesh Sangaraju](https://github.com/AkhileshSangaraju): [Cars - CO2 Emissions and Efficiency](https://akhileshsangaraju.github.io/CO2-Emissions-and-Effciency-of-Cars/). When buying an electric car, you can be confident that you are making the eco-friendly decision, and that it will statisfy all of your needs.  
+
+[Amisha Jain](https://github.com/amishaj08): [Karate Statistics Around the World](https://amishaj08.github.io/new_final/). These graphs analyze how various countries are impacted by Martial Arts.  
+
+[Nathan Nambiar](https://github.com/nathannambiar): [Progression of Agent Pick Rates in Valorant](https://nathannambiar.github.io/final-project/). The change in agent pick rates throughout Valorant history.  
+
+[Hannah Adams](https://github.com/hannah-adams): [Per capita CO2 emissions](https://hannah-adams.github.io/kanes-camp-final-project/). Shows trends in per capita CO2 emissions by country, which could inform equitable environmental policy.  
+
+[Katie Zhong](https://github.com/katie-zhong): [Factors of Success in WEBTOON Originals](https://katie-zhong.github.io/webtoon-originals-analysis/). Viewer ratings and subscriber counts prove that Romance and Fantasy Originals are the most popular.  
+
+[Noel Jung](https://github.com/NoelJung): [Temperature and Vector Borne Diseases](https://github.com/NoelJung/Temperature-and-Vector-Diseases). Do changes in temperature affect the number of cases of West Nile and Lyme disease?  
+
+[Lucas Cao](https://github.com/ExceedEvergreen/): [Number of Billionaires over Years](https://rpubs.com/Exceed_Lucas/billionaire). The number of billionaires has been increasing rapidly every year since 2000. 
+
+[Andrew Zhuo](https://github.com/Stackfish5): [Chess Openings](https://github.com/Stackfish5/Final-Project). Analyzing the most commonly used chess openings by 5 top chess Grandmasters.  
+
+[Austin Zhuang](https://github.com/austzhua): [Adult Mental Health in the USA](https://github.com/austzhua/final-project). The project analyzes of how financial factors affect access to mental health  
+
+[Suvan Chatakondu](https://github.com/suvancha9866): [Movies 2021 Analysis](https://suvancha9866.github.io/movies_2021_project_2/). The factors that made movies in 2021 successful and special.  
 
 ## June 2021
 
