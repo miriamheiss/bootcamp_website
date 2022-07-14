@@ -5,7 +5,7 @@
 library(tidyverse)
 library(janitor) 
 
-x <- read_tsv("~/Downloads/final-projects-bootcamp-june-2021 - Sheet1.tsv", skip = 6) %>% 
+x <- read_tsv("~/Downloads/final-projects-bootcamp-june-2022 - Sheet1.tsv", skip = 6) %>% 
   janitor::clean_names() %>% 
 
 
@@ -17,5 +17,5 @@ x <- read_tsv("~/Downloads/final-projects-bootcamp-june-2021 - Sheet1.tsv", skip
 
 
 
-writeLines(x$output, "projects.Rmd", sep = "  \n\n")
+writeLines(x$output, "new_projects.Rmd", sep = "  \n\n")
 
