@@ -10,8 +10,6 @@ A total of 68 students have completed the Course. Congratulations! Here are thei
 
 ## June 2022
 
-[Allison Bubar](https://github.com/allisonbubar): [Newton North High School Basketball Evaluation](https://github.com/allisonbubar/distill-tutorial/blob/main/README.md). The NNHS basketball teams success was determined by FG% and defensive success.  
-
 [Varun Dommeti](https://github.com/d-varun): [Prevalent Emotions in Mainstream Music, by Decade](https://d-varun.github.io/final-bootcamp-project/). Exploration of emotions in the billboard top 100, sorted by decade.  
 
 [Soham Gunturu](https://github.com/SohamGunturu): [Mortality rate of babies under different variables](https://github.com/SohamGunturu/final-project). Relationship between mortality rate of children under 5 per 1,000 live births and year, country, and economic class.  
@@ -21,6 +19,8 @@ A total of 68 students have completed the Course. Congratulations! Here are thei
 [Jackson Roe](https://github.com/jacksonrroe): [March Madness: How to Pick a Perfect Bracket](https://jacksonrroe.github.io/march_madness_analysis/). Analysis of the trends in every March Madness bracket since the 1985 expansion to 64 teams.  
 
 [Farhan Sadeek](https://github.com/FarhanSadeek21): [Analysis of World Population](https://farhansadeek21.github.io/population_analysis/). Life Index is proportional to the Per Capita GDP of a country.  
+
+[Allison Bubar](https://github.com/allisonbubar): [Newton North High School Basketball Evaluation](https://github.com/allisonbubar/distill-tutorial/blob/main/README.md). The NNHS basketball teams success was determined by FG% and defensive success. 
 
 [Alex Kuai](https://github.com/AlexKuaiR): [Microchip Market](https://alexkuair.github.io/Microchip-Market/). Dramatic increase in microchip market demand in the Asia Pacific region  
 
