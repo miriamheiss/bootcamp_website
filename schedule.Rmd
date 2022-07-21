@@ -101,7 +101,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Wednesday August 10
 
-* Complete Data - AP tutorial.
+* Complete Data - API tutorial.
 
 * Determine the data source you will use for your final project. Don't come to class without one!
 
