@@ -67,9 +67,6 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 ## Wednesday August 3
 
-<!-- Make this reading unnecessary. -->
-* Read "How to Get Help" from the Appendix on [Tools](https://ppbds.github.io/primer/tools.html). 
-
 * Complete Getting Help tutorial.
 
 * Complete Wrangling - More Plots tutorial.

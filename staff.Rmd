@@ -46,17 +46,6 @@ knitr::include_graphics("images/tejas.jpeg")
 &nbsp;
 
 
-## Ryan Southward
-
-
-```{r ryan, out.width ="50%"}
-knitr::include_graphics("images/ryan.jpeg")
-```
-
-Ryan Southward is an incoming freshman at Stanford University likely studying Computer Science.
-
-&nbsp;
-
 ## Stephanie Saab
 
 ```{r saab, out.width ="50%"}
