@@ -75,7 +75,7 @@ knitr::include_graphics("images/saab.jpg")
 knitr::include_graphics("images/yuhan.jpg")
 ```
 
-[Yuhan Wu](https://github.com/UhanWu) is an upcoming junior at Newton North High School.
+[Yuhan Wu](https://github.com/UhanWu) is an incoming junior at Newton North High School who is interested in Data Science and Applied Mathematics.
 
 &nbsp;
 
