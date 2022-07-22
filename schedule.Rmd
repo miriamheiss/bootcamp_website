@@ -18,6 +18,7 @@ Completed tutorials are sent to kanes.datacamp@gmail.com with your name and the 
 <!-- Visualization - Tidyverse: 110.00 -->
 <!-- Visualization - Advanced Plotting: 101.39 -->
 <!-- Visualization - Case Studies: 89.26 -->
+<!-- Summed = 382 = 6.3 hours -->
 
 Looking at the data is the first step in data science.
 
@@ -30,10 +31,6 @@ Looking at the data is the first step in data science.
 * Read [Chapter 1 Visualization](https://ppbds.github.io/primer/visualization.html). 
 
 * Complete the two Visualization tutorials: Basic Plots and Tidyverse.
-
-<!-- Make this reading unnesccary by including material in tutorial. -->
-
-* Read [How to use Rpubs](https://ppbds.github.io/primer/tools.html#how-to-use-rpubs). 
 
 * Complete the RStudio and Code tutorial.
 
@@ -56,6 +53,7 @@ Now that we know how to visualize data that is already clean, we need to learn h
 <!-- Wrangling - Plots: 70.00 -->
 <!-- Wrangling - More Plots: 145.62 -->
 <!-- Getting Help: 62.12 -->
+<!-- Summed = 7.5 hours -->
 
 ## Monday August 1
 
@@ -67,15 +65,13 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 ## Wednesday August 3
 
-* Complete Getting Help tutorial.
-
 * Complete Wrangling - More Plots tutorial.
+
+* Complete Census Data I tutorials.
 
 ## Thursday August 4
 
-* Read [Maps](https://ppbds.github.io/primer/maps.html) and [IPUMS](https://ppbds.github.io/primer/ipums.html).
-
-* Complete Downloading Census Data and Mapping tutorials.
+* Complete Census Data II tutorials.
 
 * **Optional:** [RStudio Essentials Videos](https://resources.rstudio.com/wistia-rstudio-essentials-2). Most relevant for us are [“Writing code in RStudio”](https://www.rstudio.com/resources/webinars/), [“Projects in RStudio”](https://www.rstudio.com/resources/webinars/) and [“Github and RStudio”](https://www.rstudio.com/resources/webinars/). Again, these are optional! But they are very useful for students who find traditional lectures to be a helpful supplement to classroom practice. The Workflow tutorial is also optional.
 
@@ -94,12 +90,16 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * Read [Chapter 3 Data](https://ppbds.github.io/primer/data.html). 
 
-* Read the [Style Guide](https://ppbds.github.io/primer/tools.html#style-guide). 
+* Complete Getting Help tutorial.
 
-* Complete Data - Files and  Distill tutorial. .
+* Complete Distill tutorial
 
 
 ## Wednesday August 10
+
+* Read the [Style Guide](https://ppbds.github.io/primer/tools.html#style-guide). 
+
+* Complete Data - Files.
 
 * Complete Data - API tutorial.
 
@@ -132,13 +132,6 @@ The last week will consist of projects that the students will make. Do you love 
 * Final project presentations. You must invite either your parents or someone else in your family.
 
 * **Optional:** [Distill for R Markdown](https://rstudio.github.io/distill/) is the main documentation page. Key sections are [Creating a Website](https://rstudio.github.io/distill/website.html) and [Publishing Websites](https://rstudio.github.io/distill/publish_website.html). 
-
-
-
-
-<!-- RStudio and Friends: 135.73 -->
-
-
 
 
 
