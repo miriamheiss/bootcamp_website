@@ -80,3 +80,16 @@ Arghayan Jeiyasarangkan is an upcoming sophomore at the University Of Ottawa stu
 
 
 
+## Felix Cai
+
+```{r cai, out.width ="50%"}
+knitr::include_graphics("images/cai.png")
+```
+
+Felix Cai is an upcoming second year Medical Sciences student at Western University.
+
+&nbsp;
+
+
+
+
