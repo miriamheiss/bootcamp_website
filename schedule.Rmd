@@ -6,7 +6,7 @@ title: "Schedule"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Classes run from 8:00 to 9:00 PM EDT.
+Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.
 
 Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) and its [associated tutorials](https://ppbds.github.io/primer.tutorials/). Assignments associated with a specific lecture must be completed before that lecture.
 
@@ -30,13 +30,13 @@ Looking at the data is the first step in data science.
 
 * Read [Chapter 1 Visualization](https://ppbds.github.io/primer/visualization.html). 
 
-* Complete the two Visualization tutorials: Basic Plots and Tidyverse.
+* Complete two Visualization tutorials: Basic Plots and Tidyverse.
 
 * Complete the RStudio and Code tutorial.
 
 ## Thursday July 28
 
-* Complete the two Visualization tutorials: Advanced Plotting and Case Studies.
+* Complete two Visualization tutorials: Advanced Plotting and Case Studies.
 
 * Complete R Studio and Github tutorial.
 
