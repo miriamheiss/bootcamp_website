@@ -28,8 +28,10 @@ Rweekly.
 #rstats
 
 # TFs
-jacksonrroe@gmail.com
-vdommeti3@gmail.com
 tejasnm07@gmail.com
+
+jacksonrroe@gmail.com
+
+
 
 

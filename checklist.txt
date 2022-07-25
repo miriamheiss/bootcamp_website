@@ -6,3 +6,5 @@
 * Update link in Getting Help tutorial with this new location.
 
 * Update link in Final Project tutorial which goes to the spreadsheet students fill out.
+
+* Set up empty project for first class so your set up looks like student set up.

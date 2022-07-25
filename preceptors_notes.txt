@@ -5,11 +5,15 @@
 
 ### Day 1
 
+#### Preceptor's Notes
+
 No four week course does a better job of increasing your odds of getting the future you want.
 
 Video on --- unless there is something going on in your life which prevents it. In which case, discuss with a TF.
 
 Class always begins by looking at the Preceptor's Notes for the day, available here, in Discord.
+
+0) After today, we start on time, often by going to breakout rooms immediately. Let's go now! Introduce yourself to your fellow students. TFs will try and swing by.
 
 1) Links to consider today:
 
@@ -19,7 +23,7 @@ Primer: https://ppbds.github.io/primer/
 Tutorials: https://ppbds.github.io/primer.tutorials/
 Final projects: https://bootcamp.davidkane.info/projects.html
 
-2) First trip to breakout rooms. Introduce yourselves. Meet your TFs.  Write down the names of the students in your room and how they found out about the course. I will randomly call on some students to report this info when I bring the class back together.
+2) Second trip to breakout rooms. Introduce yourselves again but, this time, write down the names of the students in your room and how they found out about the course. I will randomly call on some students to report this info when I bring the class back together.
 
 3) Submit the assignments or you will be removed from the class. Central metaphor of the class is Ulysses and the Sirens. There are several tutorials due on Wednesday before class.
 
@@ -35,6 +39,14 @@ Final projects: https://bootcamp.davidkane.info/projects.html
 
 9) Back to breakout rooms and start working on first tutorial: Visualization -- basic plots. 
 
+
+#### TF Notes
+
+Identify a final project or two which you like and which you think are well done. It is OK if one of the projects is yours. Indeed, you should probably clean up your own final project just in case students want to look at it!
+
+I will assign breakout rooms in the order in which you are appear in the staff listing: https://bootcamp.davidkane.info/staff.html. You might be responsible for anywhere from 1 to 5 rooms, but they will always be continuous and in staff order. So, if you are the second person listed, and I assigned 3 rooms per TF, then you would get rooms 4, 5 and 6.
+
+You should do more talking/directing today than you will do later. Indeed, you are talking almost all the time when you are in a room today. (This is totally different from later in the session, when you might say very little, allowing students to run the breakout rooms themselves.) Tell a different student to share their screen each tim. Tella another student to do the "driving," to tell the first student what to click on. This might seem weird since we are mostly looking at final projects form past years, but we want them to get into practice. So, have the driver say, "Click on the About tab," for example. 
 
 ### Day 2
 
