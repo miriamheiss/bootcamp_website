@@ -22,16 +22,6 @@ knitr::include_graphics("images/david_kane.png")
 
 
 
-## Nuo Wen Lei
-
-```{r nuowen, out.width ="50%"}
-knitr::include_graphics("images/nuowen.jpg")
-```
-
-[Nuo Wen Lei](https://github.com/NuoWenLei) is an incoming first year at Brown University.
-
-&nbsp;
-
 ## Tejas Mundhe
 
 <!-- There is something weird, I think, about this photo. It always shows up when I build it locally. But, once pushed to the web, it is fine. -->
@@ -57,7 +47,6 @@ knitr::include_graphics("images/saab.jpg")
 &nbsp;
 
 
-
 ## Yuhan Wu
 
 ```{r yuhan, out.width ="50%"}
@@ -74,11 +63,9 @@ knitr::include_graphics("images/yuhan.jpg")
 knitr::include_graphics("images/arghayan.png")
 ```
 
-Arghayan Jeiyasarangkan is an upcoming sophomore at the University Of Ottawa studying biomedical science in French Immersion
+Arghayan Jeiyasarangkan is an upcoming sophomore at the University Of Ottawa studying biomedical science in French Immersion.
 
 &nbsp;
-
-
 
 ## Felix Cai
 
@@ -87,6 +74,16 @@ knitr::include_graphics("images/cai.png")
 ```
 
 Felix Cai is an upcoming second year Medical Sciences student at Western University.
+
+&nbsp;
+
+## Jackson Roe
+
+```{r roe, out.width ="50%"}
+knitr::include_graphics("images/roe.png")
+```
+
+Jackson Roe is a rising senior at Dublin Coffman High School.
 
 &nbsp;
 

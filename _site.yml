@@ -20,5 +20,6 @@ navbar:
 exclude:
   - TODO.txt
   - checklist.txt
+  - preceptors_notes.txt
 
 output: distill::distill_article

@@ -1,0 +1,99 @@
+# This is a collection of Preceptor's Notes for use before class. Also included are notes to TFs. And notes for me? This is a text document because the contents need to be copy/pasted into Discord.
+
+
+## Week 1
+
+### Day 1
+
+No four week course does a better job of increasing your odds of getting the future you want.
+
+Video on --- unless there is something going on in your life which prevents it. In which case, discuss with a TF.
+
+Class always begins by looking at the Preceptor's Notes for the day, available here, in Discord.
+
+1) Links to consider today:
+
+Bootcamp: https://bootcamp.davidkane.info/
+Schedule: https://bootcamp.davidkane.info/schedule.html
+Primer: https://ppbds.github.io/primer/
+Tutorials: https://ppbds.github.io/primer.tutorials/
+Final projects: https://bootcamp.davidkane.info/projects.html
+
+2) First trip to breakout rooms. Introduce yourselves. Meet your TFs.  Write down the names of the students in your room and how they found out about the course. I will randomly call on some students to report this info when I bring the class back together.
+
+3) Submit the assignments or you will be removed from the class. Central metaphor of the class is Ulysses and the Sirens. There are several tutorials due on Wednesday before class.
+
+4) Ask lots of questions on Discord. Other students benefit from both your question and the resulting answers.
+
+5) Answer lots of questions on Discord! Your fellow students (and I) appreciate it. Moreover, you only really understand something once you have taught it.
+
+6) Start the Getting Started tutorial together. Note how your work is automatically saved. Finish in the breakout rooms. One person shares a screen and does not talk. Second person reads the text out loud and tells the first person what to type. Switch roles for each succeeding question.
+
+7) Questions?
+
+8) Philosophy page provides background on our pedagogical approach.
+
+9) Back to breakout rooms and start working on first tutorial: Visualization -- basic plots. 
+
+
+### Day 2
+
+1) It is always a good idea to remove and then reinstall the primer.tutorials before you start a new one. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
+
+remove.packages("primer.tutorials")
+remotes::install_github("PPBDS/primer.tutorials")
+
+2) Big thanks to everyone who is answering questions in the Discord channels. Much appreciated! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach.
+
+3) In the breakout rooms, one person shares a screen and the others tell her what to type. Then, next time, someone else shares.
+
+4) Thanks for all the great comments/questions and bug reports on the tutorials. Much appreciated! We will fix these.
+
+5) Start thinking about the topic for your final project. What are you interested in? Is there data about it?
+
+
+### Day 3
+
+1) For picking final projects, ask yourself some questions: What topic are you most interested in? What do you follow on social media? What do you care about even though no one is forcing you to care about it? Tell us, and we can help you find relevant data.
+
+2) R Weekly is a great way to keep up on all the things happening in the world of R: https://rweekly.org/. I subscribe to their weekly email.
+
+
+## Week 2
+
+### Day 1
+
+
+
+### Day 2
+
+
+
+
+### Day 3
+
+## Week 3
+
+### Day 1
+
+
+
+### Day 2
+
+
+
+
+### Day 3
+
+## Week 4
+
+### Day 1
+
+
+
+### Day 2
+
+
+
+
+### Day 3
