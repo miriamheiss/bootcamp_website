@@ -90,9 +90,9 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * Read [Chapter 3 Data](https://ppbds.github.io/primer/data.html). 
 
-* Complete Getting Help tutorial.
+* Complete Distill tutorial.
 
-* Complete Distill tutorial
+* Complete Getting Help tutorial.
 
 
 ## Wednesday August 10

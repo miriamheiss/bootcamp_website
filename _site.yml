@@ -16,6 +16,8 @@ navbar:
     - text: "Final Projects"
       href: projects.html
     - text: "Philosophy"
-      href: philosophy.html      
+      href: philosophy.html
+exclude:
+  TODO.txt
 
 output: distill::distill_article
