@@ -20,8 +20,6 @@ navbar:
     - text: "Philosophy"
       href: philosophy.html
 exclude:
-  - TODO.txt
-  - checklist.txt
-  - preceptors_notes.txt
+  - internal
 
 output: distill::distill_article
