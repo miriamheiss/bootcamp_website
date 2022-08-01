@@ -1,0 +1,39 @@
+
+var ftGUID_6014869="51014EF246EDD6";
+var ftConfID_6014869="27607960";
+var ftParams_6014869="ftx=&fty=&ftadz=&ftscw=ebuy=26955567;esid=6522286;epid=322763671;ecid=161814169;eadv=4053494;eaid=527563965;erid=162233885;eexpid=;eexcid=;erv=1;eiid=CI781a7GpvkCFUsOaAgdmQIC1A;&ft_custom=4053494__26955567__6522286__161814169&ft_c1=322763671&ftOBA=1&ft_ifb=1&ft_domain=www.nytimes.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.nytimes.com%2F&ft_keyword=__10857002__9943544__13652247__10908450__18842437___322763671&ft_section=72810432085714698472179163789611758960%7C__10857002__9943544__13652247__10908450__18842437__%7C322763671&gdpr=&gdpr_consent=&us_privacy=${US_PRIVACY}&cachebuster=215147.01124594238";
+var ftKeyword_6014869="";
+var ftCustom_6014869="4053494__26955567__6522286__161814169";
+var ftSection_6014869="72810432085714698472179163789611758960|__10857002__9943544__13652247__10908450__18842437__|322763671";
+var ftSegment_6014869="eju,iw8,aanx,iw6,agg4,aig5,aiia,afr5,aixd,o45rsw_bos,o45";
+var ftSegmentList_6014869=[{s:'eju'},{s:'iw8',t:52870000},{s:'aanx',t:51120000},{s:'iw6',t:52870000},{s:'agg4'},{s:'aig5'},{s:'aiia'},{s:'afr5'},{s:'aixd'},{m:'c1777',s:'o45rsw_bos'},{s:'o45'}];
+var ftRuleMatch_6014869="00001000";
+var ftTimestamp_6014869="1659388468";
+var ftGeoC2_6014869="us";
+var ftGeoState_6014869="ma";
+var ftGeoCity_6014869="newton center";
+var ftISP_6014869="verizon business";
+var ftSpeed_6014869="broadband";
+var ftDMA_6014869="506";
+var ftLong_6014869="-71.19";
+var ftLat_6014869="42.31";
+var ftPostal_6014869="02459";
+var ftTimeZone_6014869="-400";
+var ftMobileCarrier_6014869="";
+var ftImp6014869 = {};
+ftImp6014869.privacy = "x";
+ftImp6014869.guidAge = "225";
+ftImp6014869.impID = "096DFD8E-F8DB-7D5B-455A-4E22EC729C85";
+ftImp6014869.duid = "FT:51014EF246EDD6";
+
+ftImp6014869.ft_tpplid = "";
+ftImp6014869.ft_c = {};
+ftImp6014869.ft_c.ft_c1 = "322763671";
+ftImp6014869.gdpr = "";
+ftImp6014869.gdpr_consent = "";
+ftImp6014869.gdpr_pd = "";
+ftImp6014869.oob_consent = "";
+ftImp6014869.gdprStoredConsent = "";
+ftImp6014869.us_privacy = "!!US_PRIVACY!";
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/601/6014869/3895402/js/j-6014869-3895402.js" id="ftscript_m6014869" name="ftscript_m6014869"></scr'+'ipt>');

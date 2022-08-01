@@ -1,0 +1,499 @@
+@font-face {
+    font-family : 'XfinityBrownWeb-Regular';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-Regular.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-Regular.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-Regular.ttf") format("truetype");
+    font-weight : 700;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'XfinityBrownWeb-Bold';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-Bold.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-Bold.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-Bol.ttf") format("truetype");
+    font-weight : 700;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'XfinityBrownWeb-Light';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-Light.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-Light.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-Light.ttf") format("truetype");
+    font-weight : 700;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'XfinityBrownWeb-BoldItalic';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-BoldItalic.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-BoldItalic.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-BoldItalic.ttf") format("truetype");
+    font-weight : 700;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'XfinityBrownWeb-LightItalic';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-LightItalic.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-LightItalic.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/XfinityBrownWeb-LightItalic.ttf") format("truetype");
+    font-weight : 700;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'XFINITYStandardTT';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/6c42a98cfc6fa0c435b36f2a42509d71ccef627c.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/9c8b95b41012f79de6dff19b5722e4ceba3b98b9.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/4b519c62d8912d01963a2179b2262b7fd093a8c0.ttf") format("truetype");
+    font-weight : 400;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'XFINITYStandardTT-Bold';
+    src         : url("https://cdn.flashtalking.com/93411/fonts/bf2f2b3424a5148dfa724c2fdfb63d7f5d3b61c4.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/e47e07c11abfd771eb540bb9e07e9fec9e119c72.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/ed356a21dc6474b5ae9b308808995af6ea4551f7.ttf") format("truetype");
+    font-weight : 700;
+    font-style  : normal;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; 
+}
+
+body {
+  margin:0px;
+  text-rendering:optimizeLegibility; 
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-text-size-adjust: none;
+  font-kerning: none;
+  -webkit-text-rendering: optimizeSpeed;
+  text-rendering: optimizeSpeed;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  
+}
+
+@media screen and (min-width:0) and (min-resolution:+72dpi) { /* IE fix */
+  body { text-rendering:optimzeSpeed; }
+}
+
+div { position:absolute; display:block; } 
+
+img { position:absolute; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+*, :before, :after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.abs-pos, #wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 728px;
+  height: 90px;
+  overflow: hidden; }
+
+#wrapper {
+  overflow:hidden;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color:#fff;
+  color:#fff;
+  position: relative;
+  visibility: hidden;
+  -webkit-font-smoothing: none;
+  -webkit-font-smoothing: antialiased;
+  border: 1px solid #AAA; 
+  cursor:pointer;
+}
+
+#wrapper.show {
+    visibility: visible; 
+}
+
+#border {
+  left:0px;
+  top:0px;
+  width: 298px;
+  height: 248px;
+  border: 1px solid #e6014c;
+  pointer-events:none;
+  z-index:50;
+  display:block;
+  opacity: 0;
+}
+
+.button {
+  outline:none;
+  background-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  user-select:none;
+  cursor:pointer;
+}
+
+#clickthru { 
+  width:728px; 
+  height:90px; 
+  z-index:98; 
+  cursor:pointer; 
+  background-color:rgba(0, 0, 0, 0);
+}
+
+/*frames*/
+.frame { 
+  width:100%; 
+  height:100%; 
+  left: 0px;
+  top: 0px;
+  display:block; 
+}
+
+#frame1, #frame2, #frame3, #frame4, #endframe { 
+  width:100%; 
+  height:100%; 
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+/*bgs*/
+.bgs_d, .bgs_p {
+  left: 0px;
+  top: 0px;
+  width:728px;
+  height:90px;
+  opacity: 0;
+}
+
+#f1_bg_d, #f1_bg_p, #f2_bg_d, #f2_bg_p, #f3_bg_d, #f3_bg_p, #f4_bg_p, #endframe_bg_d, #endframe_bg_p {
+  left: 0px;
+  top: 0px;
+  width:728px;
+  height:90px;
+  opacity: 0;
+}
+
+/*logo*/
+#logo {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+/*devices*/
+.devices {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+#f1_device {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+#f2_device, #f3_device {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+#f3_tvset_d, #f3_tvset_p {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+#f3_tv_d, #f3_tv_p {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  position: relative;
+  opacity: 0;
+}
+
+#f3_screen_d {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+#f3_screen_p, #f4_screen_p {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+#offer_bolton_image {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+#no_offer_bolton_image {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+/*copy*/
+.fontstyle1 {
+  font-family:'XfinityBrownWeb-Bold';
+  font-size:22px;
+  line-height:22px;
+  letter-spacing:-0.4px;
+  text-align:left;
+  color: #FFF;
+}
+
+.fontstyle2 {
+  font-family:'XfinityBrownWeb-Regular';
+  font-size:9px;
+  line-height:10px;
+  letter-spacing:-0.15px;
+  text-align:left;
+  color: #FFF;
+}
+
+.bold {
+  font-family:'XfinityBrownWeb-Bold';
+}
+
+.bold2 {
+  font-family :'XFINITYStandardTT-Bold';
+}
+
+.mask {
+  width:100%; 
+  height:100%; 
+  overflow:hidden;
+}
+
+#f1_copyb_mask, #f2_copyb_mask, #tv_screen_d_mask, #tv_screen_p_mask {
+  opacity: 1;
+  overflow:hidden;
+}
+
+#f1_copya, #f1_copyb, #f2_copya, #f2_copyb {
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+#f3_copy, #f4_copy {
+  font-size:22px;
+  line-height:22px;
+  letter-spacing:-0.4px;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+#disclaimer {
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  font-family: "XFINITYStandardTT";
+}
+
+/*offer*/
+#offer, #no_offer {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+#offer_copy {
+  font-size:18px;
+  line-height:18px;
+  letter-spacing:-0.3px;
+  text-align:left;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+#offer_title {
+  font-size:10px;
+  line-height:14px;
+  letter-spacing:-0.2px;
+  text-align:left;
+  opacity: 0;
+}
+
+#offer_dollarSign {
+  font-size:24px;
+  line-height:59px;
+  letter-spacing:-0.23px;
+  text-align:left;
+  opacity: 0;
+}
+
+#offer_price {
+  font-size:44px;
+  line-height:59px;
+  letter-spacing:-0.2px;
+  text-align:left;
+  opacity: 0;
+}
+
+#offer_cents {
+  font-size:55px;
+  line-height:59px;
+  letter-spacing:-0.15px;
+  text-align:left;
+  opacity: 0;
+}
+
+#offer_terms {
+  font-size:10px;
+  line-height:11px;
+  letter-spacing:-0.14px;
+  text-align:left;
+  opacity: 0;
+}
+
+#offer_agree {
+  font-size:10px;
+  line-height:11px;
+  letter-spacing:-0.15px;
+  text-align:left;
+  opacity: 0;
+}
+
+#offer_legal {
+  font-size:9px;
+  line-height:10px;
+  letter-spacing:-0.15px;
+  text-align:left;
+  opacity: 0;
+  font-family: "XFINITYStandardTT";
+}
+
+#offer_sideBar {
+  width:2px;
+  height:76px;
+  left: 347px;
+  top: 7px;
+  background-color:#FFF;
+  text-align:center;
+  opacity: 0;
+}
+
+#offer_bolton_copy {
+  font-size:14px;
+  line-height:18px;
+  letter-spacing:-0.2px;
+  text-align:left;
+  opacity: 0;
+}
+
+/*no_offer*/
+#no_offer_copy {
+  font-size:22px;
+  line-height:22px;
+  letter-spacing:-0.35px;
+  text-align:left;
+  opacity: 0;
+}
+
+/*CTA*/
+.cta_container, #offer_ctaBox, #no_offer_ctaBox {
+    height:auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin:auto;
+}
+
+.cta, #offer_ctaCopy, #no_offer_ctaCopy {
+    position: static !important;
+    /*display: inline-block;*/
+    background: #FFF;
+    border-radius: 6px;
+    font-family: 'XfinityBrownWeb-Bold';
+    font-size: 10px;
+    line-height:13px;
+    letter-spacing:-.14px;
+    font-weight: normal;
+    font-style: normal;
+    padding: 11px 0px;
+    margin: auto;
+    letter-spacing:0px;
+    text-align:center;
+    height:32px;
+    width:96px;
+    color:#000;
+    opacity: 1;
+}

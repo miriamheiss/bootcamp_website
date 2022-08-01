@@ -1,0 +1,3640 @@
+<!DOCTYPE html>
+<!-- saved from url=(0109)https://2e72c79cef0120ef43e3b3b8e208dcd0.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>SafeFrame Container</title>
+    <script>
+(function(){/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+var m=this||self,w=function(a){return a};var x;var z=function(a,b,c){this.g=c===y?a:""};z.prototype.toString=function(){return this.g.toString()};var y={};var C=function(a,b){var c=void 0===c?{}:c;this.error=a;this.context=b.context;this.msg=b.message||"";this.id=b.id||"jserror";this.meta=c};var D=function(a){D[" "](a);return a};D[" "]=function(){};var E=/^(?:([^:/?#.]+):)?(?:\/\/(?:([^\\/?#]*)@)?([^\\/?#]*?)(?::([0-9]+))?(?=[\\/?#]|$))?([^?#]+)?(?:\?([^#]*))?(?:#([\s\S]*))?$/;var I=function(a,b){if(a)for(var c in a)Object.prototype.hasOwnProperty.call(a,c)&&b.call(void 0,a[c],c,a)};var J=/^https?:\/\/(\w|-)+\.cdn\.ampproject\.(net|org)(\?|\/|$)/,K=function(a,b){this.g=a;this.h=b},L=function(a,b){this.url=a;this.j=!!b;this.depth=null};var M=function(a){m.google_image_requests||(m.google_image_requests=[]);var b=m.document.createElement("img");b.src=a;m.google_image_requests.push(b)};var N=function(){this.i="&";this.h={};this.o=0;this.g=[]},O=function(a,b){var c={};c[a]=b;return[c]},U=function(a,b,c,d,g){var e=[];I(a,function(f,k){(f=T(f,b,c,d,g))&&e.push(k+"="+f)});return e.join(b)},T=function(a,b,c,d,g){if(null==a)return"";b=b||"&";c=c||",$";"string"==typeof c&&(c=c.split(""));if(a instanceof Array){if(d=d||0,d<c.length){for(var e=[],f=0;f<a.length;f++)e.push(T(a[f],b,c,d+1,g));return e.join(c[d])}}else if("object"==typeof a)return g=g||0,2>g?encodeURIComponent(U(a,b,c,d,g+1)):"...";return encodeURIComponent(String(a))},W=function(a){var b="https://pagead2.googlesyndication.com/pagead/gen_204?id=jserror&",c=V(a)-27;if(0>c)return"";a.g.sort(function(n,A){return n-A});for(var d=null,g="",e=0;e<a.g.length;e++)for(var f=a.g[e],k=a.h[f],l=0;l<k.length;l++){if(!c){d=null==d?f:d;break}var h=U(k[l],a.i,",$");if(h){h=g+h;if(c>=h.length){c-=h.length;b+=h;g=a.i;break}d=null==d?f:d}}a="";null!=d&&(a=g+"trn="+d);return b+a+""},V=function(a){var b=1,c;for(c in a.h)b=c.length>b?c.length:b;return 3997-b-a.i.length-1};var X=function(a){if(.01>Math.random())try{if(a instanceof N)var b=a;else b=new N,I(a,function(d,g){var e=b,f=e.o++;d=O(g,d);e.g.push(f);e.h[f]=d});var c=W(b);c&&M(c)}catch(d){}};var Y=function(a){var b=a.toString();a.name&&-1==b.indexOf(a.name)&&(b+=": "+a.name);a.message&&-1==b.indexOf(a.message)&&(b+=": "+a.message);if(a.stack){a=a.stack;var c=b;try{-1==a.indexOf(c)&&(a=c+"\n"+a);for(var d;a!=d;)d=a,a=a.replace(/((https?:\/..*\/)[^\/:]*:\d+(?:.|\n)*)\2/,"$1");b=a.replace(/\n */g,"\n")}catch(g){b=c}}return b};var aa=/^([^;]+);(\d+);([\s\S]*)$/,ba=function(){var a=window.name,b=aa.exec(a);if(null===b)throw Error("Cannot parse serialized data. "+a.substring(0,50));a=+b[2];var c=b[3];if(a>c.length)throw Error("Parsed content size doesn't match. "+a+":"+c.length);return{m:b[1],content:c.substr(0,a),l:c.substr(a)}};var Z=null,da=function(a){var b=a.length,c=3*b/4;c%3?c=Math.floor(c):-1!="=.".indexOf(a[b-1])&&(c=-1!="=.".indexOf(a[b-2])?c-2:c-1);var d=new Uint8Array(c),g=0;ca(a,function(e){d[g++]=e});return d.subarray(0,g)},ca=function(a,b){function c(l){for(;d<a.length;){var h=a.charAt(d++),n=Z[h];if(null!=n)return n;if(!/^[\s\xa0]*$/.test(h))throw Error("Unknown base64 encoding at char: "+h);}return l}ea();for(var d=0;;){var g=c(-1),e=c(0),f=c(64),k=c(64);if(64===k&&-1===g)break;b(g<<2|e>>4);64!=f&&(b(e<<4&240|f>>2),64!=k&&b(f<<6&192|k))}},ea=function(){if(!Z){Z={};for(var a="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),b=["+/=","+/","-_=","-_.","-_"],c=0;5>c;c++)for(var d=a.concat(b[c].split("")),g=0;g<d.length;g++){var e=d[g];void 0===Z[e]&&(Z[e]=g)}}};(function(a){if(window.name){var b=function(e){try{var f=new N;f.g.push(1);f.h[1]=O("context",507);e.error&&e.meta&&e.id||(e=new C(e,{message:Y(e)}));if(e.msg){var k=e.msg.substring(0,512);f.g.push(2);f.h[2]=O("msg",k)}var l=[e.meta||{}];f.g.push(3);f.h[3]=l;l=m;k=[];e=null;do{var h=l;try{var n;if(n=!!h&&null!=h.location.href)b:{try{D(h.foo);n=!0;break b}catch(B){}n=!1}var A=n}catch(B){A=!1}if(A){var r=h.location.href;e=h.document&&h.document.referrer||null}else r=e,e=null;k.push(new L(r||""));try{l=h.parent}catch(B){l=null}}while(l&&h!=l);r=0;for(var t=k.length-1;r<=t;++r)k[r].depth=t-r;h=m;if(h.location&&h.location.ancestorOrigins&&h.location.ancestorOrigins.length==k.length-1)for(t=1;t<k.length;++t){var u=k[t];u.url||(u.url=h.location.ancestorOrigins[t-1]||"",u.j=!0)}var p=new L(m.location.href,!1);h=null;var F=k.length-1;for(u=F;0<=u;--u){var q=k[u];!h&&J.test(q.url)&&(h=q);if(q.url&&!q.j){p=q;break}}q=null;var fa=k.length&&k[F].url;0!=p.depth&&fa&&(q=k[F]);var v=new K(p,q);if(v.h){var ha=v.h.url||"";f.g.push(4);f.h[4]=O("top",ha)}var G={url:v.g.url||""};if(v.g.url){var H=v.g.url.match(E),P=H[1],Q=H[3],R=H[4];p="";P&&(p+=P+":");Q&&(p+="//",p+=Q,R&&(p+=":"+R));var S=p}else S="";G=[G,{url:S}];f.g.push(5);f.h[5]=G;X(f)}catch(B){try{X({context:"ecmserr",rctx:507,msg:Y(B),url:v&&v.g.url})}catch(ia){}}};try{var c=ba(),d=JSON.parse(c.l),g=void 0===d.encryptionMode?null:d.encryptionMode;window.name="";a(c.content,g,function(e){d.goog_safeframe_hlt&&(m.goog_safeframe_hlt=d.goog_safeframe_hlt);d._context&&(m.AMP_CONTEXT_DATA=d._context);m.sf_={v:c.m,cfg:d};document.open("text/html","replace");if(void 0===x){var f=null;var k=m.trustedTypes;if(k&&k.createPolicy){try{f=k.createPolicy("goog#html",{createHTML:w,createScript:w,createScriptURL:w})}catch(l){m.console&&m.console.error(l.message)}x=f}else x=f}e=(f=x)?f.createHTML(e):e;e=new z(e,null,y);document.write(e instanceof z&&e.constructor===z?e.g:"type_error:SafeHtml");document.close();m.sf_&&(window.name="")},b)}catch(e){b(e)}}})(function(a,b,c){if(2===b){b=new TextDecoder;var d=/<startguard>(.*)<endguard>/g.exec(a);if(a=b.decode.call(b,da(d&&d[1]?d[1]:a)))b=a.toLowerCase(),a=-1<b.indexOf("<!doctype")||-1<b.indexOf("<html")?a:"<!doctype html><html><head></head><body>"+a+"</body></html>"}c(a)});}).call(this);
+    </script></head><body marginwidth="0" marginheight="0" class="willow-ad"><span id="6056257850138396937823" data-dv-view="6056257850138396937823"><div class="GoogleActiveViewInnerContainer" style="left:0px;top:0px;width:100%;height:100%;position:fixed;pointer-events:none;z-index:-9999;"></div><style>/* -----> RESET.CSS INCLUDED HERE TO REDUCE SERVER CALLS <----- */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap");
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup, footer, header, nav, section, audio, video {
+  display: block;
+}
+
+@font-face {
+  font-family: "NotoSans-Bold";
+  src: url(https://static01.nytimes.com/ads/adsolutions/Indeed/Fonts/NotoSans-Bold.woff) format("woff");
+ }
+ 
+ @font-face {
+  font-family: "NotoSans-Regular";
+  src: url(https://static01.nytimes.com/ads/adsolutions/Indeed/Fonts/NotoSans-Regular.woff) format("woff");
+ }
+
+a img {
+  border: 0;
+}
+
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: none;
+  zoom: 100%;
+  min-height: 600px;
+  min-width: 728px;
+}
+
+
+p {
+  padding-bottom: 15px;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.centerCopy, .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .ctaStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullBleed {
+  width: 100%;
+  height: 100%;
+}
+
+.square {
+  width: 600px;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.background-commom {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.dead-center-absolute {
+  right: -9999px;
+  left: -9999px;
+  top: -9999px;
+  bottom: -9999px;
+  margin: auto;
+}
+
+.resetposition {
+  right: unset;
+  left: unset;
+  top: unset;
+  bottom: unset;
+  margin: unset;
+}
+
+.no-select {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+#desktopLogo {
+    width: 180px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 40px;
+    position: absolute;
+    top: 40px;
+  	z-index: 99999;
+  	pointer-events: auto;
+  	cursor: pointer;
+}
+
+.highlight-fix {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.drop-shadow {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.box-shadow {
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.shadow {
+  -webkit-filter: drop-shadow(1px 1px 2px #000);
+          filter: drop-shadow(1px 1px 2px #000);
+}
+
+.desktopNavArrowProps, .navigationStyle .nav-hs .nav-left-arrowStyle, .navigationStyle .nav-hs .nav-right-arrowStyle {
+  width: 17px;
+  z-index: 999;
+  position: relative;
+  bottom: -5px;
+  width: 16px;
+  height: 16px;
+  background: transparent;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  color: transparent;
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .desktopNavArrowProps, .navigationStyle .nav-hs .nav-left-arrowStyle, .navigationStyle .nav-hs .nav-right-arrowStyle {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.navigationStyle {
+  /* ------------------------------ */
+  /* -----> navigation style <----- */
+  /* ------------------------------ */
+  position: absolute;
+  height: 26px;
+  bottom: 30px;
+  right: 22px;
+  z-index: 999;
+  display: flex;
+  flex-direction: row;
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .navigationStyle {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    z-index: 999;
+    bottom: 0px;
+    right: unset;
+  }
+  .navigationStyle .nav-left-arrowStyle {
+    left: 0px;
+    position: absolute;
+    width: 17px;
+    top: 0px;
+    z-index: 999;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+  }
+  .navigationStyle .nav-right-arrowStyle {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    right: 10px;
+    position: absolute;
+    width: 17px;
+    top: 0px;
+    z-index: 999;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .navigationStyle {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    z-index: 999;
+    bottom: 0px;
+    right: unset;
+  }
+  .navigationStyle .nav-left-arrowStyle {
+    left: 0px;
+    position: absolute;
+    width: 17px;
+    top: 0px;
+    z-index: 999;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+  }
+  .navigationStyle .nav-right-arrowStyle {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    right: 10px;
+    position: absolute;
+    width: 17px;
+    top: 0px;
+    z-index: 999;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+  }
+}
+
+.navigationStyle #LeftArrowBtn {
+  /* ------------------------------ */
+  /* -----> Left Arrow style <----- */
+  /* ------------------------------ */
+  display: none;
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .navigationStyle #LeftArrowBtn {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    position: absolute;
+    left: 15px;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .navigationStyle #LeftArrowBtn {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    position: absolute;
+    left: 15px;
+  }
+}
+
+.navigationStyle #RightArrowBtn {
+  /* ------------------------------ */
+  /* -----> Right Arrow style <----- */
+  /* ------------------------------ */
+  display: block;
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .navigationStyle #RightArrowBtn {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    position: absolute;
+    right: 0px;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .navigationStyle #RightArrowBtn {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    position: absolute;
+    right: 0px;
+  }
+}
+
+.navigationStyle .nav-hs {
+  width: 40px;
+  height: 26px;
+  position: relative;
+  cursor: pointer;
+}
+
+.navigationStyle .nav-hs .nav-left-arrowStyle {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  opacity: 1;
+  left: 15px;
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .navigationStyle .nav-hs .nav-left-arrowStyle {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    position: absolute;
+    left: 0px;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .navigationStyle .nav-hs .nav-left-arrowStyle {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    position: absolute;
+    left: 0px;
+  }
+}
+
+.navigationStyle .nav-hs .nav-right-arrowStyle {
+  right: 0px;
+  opacity: 1;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.navigationStyle .slideCounterDisplayStyle {
+  /* --------------------------------- */
+  /* -----> Slide Counter style <----- */
+  /* --------------------------------- */
+  width: 100px;
+  height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  line-height: 14px;
+  padding-right: 15px;
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .navigationStyle .slideCounterDisplayStyle {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    display: none;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .navigationStyle .slideCounterDisplayStyle {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    display: none;
+  }
+}
+
+.navigationStyle .nav-dots {
+  /* --------------------------------- */
+  /* -----> navigation dot style <----- */
+  /* --------------------------------- */
+  visibility: hidden;
+  position: absolute;
+  height: 10px;
+  width: 100%;
+  pointer-events: none;
+  bottom: 30px;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.navigationStyle .nav-dots li {
+  height: 10px;
+  position: relative;
+  width: 10px;
+  background-color: green;
+  border-radius: 50% 50%;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .navigationStyle .nav-dots {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    visibility: visible;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .navigationStyle .nav-dots {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    visibility: visible;
+  }
+}
+
+.stageStyle {
+  /* -----> main style <------------------------------------ */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-height: 600px;
+  overflow: hidden;
+  opacity: 1;
+  /*-webkit-animation: fadein ease 1s forwards;
+          animation: fadein ease 1s forwards;*/
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    max-height: 824px;
+    max-width: 414px;
+    min-width: 320px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    overflow: hidden;
+  }
+}
+
+.stageStyle .adContainerStyle {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  max-width: 1125px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-sizing: border-box;
+  /* ----------------------------- */
+  /* -----> SlideShow Style <----- */
+  /* ----------------------------- */
+}
+
+.stageStyle .adContainerStyle .logoStyle {
+  /* ------------------------------------------------------ */
+  /* -----> Logo style <----------------------------------- */
+  /* ------------------------------------------------------ */
+  position: absolute;
+  background-size: contain;
+  background-position: 0% 50%;
+  width: calc(100% - 630px);
+  background-repeat: no-repeat;
+  left: 634px;
+  height: 45px;
+  /* this is set from index.html */
+  z-index: 999;
+  top: 30px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  max-width: 180px;
+  max-height: 40px;
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .logoStyle {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    position: absolute;
+    background-size: contain;
+    background-position: 0% 50%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    left: 10px;
+    height: 30px;
+    z-index: 999;
+    top: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .logoStyle {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    position: absolute;
+    background-size: contain;
+    background-position: 0% 50%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    left: 10px;
+    height: 30px;
+    z-index: 999;
+    top: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+
+.stageStyle .adContainerStyle .logoStyle .logo-desktop-style {
+  position: absolute;
+  background-size: contain;
+  background-position: 0% 50%;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  z-index: 999;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .logoStyle .logo-desktop-style {
+    /* -----> for small desktop <------------------------- */
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .logoStyle .logo-desktop-style {
+    /* -----> for tablet - portrait <------------------------- */
+    display: none;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .logoStyle .logo-desktop-style {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    display: none;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .logoStyle .logo-desktop-style {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    display: none;
+  }
+}
+
+.stageStyle .adContainerStyle .logoStyle .logo-tablet-style {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  z-index: 999;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  display: none;
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .logoStyle .logo-tablet-style {
+    /* -----> for small desktop <------------------------- */
+    display: block;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .logoStyle .logo-tablet-style {
+    /* -----> for tablet - portrait <------------------------- */
+    display: block;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .logoStyle .logo-tablet-style {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    display: none;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .logoStyle .logo-tablet-style {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    display: none;
+  }
+}
+
+.stageStyle .adContainerStyle .logoStyle .logo-mobile-style {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  z-index: 999;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  display: none;
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .logoStyle .logo-mobile-style {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    display: block;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .logoStyle .logo-mobile-style {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    display: block;
+  }
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .logoStyle {
+    /* -----> for small desktop <------------------------- */
+    left: 30px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .logoStyle {
+    /* -----> for tablet - portrait <------------------------- */
+    left: 30px;
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    background-color: white;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    max-width: 414px;
+    min-width: 375px;
+    max-height: 823px;
+    height: 100%;
+    position: absolute;
+    box-sizing: unset;
+    overflow: hidden;
+    border: unset;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    background-color: white;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    max-width: 414px;
+    min-width: 320px;
+    max-height: 823px;
+    min-height: 568px;
+    height: calc(100% - 2px);
+    position: absolute;
+    box-sizing: unset;
+    overflow: hidden;
+    border: unset;
+  }
+}
+
+.stageStyle .adContainerStyle p {
+  padding-bottom: 15px;
+}
+
+.stageStyle .adContainerStyle a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.stageStyle .adContainerStyle .centerCopy, .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .ctaStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stageStyle .adContainerStyle .fullBleed {
+  width: 100%;
+  height: 100%;
+}
+
+.stageStyle .adContainerStyle .square {
+  width: 600px;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.stageStyle .adContainerStyle .background-commom {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.stageStyle .adContainerStyle .dead-center-absolute {
+  right: -9999px;
+  left: -9999px;
+  top: -9999px;
+  bottom: -9999px;
+  margin: auto;
+}
+
+.stageStyle .adContainerStyle .resetposition {
+  right: unset;
+  left: unset;
+  top: unset;
+  bottom: unset;
+  margin: unset;
+}
+
+.stageStyle .adContainerStyle .no-select {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+.stageStyle .adContainerStyle .highlight-fix {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.stageStyle .adContainerStyle .drop-shadow {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.stageStyle .adContainerStyle .box-shadow {
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.stageStyle .adContainerStyle .shadow {
+  -webkit-filter: drop-shadow(1px 1px 2px #000);
+          filter: drop-shadow(1px 1px 2px #000);
+}
+
+.stageStyle .adContainerStyle .ss-card-style {
+  /* ------------------------------------------------------ */
+  /* -----> SlideShow card style <------------------------- */
+  /* ------------------------------------------------------ */
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  width: auto!important;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .ss-card-style {
+    /* -----> for small desktop <------------------------- */
+    height: 300px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .ss-card-style {
+    /* -----> for tablet - portrait <------------------------- */
+    height: 300px;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .ss-card-style {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    height: 300px;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .ss-card-style {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    height: 250px;
+  }
+}
+
+.stageStyle .adContainerStyle .ss-card-style .ss-box-style {
+  /* ------------------------------------------------------ */
+  /* -----> SlideShow Box style <-------------------------- */
+  /* ------------------------------------------------------ */
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .ss-card-style .ss-box-style {
+    /* -----> for small desktop <------------------------- */
+    width: 728px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .ss-card-style .ss-box-style {
+    /* -----> for tablet - portrait <------------------------- */
+    width: 728px;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .ss-card-style .ss-box-style {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    max-width: 414px;
+    min-width: 320px;
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .ss-card-style .ss-box-style {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    max-width: 414px;
+    min-width: 320px;
+    width: 100%;
+  }
+}
+
+.stageStyle .adContainerStyle .ss-card-style .ss-box-style .picStyle {
+  /* -----> picture style <------------------------------------ */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  max-width: 1080px;
+}
+
+
+.stageStyle .adContainerStyle .ss-card-style .ss-box-style .picStyle-1125 {
+  /* -----> picture style <------------------------------------ */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  max-width: 600px;
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .ss-card-style .ss-box-style .picStyle-1125 {
+   max-width: 728px;
+  }
+}
+
+.stageStyle .adContainerStyle .ss-card-style .ss-box-style .picStyle-1605 {
+  /* -----> picture style <------------------------------------ */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  max-width: 1080px;
+}
+
+
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.stageStyle .adContainerStyle .galleryContainerStyle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-height: 600px;
+  min-height: 380px;
+
+}
+
+.stageStyle .adContainerStyle .galleryContainerStyle .pCredit-Style {
+  /* ------------------------------------------------------ */
+  /* -----> Picture Credit style <------------------------- */
+  /* ------------------------------------------------------ */
+  position: absolute;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  width: 600px;
+  bottom: 0px;
+  left: 0px;
+  display: none;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+  box-sizing: border-box;
+  height: 60px;
+  padding-left: 25px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .pCredit-Style {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    top: 250px;
+    left: 0px;
+    display: none;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    box-sizing: border-box;
+    height: 50px;
+    padding-right: 25px;
+    padding-top: 20px;
+    text-align: right;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .pCredit-Style {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    width: 100%;
+    top: 200px;
+    left: 0px;
+    display: none;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    box-sizing: border-box;
+    height: 50px;
+    padding-right: 25px;
+    padding-top: 20px;
+    text-align: right;
+  }
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .pCredit-Style {
+    /* -----> for small desktop <------------------------- */
+    right: 0px;
+    left: unset;
+    bottom: unset;
+    top: 240px;
+    width: 100%;
+    height: 10%;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .pCredit-Style {
+    /* -----> for tablet - portrait <------------------------- */
+    right: 0px;
+    left: unset;
+    bottom: unset;
+    top: 240px;
+    width: 100%;
+    height: 10%;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 25px;
+  }
+}
+
+.stageStyle .adContainerStyle .galleryContainerStyle .slide-image-properties {
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slide-image-properties {
+    /* -----> for small desktop <------------------------- */
+    height: 300px;
+    width: 728px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slide-image-properties {
+    /* -----> for tablet - portrait <------------------------- */
+    height: 300px;
+    width: 728px;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slide-image-properties {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    height: 300px;
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slide-image-properties {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    height: 250px;
+    width: 100%;
+  }
+}
+
+.stageStyle .adContainerStyle .galleryContainerStyle .slideshow-images-style {
+  /* -------------------------------------------------- */
+  /* -----> Slide Image style <------------------------ */
+  /* -------------------------------------------------- */
+  position: absolute;
+  top: 0px;
+  height: 600px;
+  overflow: hidden;
+  width: calc(100% - 525px);
+  max-width: 1080px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slideshow-images-style {
+    /* -----> for small desktop <------------------------- */
+    height: 300px;
+    width: 728px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slideshow-images-style {
+    /* -----> for tablet - portrait <------------------------- */
+    height: 300px;
+    width: 728px;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slideshow-images-style {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    max-width: 414px;
+    height: 300px;
+    min-width: 320px;
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slideshow-images-style {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    max-width: 414px;
+    height: 250px;
+    min-width: 320px;
+    width: 100%;
+  }
+}
+
+.stageStyle .adContainerStyle .galleryContainerStyle .greyBarBelowLogo-style {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  display: none;
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .greyBarBelowLogo-style {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+    display: block;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .greyBarBelowLogo-style {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+    display: block;
+  }
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .greyBarBelowLogo-style {
+    /* -----> for small desktop <------------------------- */
+    display: block;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .greyBarBelowLogo-style {
+    /* -----> for tablet - portrait <------------------------- */
+    display: block;
+  }
+}
+
+.stageStyle .adContainerStyle .galleryContainerStyle .slideCopyContainer-style {
+  /* -------------------------------------------------- */
+  /* -----> Copy Container style <--------------------- */
+  /* -------------------------------------------------- */
+  position: absolute;
+  left: 600px;
+  width: calc(100% - 600px);
+  height: 100%;
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slideCopyContainer-style {
+    /* -----> for small desktop <------------------------- */
+    left: 0px;
+    width: 100%;
+    top: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slideCopyContainer-style {
+    /* -----> for tablet - portrait <------------------------- */
+    left: 0px;
+    width: 100%;
+    top: 300px;
+    height: 300px;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slideCopyContainer-style {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 300px);
+    top: 300px;
+    left: 0px;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slideCopyContainer-style {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 250px);
+    top: 250px;
+    left: 0px;
+  }
+}
+
+.stageStyle .adContainerStyle .galleryContainerStyle .slideCopyContainer-style .copy-slide-style {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  max-height: 600px;
+  min-height: 300px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+  left: 0px;
+  width: 100%;
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slideCopyContainer-style .copy-slide-style {
+    /* -----> for small desktop <------------------------- */
+    width: 728px;
+    left: 0px;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slideCopyContainer-style .copy-slide-style {
+    /* -----> for tablet - portrait <------------------------- */
+    width: 728px;
+    left: 0px;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slideCopyContainer-style .copy-slide-style {
+    width: 728px;
+    left: 0px;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slideCopyContainer-style .copy-slide-style {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    position: absolute;
+    width: 100%;
+    background-size: contain;
+    background-position: 0% 0%;
+    height: 100%;
+    opacity: 0;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .slideCopyContainer-style .copy-slide-style {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    position: absolute;
+    width: 100%;
+    background-size: contain;
+    background-position: 0% 0%;
+    height: 100%;
+    opacity: 0;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style {
+  /* -------------------------------------------------- */
+  /* -----> Frame Copy style <------------------------- */
+  /* -------------------------------------------------- */
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 80px);
+  left: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  top: 100px;
+  box-sizing: border-box;
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style {
+    /* -----> for small desktop <------------------------- */
+    left: 0px;
+    top: 0px;
+    width: 728px;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style {
+    /* -----> for tablet - portrait <------------------------- */
+    left: 0px;
+    top: 0px;
+    width: 728px;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style {
+    left: 0px;
+    top: 0px;
+    width: 728px;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+  }
+}
+
+.stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .page-title {
+  /* ------------------------------------------------------- */
+  /* -----> Title style <----------------------------------- */
+  /* ------------------------------------------------------- */
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  max-width: 450px;
+  line-height: 32px;
+  padding-top: 0px;
+}
+
+@media all and (min-width: 1125px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .page-title {
+    max-width: calc(100% - 100px);
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .page-title {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    font-size: 20px;
+    padding-bottom: 5px;
+    line-height: 28px;
+    padding-top: 3px !important;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .page-title {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    font-size: 20px;
+    padding-bottom: 5px;
+    line-height: 26px;
+    padding-top: 3px !important;
+  }
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .page-title {
+    /* -----> for small desktop <------------------------- */
+    max-width: 100%;
+    padding-top: unset !important;
+  }
+
+   #desktopLogo {
+       display:none; 
+   }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .page-title {
+    /* -----> for tablet - portrait <------------------------- */
+    max-width: 100%;
+    padding-top: unset !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .page-title {
+    max-width: 100%;
+    padding-top: unset !important;
+  }
+}
+
+.stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .summary-style {
+  /* ------------------------------------------------------- */
+  /* -----> Summary style <--------------------------------- */
+  /* ------------------------------------------------------- */
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media all and (min-width: 1125px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .summary-style {
+    max-width: calc(100% - 100px);
+  }
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .summary-style {
+    /* -----> for small desktop <------------------------- */
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .summary-style {
+    /* -----> for tablet - portrait <------------------------- */
+    font-size: 17px;
+  }
+}
+
+@media all and (min-width: 975px) and (max-width: 1079px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .summary-style {
+    font-size: 17px;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .summary-style {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    font-size: 13px;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .summary-style {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .bodyCopy {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    line-height: 17px;
+    font-size: 14px;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .bodyCopy {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    line-height: 17px;
+    font-size: 12px;
+  }
+}
+
+.stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .ctaStyle {
+  /* ------------------------------------------------------ */
+  /* -----> CTA style <------------------------------------ */
+  /* ------------------------------------------------------ */
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 50px;
+  width: auto;
+  height: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  padding: 0px 15px;
+  z-index: 99999;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .ctaStyle {
+    /* -----> for small desktop <------------------------- */
+    bottom: 30px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .ctaStyle {
+    /* -----> for tablet - portrait <------------------------- */
+    bottom: 30px;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .ctaStyle {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    bottom: unset;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 10px;
+    width: auto;
+    height: 30px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0px 15px;
+    z-index: 99999;
+    font-size: 12px;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .ctaStyle {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    bottom: unset;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 10px;
+    width: auto;
+    height: 40px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0px 15px;
+    z-index: 99999;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
+}
+
+@media all and (min-width: 351px) and (max-width: 704px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle {
+    /* -----> for iphone 6 / 6S / 7 / 8 / Android <-------- */
+    position: relative;
+    width: 100%;
+    max-width: 414px;
+    min-width: 300px;
+    min-height: 510px;
+    max-height: 824px;
+    height: 100%;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 350px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle {
+    /* -----> for iphone 5 / 5S <------------------------- */
+    position: relative;
+    width: 100%;
+    max-width: 414px;
+    min-width: 300px;
+    min-height: 510px;
+    max-height: 824px;
+    height: 100%;
+  }
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle {
+    /* -----> for small desktop <------------------------- */
+    width: 728px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle .galleryContainerStyle {
+    /* -----> for tablet - portrait <------------------------- */
+    width: 728px;
+  }
+}
+
+@media all and (min-width: 975px) and (max-width: 1079px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle {
+    width: 975px;
+  }
+}
+
+@media all and (min-width: 1080px) and (max-width: 1124px) {
+  .stageStyle .adContainerStyle .galleryContainerStyle {
+    width: 1080px;
+  }
+}
+
+@media all and (min-width: 728px) and (max-width: 969px) {
+  .stageStyle .adContainerStyle {
+    /* -----> for small desktop <------------------------- */
+    width: 728px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .stageStyle .adContainerStyle {
+    /* -----> for tablet - portrait <------------------------- */
+    width: 728px;
+  }
+}
+
+@media all and (min-width: 975px) and (max-width: 1079px) {
+  .stageStyle .adContainerStyle {
+    width: 975px;
+  }
+}
+
+@media all and (min-width: 1080px) and (max-width: 1124px) {
+  .stageStyle .adContainerStyle {
+    width: 1080px;
+  }
+}
+
+.stageStyle .maxWidth-1605 {
+  max-width: 1605px;
+}
+
+
+@media all and (max-width: 727px)  {
+
+body{
+    display: none;
+}
+
+}
+
+
+
+.stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .page-title {
+    font-family: NotoSans-Bold;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 29px;
+		max-width: calc(113% - 100px);
+}
+
+.stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .summary-style {
+    font-family: NotoSans-Regular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+		max-width: calc(125% - 100px);
+}
+
+#desktopLogo {
+    height: 40px;
+    left: 29px;
+}
+
+.navigationStyle .slideCounterDisplayStyle {
+    font-family: 'NotoSans-Regular';
+    font-weight: 400;
+}
+
+@media (min-width: 975px) and (max-width: 1079px){
+.stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .summary-style {
+    font-size: 16px;
+    line-height: 22px;
+}
+.navigationStyle {
+    bottom: 25px;
+}
+}
+
+@media (min-width: 970px) and (max-width: 974px){
+.stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .summary-style {
+    font-size: 15px;
+    line-height: 23px;
+}
+}
+
+@media (min-width: 728px) and (max-width: 969px){
+.stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .ctaStyle {
+    bottom: 20px;
+}
+.navigationStyle {
+    bottom: 20px;
+}
+.stageStyle .adContainerStyle .logoStyle {
+    left: 27px;
+    top: 40px;
+}
+.stageStyle .adContainerStyle .galleryContainerStyle .frame-copy-style .page-title {
+    font-size: 26px;
+    line-height: 28px;
+}
+.toggle3 {
+display: none;
+}
+}
+
+
+
+</style><script src="./ext.js"></script><script>window.dicnf = {};</script><script data-jc="42" data-jc-version="r20220727" data-jc-flags="[&quot;x%278446&#39;9efotm(&amp;20067;&gt;8&amp;&gt;`dopb/%&lt;1732261!=|vqc)!7201061?&#39;9efotmy&quot;]">(function(){/*  Copyright The Closure Library Authors. SPDX-License-Identifier: Apache-2.0 */ 'use strict';var p=this||self;function q(a){q[" "](a);return a}q[" "]=function(){};var aa={},r=null; function t(a,b){void 0===b&&(b=0);if(!r){r={};for(var c="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),d=["+/=","+/","-_=","-_.","-_"],e=0;5>e;e++){var f=c.concat(d[e].split(""));aa[e]=f;for(var g=0;g<f.length;g++){var k=f[g];void 0===r[k]&&(r[k]=g)}}}b=aa[b];c=Array(Math.floor(a.length/3));d=b[64]||"";for(e=f=0;f<a.length-2;f+=3){var h=a[f],l=a[f+1];k=a[f+2];g=b[h>>2];h=b[(h&3)<<4|l>>4];l=b[(l&15)<<2|k>>6];k=b[k&63];c[e++]=g+h+l+k}g=0;k=d;switch(a.length-f){case 2:g=a[f+ 1],k=b[(g&15)<<2]||d;case 1:a=a[f],c[e]=b[a>>2]+b[(a&3)<<4|g>>4]+k+d}return c.join("")};var u="undefined"!==typeof Uint8Array,ba={};let ca;var z=class{constructor(a){if(ba!==ba)throw Error("illegal external caller");this.D=a;if(null!=a&&0===a.length)throw Error("ByteString should be constructed with non-empty values");}};const C=Symbol(void 0);function D(a,b){Object.isFrozen(a)||(C?a[C]|=b:void 0!==a.m?a.m|=b:Object.defineProperties(a,{m:{value:b,configurable:!0,writable:!0,enumerable:!1}}))}function E(a){let b;C?b=a[C]:b=a.m;return null==b?0:b}function F(a){D(a,1);return a}function H(a){return Array.isArray(a)?!!(E(a)&2):!1}function I(a){if(!Array.isArray(a))throw Error("cannot mark non-array as immutable");D(a,2)} function J(a,b){if(!Array.isArray(a))throw Error("cannot mark non-array as mutable");b?D(a,8):Object.isFrozen(a)||(C?a[C]&=-9:void 0!==a.m&&(a.m&=-9))};function K(a){return null!==a&&"object"===typeof a&&!Array.isArray(a)&&a.constructor===Object}let L;var M=Object.freeze(F([]));function N(a){if(H(a.i))throw Error("Cannot mutate an immutable Message");}function da(a){return{value:a,configurable:!1,writable:!1,enumerable:!1}};function ea(a,b){if(Array.isArray(a))return new b(a)};function fa(a){switch(typeof a){case "number":return isFinite(a)?a:String(a);case "object":if(a&&!Array.isArray(a)){if(u&&null!=a&&a instanceof Uint8Array)return t(a);if(a instanceof z){var b=a.D;b=null==b||"string"===typeof b?b:u&&b instanceof Uint8Array?t(b):null;return null==b?"":a.D=b}}}return a};function O(a,b=ha){return ia(a,b)}function ja(a,b){if(null!=a){if(Array.isArray(a))a=ia(a,b);else if(K(a)){const c={};for(let d in a)c[d]=ja(a[d],b);a=c}else a=b(a);return a}}function ia(a,b){const c=a.slice();for(let d=0;d<c.length;d++)c[d]=ja(c[d],b);Array.isArray(a)&&E(a)&1&&F(c);return c}function ka(a){if(a&&"object"==typeof a&&a.toJSON)return a.toJSON();a=fa(a);return Array.isArray(a)?O(a,ka):a} function ha(a){if("object"===typeof a){if(u&&null!=a&&a instanceof Uint8Array)return new Uint8Array(a);if(Array.isArray(a.i)&&a.constructor!==Object){var b;P=b=O(a.i);b=new a.constructor(b);P=null;la(b,a);return b}}return a};function qa(a){return a.h||(a.h=a.i[a.j+a.l]={})}function ra(a,b,c=!1){return-1===b?null:b>=a.j?a.h?a.h[b]:void 0:c&&a.h&&(c=a.h[b],null!=c)?c:a.i[b+a.l]}function Q(a,b,c,d=!1){N(a);if(b>=a.j||d)return qa(a)[b]=c,a;if(void 0!==a.h&&a.j>=a.i.length){d=a.i.length-1;const e=b+a.l;e>=d?(a.i[d]=void 0,a.i[e]=c,a.i.push(a.h)):a.i[e]=c}else a.i[b+a.l]=c;void 0!==a.h&&b in a.h&&delete a.h[b];return a} function sa(a,b,c=!0,d){let e=ra(a,b,d);Array.isArray(e)||(e=M);if(H(a.i))c&&(I(e),Object.freeze(e));else if(e===M||H(e))e=F(e.slice()),Q(a,b,e,d);return e}function ta(a,b,c,d=!1){{a.g||(a.g={});const e=a.g[c];if(e)b=e;else if(b=ea(ra(a,c,d),b))a.g[c]=b,H(a.i)&&I(b.i)}if(null==b)return b;H(b.i)&&!H(a.i)&&(b=b.v(),Q(a,c,b.i,d),a.g[c]=b);return b} function ua(a,b,c,d,e=!0){a.g||(a.g={});var f=H(a.i);let g=a.g[c];d=sa(a,c,!0,d);const k=f||H(d);if(!g){g=[];f=f||k;for(let l=0;l<d.length;l++){var h=d[l];f=f||H(h);h=ea(h,b);void 0!==h&&(g.push(h),k&&I(h.i))}a.g[c]=g;J(d,!f)}b=k||e;e=H(g);b&&!e&&(Object.isFrozen(g)&&(a.g[c]=g=g.slice()),I(g),Object.freeze(g));!b&&e&&(a.g[c]=g=g.slice());return g} function va(a,b,c,d=!1){const e=H(a.i);b=ua(a,b,c,d,e);a=sa(a,c,d);if(!(c=e)&&(c=a)){if(!Array.isArray(a))throw Error("cannot check mutability state of non-array");c=!(E(a)&8)}if(c){for(c=0;c<b.length;c++)(d=b[c])&&H(d.i)&&!e&&(b[c]=b[c].v(),a[c]=b[c].i);J(a,!0)}return b}function wa(a,b,c){N(a);let d;if(null!=c){d=F([]);let e=!1;for(let f=0;f<c.length;f++)d[f]=c[f].i,e=e||H(d[f]);a.g||(a.g={});a.g[b]=c;J(d,!e)}else a.g&&(a.g[b]=void 0),d=M;return Q(a,b,d)};var xa=class{constructor(a,b,c){a||(a=P);P=null;var d=this.constructor.g||0,e=0<d;let f=this.constructor.h;a||(a=f?[f]:[]);e&&0<a.length&&K(a[a.length-1])&&"g"in a[a.length-1]&&(d=0);this.l=(f?0:-1)-d;this.g=void 0;this.i=a;a:{d=this.i.length;a=d-1;if(d&&(d=this.i[a],K(d))){this.h=d;b=Object.keys(d);0<b.length&&Array.prototype.every.call(b,isNaN,void 0)?this.j=Number.MAX_VALUE:this.j=a-this.l;break a}void 0!==b&&-1<b?(this.j=Math.max(b,a+1-this.l),this.h=void 0):this.j=Number.MAX_VALUE}if(!e&&this.h&& "g"in this.h)throw Error('Unexpected "g" flag in sparse object of message that is not a group type.');if(c)for(e=0;e<c.length;e++)b=c[e],b<this.j?(b+=this.l,(a=this.i[b])?Array.isArray(a)&&F(a):this.i[b]=M):(a=qa(this),(d=a[b])?Array.isArray(d)&&F(d):a[b]=M)}toJSON(){const a=this.i;return L?a:O(a,ka)}};xa.prototype.toString=function(){return this.i.toString()};function ya(a,b){return fa(b)} function la(a,b){b.s&&(a.s=b.s.slice());const c=b.g;if(c){b=b.h;for(let f in c){const g=c[f];if(g){var d=!(!b||!b[f]),e=+f;if(Array.isArray(g)){if(g.length)for(d=va(a,g[0].constructor,e,d),e=0;e<Math.min(d.length,g.length);e++)la(d[e],g[e])}else(d=ta(a,g.constructor,e,d))&&la(d,g)}}}}let P;var za=class extends xa{v(){return this}};Object.defineProperties(za,{[Symbol.hasInstance]:da(()=>{throw Error("Cannot perform instanceof checks for MutableMessage");})});function Aa(a,b,c,d,e,f){(a=a.g&&a.g[c])?Array.isArray(a)?(e=f.o?F(a.slice()):a,wa(b,c,e)):(e=a,N(b),b.g||(b.g={}),null==e?f=e=void 0:f=e.i,b.g[c]=e,Q(b,c,f)):(u&&d instanceof Uint8Array?e=d.length?new z(new Uint8Array(d)):ca||(ca=new z(null)):(Array.isArray(d)&&(e?I(d):Array.isArray(d)&&E(d)&1&&f.o&&(d=d.slice())),e=d),Q(b,c,e))};class Ba extends za{v(){if(H(this.i)){var {o:a}={o:!0};a={o:a};const c=H(this.i);if(c&&!a.o)throw Error("copyRepeatedFields must be true for frozen messages");const d=new this.constructor;this.s&&(d.s=this.s.slice());const e=this.i;for(let f=0;f<e.length;f++){const g=e[f];if(f===e.length-1&&K(g))for(b in g){const k=+b;Number.isNaN(k)?qa(d)[b]=g[b]:Aa(this,d,k,g[b],c,a)}else Aa(this,d,f-this.l,g,c,a)}var b=d}else b=this;return b}}Object.defineProperties(Ba,{[Symbol.hasInstance]:da(Object[Symbol.hasInstance])});var Ca=class{constructor(a,b=!1){this.key=a;this.defaultValue=b;this.valueType="boolean"}};var Da=new Ca("45368259"),Ea=new Ca("45357156",!0),Fa=new Ca("45350890");var S=(a,b)=>"&adurl="==a.substring(a.length-7)?a.substring(0,a.length-7)+b+"&adurl=":a+b;/*  SPDX-License-Identifier: Apache-2.0 */ function Ga(a,b,c){a.addEventListener&&a.addEventListener(b,c,!1)};var Ha=RegExp("^(?:([^:/?#.]+):)?(?://(?:([^\\\\/?#]*)@)?([^\\\\/?#]*?)(?::([0-9]+))?(?=[\\\\/?#]|$))?([^?#]+)?(?:\\?([^#]*))?(?:#([\\s\\S]*))?$");function Ia(){if(!globalThis.crypto)return Math.random();try{const a=new Uint32Array(1);globalThis.crypto.getRandomValues(a);return a[0]/65536/65536}catch{return Math.random()}}function Ja(a,b){if(a)for(const c in a)Object.prototype.hasOwnProperty.call(a,c)&&b(a[c],c,a)}function Ka(a=document){return a.createElement("img")};function La(a,b=null){Ma(a,b)}function Ma(a,b){p.google_image_requests||(p.google_image_requests=[]);const c=Ka(p.document);if(b){const d=e=>{b&&b(e);c.removeEventListener&&c.removeEventListener("load",d,!1);c.removeEventListener&&c.removeEventListener("error",d,!1)};Ga(c,"load",d);Ga(c,"error",d)}c.src=a;p.google_image_requests.push(c)};let Na=0;function Oa(a,b=null){return b&&b.getAttribute("data-jc")===String(a)?b:document.querySelector(`[${"data-jc"}="${a}"]`)};function Ta(a){Ua||(Ua=new Va);const b=Ua.g[a.key];if("proto"===a.valueType){try{const c=JSON.parse(b);if(Array.isArray(c))return c}catch(c){}return a.defaultValue}return typeof b===typeof a.defaultValue?b:a.defaultValue}var Wa=class{constructor(){this.g={}}};var Va=class extends Wa{constructor(){super();var a=Oa(Na,document.currentScript);a=a&&a.getAttribute("data-jc-flags")||"";try{const b=JSON.parse(a)[0];a="";for(let c=0;c<b.length;c++)a+=String.fromCharCode(b.charCodeAt(c)^"\u0003\u0007\u0003\u0007\b\u0004\u0004\u0006\u0005\u0003".charCodeAt(c%10));this.g=JSON.parse(a)}catch(b){}}},Ua;var Xa=window;class Ya{constructor(a,b){this.error=a;this.context=b.context;this.msg=b.message||"";this.id=b.id||"jserror";this.meta={}}};const Za=RegExp("^https?://(\\w|-)+\\.cdn\\.ampproject\\.(net|org)(\\?|/|$)");var $a=class{constructor(a,b){this.g=a;this.h=b}},ab=class{constructor(a,b){this.url=a;this.B=!!b;this.depth=null}};function T(a,b){const c={};c[a]=b;return[c]}function bb(a,b,c,d,e){const f=[];Ja(a,function(g,k){(g=cb(g,b,c,d,e))&&f.push(k+"="+g)});return f.join(b)} function cb(a,b,c,d,e){if(null==a)return"";b=b||"&";c=c||",$";"string"==typeof c&&(c=c.split(""));if(a instanceof Array){if(d=d||0,d<c.length){const f=[];for(let g=0;g<a.length;g++)f.push(cb(a[g],b,c,d+1,e));return f.join(c[d])}}else if("object"==typeof a)return e=e||0,2>e?encodeURIComponent(bb(a,b,c,d,e+1)):"...";return encodeURIComponent(String(a))}function db(a){let b=1;for(const c in a.h)b=c.length>b?c.length:b;return 3997-b-a.j.length-1} function eb(a,b,c){b=b+"//pagead2.googlesyndication.com"+c;let d=db(a)-c.length;if(0>d)return"";a.g.sort(function(f,g){return f-g});c=null;let e="";for(let f=0;f<a.g.length;f++){const g=a.g[f],k=a.h[g];for(let h=0;h<k.length;h++){if(!d){c=null==c?g:c;break}let l=bb(k[h],a.j,",$");if(l){l=e+l;if(d>=l.length){d-=l.length;b+=l;e=a.j;break}c=null==c?g:c}}}a="";null!=c&&(a=e+"trn="+c);return b+a}class fb{constructor(){this.j="&";this.h={};this.u=0;this.g=[]}};function gb(){var a=U,b=window.google_srt;0<=b&&1>=b&&(a.g=b)}function hb(a,b,c,d,e,f){if((d?a.g:Math.random())<(e||.01))try{let g;c instanceof fb?g=c:(g=new fb,Ja(c,(h,l)=>{var n=g;const m=n.u++;h=T(l,h);n.g.push(m);n.h[m]=h}));const k=eb(g,a.h,"/pagead/gen_204?id="+b+"&");k&&("undefined"!==typeof f?La(k,f):La(k))}catch(g){}}class ib{constructor(){this.h="http:"===Xa.location.protocol?"http:":"https:";this.g=Math.random()}};let V=null;var jb=()=>{const a=p.performance;return a&&a.now&&a.timing?Math.floor(a.now()+a.timing.navigationStart):Date.now()},kb=()=>{const a=p.performance;return a&&a.now?a.now():null};class lb{constructor(a,b){var c=kb()||jb();this.label=a;this.type=b;this.value=c;this.duration=0;this.uniqueId=Math.random();this.taskId=this.slotId=void 0}};const W=p.performance,mb=!!(W&&W.mark&&W.measure&&W.clearMarks),X=function(a){let b=!1,c;return function(){b||(c=a(),b=!0);return c}}(()=>{var a;if(a=mb){var b;if(null===V){V="";try{a="";try{a=p.top.location.hash}catch(c){a=p.location.hash}a&&(V=(b=a.match(/\bdeid=([\d,]+)/))?b[1]:"")}catch(c){}}b=V;a=!!b.indexOf&&0<=b.indexOf("1337")}return a});function nb(a){a&&W&&X()&&(W.clearMarks(`goog_${a.label}_${a.uniqueId}_start`),W.clearMarks(`goog_${a.label}_${a.uniqueId}_end`))} class ob{constructor(){var a=window;this.h=[];this.j=a||p;let b=null;a&&(a.google_js_reporting_queue=a.google_js_reporting_queue||[],this.h=a.google_js_reporting_queue,b=a.google_measure_js_timing);this.g=X()||(null!=b?b:1>Math.random())}start(a,b){if(!this.g)return null;a=new lb(a,b);b=`goog_${a.label}_${a.uniqueId}_start`;W&&X()&&W.mark(b);return a}end(a){if(this.g&&"number"===typeof a.value){a.duration=(kb()||jb())-a.value;var b=`goog_${a.label}_${a.uniqueId}_end`;W&&X()&&W.mark(b);!this.g||2048< this.h.length||this.h.push(a)}}};function pb(a){let b=a.toString();a.name&&-1==b.indexOf(a.name)&&(b+=": "+a.name);a.message&&-1==b.indexOf(a.message)&&(b+=": "+a.message);if(a.stack){a=a.stack;var c=b;try{-1==a.indexOf(c)&&(a=c+"\n"+a);let d;for(;a!=d;)d=a,a=a.replace(RegExp("((https?:/..*/)[^/:]*:\\d+(?:.|\n)*)\\2"),"$1");b=a.replace(RegExp("\n *","g"),"\n")}catch(d){b=c}}return b} function qb(a,b,c,d){let e,f;try{a.g&&a.g.g?(f=a.g.start(b.toString(),3),e=c(),a.g.end(f)):e=c()}catch(g){c=!0;try{nb(f),c=a.F(b,new Ya(g,{message:pb(g)}),void 0,d)}catch(k){a.u(217,k)}if(c)window.console?.error?.(g);else throw g;}return e}function rb(a,b,c,d){var e=Y;return(...f)=>qb(e,a,()=>b.apply(c,f),d)} class sb{constructor(a=null){this.C=U;this.h=null;this.F=this.u;this.g=a;this.j=!1}u(a,b,c,d,e){e=e||"jserror";let f;try{const v=new fb;var g=v;g.g.push(1);g.h[1]=T("context",a);b.error&&b.meta&&b.id||(b=new Ya(b,{message:pb(b)}));if(b.msg){g=v;var k=b.msg.substring(0,512);g.g.push(2);g.h[2]=T("msg",k)}var h=b.meta||{};b=h;if(this.h)try{this.h(b)}catch(w){}if(d)try{d(b)}catch(w){}d=v;h=[h];d.g.push(3);d.h[3]=h;d=p;h=[];let R;b=null;do{var l=d;try{var n;if(n=!!l&&null!=l.location.href)b:{try{q(l.foo); n=!0;break b}catch(w){}n=!1}var m=n}catch{m=!1}m?(R=l.location.href,b=l.document&&l.document.referrer||null):(R=b,b=null);h.push(new ab(R||""));try{d=l.parent}catch(w){d=null}}while(d&&l!=d);for(let w=0,Pa=h.length-1;w<=Pa;++w)h[w].depth=Pa-w;l=p;if(l.location&&l.location.ancestorOrigins&&l.location.ancestorOrigins.length==h.length-1)for(m=1;m<h.length;++m){var A=h[m];A.url||(A.url=l.location.ancestorOrigins[m-1]||"",A.B=!0)}var x=h;let ma=new ab(p.location.href,!1);l=null;const na=x.length-1;for(A= na;0<=A;--A){var y=x[A];!l&&Za.test(y.url)&&(l=y);if(y.url&&!y.B){ma=y;break}}y=null;const wb=x.length&&x[na].url;0!=ma.depth&&wb&&(y=x[na]);f=new $a(ma,y);if(f.h){x=v;var B=f.h.url||"";x.g.push(4);x.h[4]=T("top",B)}var oa={url:f.g.url||""};if(f.g.url){var pa=f.g.url.match(Ha),G=pa[1],Qa=pa[3],Ra=pa[4];B="";G&&(B+=G+":");Qa&&(B+="//",B+=Qa,Ra&&(B+=":"+Ra));var Sa=B}else Sa="";G=v;oa=[oa,{url:Sa}];G.g.push(5);G.h[5]=oa;hb(this.C,e,v,this.j,c)}catch(v){try{hb(this.C,e,{context:"ecmserr",rctx:a,msg:pb(v), url:f&&f.g.url},this.j,c)}catch(R){}}return!0}};class tb{};let U,Y;const Z=new ob;var ub=()=>{window.google_measure_js_timing||(Z.g=!1,Z.h!=Z.j.google_js_reporting_queue&&(X()&&Array.prototype.forEach.call(Z.h,nb,void 0),Z.h.length=0))};(a=>{U=a??new ib;"number"!==typeof window.google_srt&&(window.google_srt=Math.random());gb();Y=new sb(Z);Y.h=b=>{var c=Na;0!==c&&(b.jc=String(c),c=(c=Oa(c,document.currentScript))&&c.getAttribute("data-jc-version")||"unknown",b.shv=c)};Y.j=!0;"complete"==window.document.readyState?ub():Z.g&&Ga(window,"load",()=>{ub()})})(); var vb=(a,b,c,d)=>rb(a,b,c,d),xb=(a,b,c,d)=>{var e=tb,f="A";e.A&&e.hasOwnProperty(f)||(f=new e,e.A=f);e=[];!b.eid&&e.length&&(b.eid=e.toString());hb(U,a,b,!0,c,d)};function yb(){const a=window;if(a.gmaSdk||a.webkit?.messageHandlers?.getGmaViewSignals)return a;try{const b=window.parent;if(b.gmaSdk||b.webkit?.messageHandlers?.getGmaViewSignals)return b}catch(b){}return null} function zb(a,b={},c=()=>{},d=()=>{},e=200,f,g){const k=String(Math.floor(2147483647*Ia()));let h=0;const l=n=>{try{const m="object"===typeof n.data?n.data:JSON.parse(n.data);k===m.paw_id&&(window.clearTimeout(h),window.removeEventListener("message",l),m.signal?c(m.signal):m.error&&d(m.error))}catch(m){g("paw_sigs",{msg:"postmessageError",err:m instanceof Error?m.message:"nonError",data:null==n.data?"null":500<n.data.length?n.data.substring(0,500):n.data})}};window.addEventListener("message",n=>{f(903, ()=>{l(n)})()});a.postMessage({paw_id:k,...b});h=window.setTimeout(()=>{window.removeEventListener("message",l);d("PAW GMA postmessage timed out.")},e)};function Ab(a,b){return Q(a,2,b)}function Bb(a,b){return Q(a,3,b)}function Cb(a,b){return Q(a,4,b)}function Db(a,b){return Q(a,5,b)}function Eb(a,b){return Q(a,9,b)}function Fb(a,b){return wa(a,10,b)}function Gb(a,b){return Q(a,11,b)}function Hb(a,b){return Q(a,1,b)}var Jb=class extends Ba{constructor(){super(void 0,-1,Ib)}},Kb=class extends Ba{constructor(){super(void 0)}},Ib=[10,6];const Lb="platform platformVersion architecture model uaFullVersion bitness fullVersionList wow64".split(" ");function Mb(){var a=window;if("function"!==typeof a.navigator?.userAgentData?.getHighEntropyValues)return null;const b=a.google_tag_data??(a.google_tag_data={});if(b.uach_promise)return b.uach_promise;a=a.navigator.userAgentData.getHighEntropyValues(Lb).then(c=>{b.uach??(b.uach=c);return c});return b.uach_promise=a} function Nb(a){return Gb(Fb(Eb(Db(Cb(Bb(Ab(Hb(new Jb,a.platform||""),a.platformVersion||""),a.architecture||""),a.model||""),a.uaFullVersion||""),a.bitness||""),a.fullVersionList?.map(b=>{var c=new Kb;c=Q(c,1,b.brand);return Q(c,2,b.version)})||[]),a.wow64||!1)}function Ob(){return Mb()?.then(a=>Nb(a))??null};class Pb{constructor(){this.promise=new Promise(a=>{this.g=a})}};window.viewReq=[];const Qb=a=>{const b=new Image;b.src=a.replace("&amp;","&");window.viewReq.push(b)},Rb=a=>{fetch(a,{keepalive:!0,credentials:"include",redirect:"follow",method:"get",mode:"no-cors"}).catch(()=>{Qb(a)})},Sb=a=>{window.fetch?Rb(a):Qb(a)};Na=42; window.vu=a=>{const b=Ta(Ea),c=yb();if(b&&c?.gmaSdk?.getViewSignals){var d=c.gmaSdk.getViewSignals();d&&(a=S(a,"&ms="+d))}Ta(Da)&&"__google_lidar_radf_"in window&&(a=S(a,"&avradf=1"));const e=[];d=()=>{const f=new Pb;e.push(f.promise);return f.g};if(Ta(Fa)){const f=Ob();if(null!=f){const g=d();f.then(k=>{a:{L=!0;try{var h=JSON.stringify(k.toJSON(),ya);break a}finally{L=!1}h=void 0}k=h;h=[];for(var l=0,n=0;n<k.length;n++){var m=k.charCodeAt(n);255<m&&(h[l++]=m&255,m>>=8);h[l++]=m}k=t(h,3);0<k.length&& (a=S(a,"&uach="+k));g()})}}if(b&&c?.webkit?.messageHandlers?.getGmaViewSignals){const f=d();zb(c.webkit.messageHandlers.getGmaViewSignals,{},g=>{a=S(a,"&"+g);f()},()=>{f()},200,vb,xb)}0<e.length?Promise.all(e).then(()=>{Sb(a)}):Sb(a)};}).call(this);</script><script>vu("https://securepubads.g.doubleclick.net/pcs/view?xai\x3dAKAOjsupZshwpLyF6Jx9qBIIpf245PTqpNVoRSUvVowdc6H8VAB840R-W0F0PM24qs2dMJARt92lJnG7Kr3-RpD3qN3snptJZMODmzKA8XkS22BErgIw9xtBO8OJHlz4u-7xxH28hLvCGPXjLxhGgxyJJjP-rCWcERyhAWFxVYtG8v0Jy8PygS22NVdlkjn3mfRkjXavjg2hxwzhc_zE0WtbRA4fiyqIcUbMlxnGqqMfOWCHIyMkZDZ4tw0KBW2oelIHvQa9rEY_LAfencdMGyDUsjomAVYZwSidAeY6TesYxS_fL-HjS04dY4agJboXvxy5DI1pZP0\x26sig\x3dCg0ArKJSzDnJ3wfkR5VDEAE\x26uach_m\x3d[UACH]\x26urlfix\x3d1\x26adurl\x3d")</script><link href="./css" rel="stylesheet" type="text/css"><div class="GoogleActiveViewElement" data-google-av-cxn="https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjstA29gBcns41SMz3RhqVW_W-1ztKeouKMp6yEe2NFUy9Nr9_oYJcnhD7Mov8MqL8N1XR9OkRvyCZsI73H5zl-pWIuzng7G5XhgxEYDGIcEhkjbhk1YY&amp;sig=Cg0ArKJSzBhs0wXH8xLqEAE" data-google-av-adk="4095234668" data-google-av-metadata="la=0&amp;xdi=0&amp;" data-google-av-override="-1" data-google-av-dm="2" data-google-av-immediate="" data-google-av-aid="0" data-google-av-naid="1" data-google-av-slift="" data-google-av-cpmav="" data-google-av-btr="https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsuRxBySwiUWKPg0txoWwQP5WBBEcN5ML8Z4-byIsAMzMnREABYtmK1N3YsIPDvcGE0bXEo2hglTBPeeGvla88A4Y1n_dKczdJDZCEFus8Coqj8YDzgJt4eiJSZ-_Ln1iRb7X1VrenIluEH03_-2uMqpCAboyGMycLUM-aZZDsfd-aBT2LdORP6gv6rPwS2koY43Lh6BeMjq8EQjBRn0Sm4gRl1ZH7c2MWaZrjvqY9PG3Z9Q-ok6Mwt0WKkXXkhNpglDpZywwv_t-ydYFK2Ma9uLzt6d9pF5QUSixHemsPVx6NaujRKTtGefCp8yMGIpgsyxAFeOpw&amp;sig=Cg0ArKJSzEDlizJvGpZ-EAE&amp;uach_m=[UACH]&amp;urlfix=1&amp;adurl=" data-google-av-itpl="7" data-google-av-rs="4" data-google-av-flags="[&quot;x%278440&#39;9efotm(&amp;753374%2bejvf/%27844&gt;&#39;9wuvb$&amp;56533&gt;!=|vqc)!273794&amp;&lt;qqvb/%&lt;1735020!=nehu`/!364=5051!9abk{a($160210:3&amp;&lt;cbotf+*0150034:%2bejvf/%72;17613!=efdwa*&#39;76463;21$?ebkpb$&amp;0366717&gt;*&gt;bgipf+!3=712363%9aihwc)!7202&lt;217&#39;9efotm(&amp;20061;48&amp;&gt;`dopb/%&lt;1707200!=8(&amp;2005575?&amp;&gt;`dopb/%&lt;170642?!=|vqc)!7201;=50&#39;9wuvb$&amp;03641654*&gt;bgipfz&quot;]" data-creative-load-listener="">
+
+
+  <!--
+    [Template] Flex XL Desktop: Mini Story
+    department: Ad Formats
+    developer: Tanvir Haider
+    contact developer: tanvir.haider@nytimes.com
+    version: 1.8
+    last updated: 10.09.2020 by tanni
+  -->
+      
+  <script id="gsap" src="./TweenMax.min.js"></script> 
+  <script id="ET-2">
+      
+  /* ::::::: NYT internal tracking :::::::::: */
+  /* version: 2 ............................. */
+  /* developer: Reiniel Ravelo, Tanvir Haider */
+  /* last updated: 06.30.2020                 */
+  /* :::::::::::::::::::::::::::::::::::::::: */
+  
+  window.platform = 'nyt';
+  window.DEBUG = false;
+  var currentSlide = 1;
+  
+  window.ET = function () {
+      
+      let slideNum = 5;
+      let indexTracker = [currentSlide];
+      let defaultExit = 'https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssmVspzFhXB7KAdgDFcUy22sLSfIiQab5HW7putMMQcVr6YP8Z7RMrDvj78APR4Q_kdCZS_HEA2XwJmSAKo_sSIlTTXQ-midupfF3vll5ajYd9jAcAG3iSSoltm_NTElqze1oWyM1KiC7Fkpi0noRT1SXyqKSF6sAlQdTOU3eJS2ultJIHDmosABcBtB_B3c7V8RCCYZRPSHJ36qqie4NErpoOHldqaH9deHSEOi-pJDPryU070mfsdrsFKu1uVZSMg__S6rtCgETjNCVVrLgpO_Pepz3ei_R1SvSwQedVa5Gs49Cnzt4TMz42DYA4&sig=Cg0ArKJSzGsKCz6c1XpUEAE&fbs_aeid=[gw_fbsaeid]&urlfix=1&adurl=https://ad.doubleclick.net/ddm/trackclk/N568801.2748817THENEWYORKTIMES/B28079316.340068574;dc_trk_aid=531668411;dc_trk_cid=163397824;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=';
+      window.inApp;
+  
+      /* prop value :::::::::::::::::::: */
+      /* "nyt" == "desktop / tablet web" */
+      /* "mnyt" == "mobile web" ........ */
+      /* "iapp" == "iOS" ............... */
+      /* "droidapp" == "android app" ::: */
+  
+      
+      if ((window.platform == "iapp") || (window.platform == "droidapp") ||   // mobile app
+      (window.platform == "drtabapp") || (window.platform == "itabapp"))      // tablet app
+      
+      {inApp = true;} else { inApp = false;}
+  
+      if (window.inApp) {
+          let script = document.createElement('script');
+          script.src = "https://nyt-dti-prd-staticjs.storage.googleapis.com/analytics/et2/eventtracker-snippet.js";
+          document.head.appendChild(script); 
+  
+          script.onload = function () {
+  
+              var ctx_id = 'context_id_placeholder_to_make_test_context_id';
+              var pv_id = '0iTkwkyYPvObDOVWul5nB3TV';
+  
+              nyt_et(
+                      'init', 
+                      'https://a.et.nytimes.com/', 
+                      'native_app_ads',
+                      { pv_id_override: pv_id, ctx_id_override: ctx_id }
+                  );
+                  
+              if (window.DEBUG) console.log("script loaded");
+          };
+          script.onerror = function () {if (window.DEBUG) console.log("script loading error");}
+  
+      }
+  
+      return {
+  
+          /* ::::::: public function prev :::::::::: */
+          /* this is to track previous slideshow     */
+          /* no param required ..................... */
+  
+          prev:  function prev () {
+              currentSlide--;
+  
+              if (currentSlide < 1){
+                  currentSlide = slideNum;
+              }
+  
+              indexTracker.push(currentSlide);
+             
+              this.track({
+                  type: "slideURL",
+                  location: "slide-" + indexTracker[indexTracker.length-2] + "_" + "slide-" + currentSlide
+              });
+  
+          },
+  
+          /* ::::::: public function next :::::::::: */
+          /* this is to track next slideshow         */
+          /* no param required ..................... */
+  
+          next: function next () {
+              
+              currentSlide++;
+  
+              if (currentSlide > slideNum){currentSlide = 1;}
+  
+              indexTracker.push(currentSlide);
+  
+              this.track({
+                  type: "slideURL",
+                  location: "slide-" + indexTracker[indexTracker.length-2] + "_" + "slide-" + currentSlide
+              });
+          },
+  
+          /* ::::::: public function exit ::::::::::::::::::: */
+          /* this is to link out from the ad ................ */
+          /* if url data is not present, default will kick in */
+  
+          exit: function exit (data) {
+  
+              if (window.DEBUG) console.log(data);
+  
+              let typeOfdata = data.type;
+              let trackingObject = data.location;
+  
+              if (window.inApp) {this.SendInAppMessage(typeOfdata,trackingObject);}
+              else {this.SendPostMessage(typeOfdata,trackingObject);}
+  
+              if (data.url) { window.open(data.url);}
+              else { window.open(defaultExit); }
+  
+          },
+  
+          /* ::::::: public function track ::::::::::::::::::: */
+          /* this is to send in all interaction .............. */
+  
+          track: function tract(data) {
+  
+              if (window.DEBUG) console.log(data);
+  
+              let typeOfdata = data.type;
+              let trackingObject = data.location;
+  
+              if (window.inApp) {this.SendInAppMessage(typeOfdata,trackingObject);}
+              else {this.SendPostMessage(typeOfdata,trackingObject);}
+  
+          },
+  
+          SendPostMessage: function SendPostMessage (type,curr) {
+  
+              if (window.DEBUG) console.log("sendpostmessage: ",type,curr);
+  
+              try {
+                  window.parent.postMessage({
+                      event: 'send-direct',
+                      payload: {
+                          dfp_creativeid: '138396937823',
+                          dfp_lineitemid: '6056257850',
+                          dfp_orderid: '3046674666',
+                          dfp_viewport: 'large',
+                          dfp_pos: 'mid1',
+                          dfp_prop: 'nyt',
+                          dfp_event_type: type,
+                          dfp_event_location: curr,
+                          subject: 'dfp-ad-events'
+                      }
+                  },'https://www.nytimes.com/');
+              }
+              catch (Error) {
+                  if (window.DEBUG) console.log(Error);
+              }
+          },
+  
+          SendInAppMessage: function SendInAppMessage(type,curr) {
+  
+              if (window.DEBUG) console.log("sendinappmessage: ",type,curr);
+  
+              try {
+                  nyt_et("send", {
+                      dfp_creativeid: '138396937823',
+                      dfp_lineitemid: '6056257850',
+                      dfp_orderid: '3046674666',
+                      dfp_viewport: 'large',
+                      dfp_pos: 'mid1',
+                      dfp_prop: 'nyt',
+                      dfp_event_type: type,
+                      dfp_event_location: curr,
+                      subject: 'dfp-ad-events'
+                      });
+              }
+              catch (Error) {
+                  if (window.DEBUG) console.log(Error);
+              }
+  
+          },
+  
+          /* ::::::: public function pixel ::::::::::::::::::: */
+          /* this is to send 3rd party pixel data ............ */
+  
+          pixel: function pixel(url) {
+              var trackingPixel = new Image();
+              trackingPixel.src = url;
+              trackingPixel.onload = function () {if (window.DEBUG) console.log("pixel loaded");};
+              trackingPixel.onerror = function () {if (window.DEBUG) console.log("pixel loading error");}
+          }
+          
+      }
+  }();
+  
+  /* ::::::: END OF NYT internal tracking :::::::::: */
+  /* ::::::::::::::::::::::::::::::::::::::::::::::: */
+  
+   
+  </script>
+  
+      
+  <div id="adWrapper" class="stageStyle" style="display: block;">
+  <div id="adContainer" class="adContainerStyle" style="border: 1px solid rgb(204, 204, 204);">
+  <nav id="navigation" class="navigationStyle">
+  <div id="slideCounterDisplay" class="slideCounterDisplayStyle" style="color: rgb(0, 0, 0);">1 of 5</div>
+  <div id="LeftArrowBtn" class="nav-hs"> <div id="navLeftArrow" class="nav-left-arrowStyle" style="border-top: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0);"></div></div>
+  <ul id="dots" class="nav-dots"></ul>
+  <div id="RightArrowBtn" class="nav-hs"> <div id="navRightArrow" class="nav-right-arrowStyle" style="border-top: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0);"></div></div>
+  </nav>
+  <div id="contentContainer" class="galleryContainerStyle" style="background-color: rgb(255, 255, 255);">
+  <div id="galleryImgContainer" class="slideshow-images-style"><div id="greyBarBelowLogo" class="greyBarBelowLogo-style"></div><div id="gallery" class="ss-card-style" style="width: 8970px; transform: matrix(1, 0, 0, 1, -2990, 0);"><div id="gallery-cardHolder-box-0" class="ss-box-style" data-index-number="0" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-0" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/11836397495994951259?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-1" class="ss-box-style" data-index-number="1" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-1" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/10815715263144353110?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-2" class="ss-box-style" data-index-number="2" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-2" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/5683061359269141020?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-3" class="ss-box-style" data-index-number="3" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-3" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/11502721204121902600?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-4" class="ss-box-style" data-index-number="4" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-4" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/2468148892135846562?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-5" class="ss-box-style" data-index-number="5" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-5" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/11836397495994951259?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-6" class="ss-box-style" data-index-number="6" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-6" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/10815715263144353110?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-7" class="ss-box-style" data-index-number="7" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-7" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/5683061359269141020?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-8" class="ss-box-style" data-index-number="8" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-8" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/11502721204121902600?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-9" class="ss-box-style" data-index-number="9" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-9" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/2468148892135846562?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-10" class="ss-box-style" data-index-number="10" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-10" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/11836397495994951259?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-11" class="ss-box-style" data-index-number="11" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-11" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/10815715263144353110?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-12" class="ss-box-style" data-index-number="12" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-12" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/5683061359269141020?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-13" class="ss-box-style" data-index-number="13" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-13" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/11502721204121902600?&quot;); background-repeat: no-repeat;"></div></div><div id="gallery-cardHolder-box-14" class="ss-box-style" data-index-number="14" style="width: 598px;"><div id="gallery-cardHolder-box-cardpic-14" class="picStyle-1125" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/2468148892135846562?&quot;); background-repeat: no-repeat;"></div></div></div></div>
+  <div id="slideCopyContainer" class="slideCopyContainer-style">
+  <div id="desktopLogo" class="logo-desktop-style" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/185478954394285137?&quot;);"></div>
+  <div id="slide-0" class="copy-slide-style" style="visibility: inherit; opacity: 1;"><div id="framebodycopy-0" class="frame-copy-style" style="color: rgb(0, 0, 0);"><p class="page-title">Is it Finally Time to Say<br class="toggle3"> Goodbye to the Résumé?</p><p class="summary-style">To find candidates and diversify their talent pools, talent-acquisition leaders are scrapping the old way of doing things. “They’re breaking down barriers that have kept otherwise qualified candidates from being considered,” says Indeed’s Executive Vice President and General Manager, Raj Mukherjee. “This requires doing something that would have been unthinkable not long ago — eliminating résumé reviews entirely from the initial stages of recruiting.”</p></div></div><div id="slide-1" class="copy-slide-style" style="visibility: hidden; opacity: 0;"><div id="framebodycopy-1" class="frame-copy-style" style="color: rgb(0, 0, 0);"><p class="page-title">The Benefits of<br class="toggle3"> Skills-Based Hiring</p><p class="summary-style">Traditional resume criteria have limited access to jobs for many groups of people — like minorities, women, people without college degrees and people with criminal records — who have the skills those jobs require. While résumés are still an important tool for employers and job seekers, tools like Indeed Assessments, which focuses on the skills recruiters need for specific roles, offer job seekers a chance to get hired based on their unique skill sets.</p></div></div><div id="slide-2" class="copy-slide-style" style="visibility: hidden; opacity: 0;"><div id="framebodycopy-2" class="frame-copy-style" style="color: rgb(0, 0, 0);"><p class="page-title">A Larger Pool of<br class="toggle3"> Qualified Candidates</p><p class="summary-style">For talent-acquisition leaders, skills-based hiring could mean inviting candidates to take online assessments based on their skills, rather than simply reviewing a résumé. That way candidates can demonstrate the skills a role requires before the interview stage. “When employers don’t engage in skills-based hiring, they risk missing out on the opportunity to attract a larger pool of talented, hard-working, dependable candidates,” Mukherjee says.</p></div></div><div id="slide-3" class="copy-slide-style" style="visibility: hidden; opacity: 0;"><div id="framebodycopy-3" class="frame-copy-style" style="color: rgb(0, 0, 0);"><p class="page-title">Better Opportunities for All</p><p class="summary-style">When job seekers are given the right opportunities, they accept responsibilities that lead to raises, promotions and, eventually, better jobs. “For talent-acquisition leaders and employers, skills-based hiring means you’re more likely to hire people who perform well in their roles,” Mukherjee says. “The alignment between employee and job can provide multiple long-term benefits, including improved productivity, profitability and greater innovation.” </p></div></div><div id="slide-4" class="copy-slide-style" style="visibility: hidden; opacity: 0;"><div id="framebodycopy-4" class="frame-copy-style" style="color: rgb(0, 0, 0);"><p class="page-title">Get more hiring insights<br class="toggle3"> from Indeed.</p><p class="ctaStyle" style="cursor: pointer; background-color: rgb(0, 58, 155); color: rgb(255, 255, 255); border: 1px solid rgb(0, 58, 155);">LEARN MORE</p></div></div></div>
+  </div>
+  <div id="logo" class="logoStyle">
+  <div id="tabletLogo" class="logo-tablet-style" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/3223293407837858465?&quot;);"></div>
+  </div>
+  </div>
+  </div>
+  
+  
+  
+  <script id="config-script" type="text/javascript">
+  
+   window.adData = {
+		size: 1125, /* 1605 OR 1125 */
+		general: {
+			platform: "google-native",      
+			type: "desktop",               
+			background_color: "#fff",       
+			border_color: "#cccccc",              
+			text_color: "#000",            
+			version: "2.0.0",              
+			number_of_slides: '5',           
+			DEBUG: false,
+			maxWidth: "1125",
+			exit: "https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssmVspzFhXB7KAdgDFcUy22sLSfIiQab5HW7putMMQcVr6YP8Z7RMrDvj78APR4Q_kdCZS_HEA2XwJmSAKo_sSIlTTXQ-midupfF3vll5ajYd9jAcAG3iSSoltm_NTElqze1oWyM1KiC7Fkpi0noRT1SXyqKSF6sAlQdTOU3eJS2ultJIHDmosABcBtB_B3c7V8RCCYZRPSHJ36qqie4NErpoOHldqaH9deHSEOi-pJDPryU070mfsdrsFKu1uVZSMg__S6rtCgETjNCVVrLgpO_Pepz3ei_R1SvSwQedVa5Gs49Cnzt4TMz42DYA4&sig=Cg0ArKJSzGsKCz6c1XpUEAE&fbs_aeid=[gw_fbsaeid]&urlfix=1&adurl=https://ad.doubleclick.net/ddm/trackclk/N568801.2748817THENEWYORKTIMES/B28079316.340068574%3Bdc_trk_aid%3D531668411%3Bdc_trk_cid%3D163397824%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bltd%3D"
+		},
+		CTA: {
+			color: "#fff",                     
+			background: "#003a9b",               
+			outline: "#003a9b",                   
+			content: "LEARN MORE"
+		},
+		logo: {
+			desktop: 'https://tpc.googlesyndication.com/simgad/185478954394285137?', 
+			tablet: 'https://tpc.googlesyndication.com/simgad/3223293407837858465?',  
+			height: null                       
+		},
+		navigation: {
+			arrowColor: "rgb(0, 0, 0)"
+		},
+		copy: [
+			{
+				title: "Is it Finally Time to Say<br class=toggle3> Goodbye to the Résumé?",
+				summary: "To find candidates and diversify their talent pools, talent-acquisition leaders are scrapping the old way of doing things. “They’re breaking down barriers that have kept otherwise qualified candidates from being considered,” says Indeed’s Executive Vice President and General Manager, Raj Mukherjee. “This requires doing something that would have been unthinkable not long ago — eliminating résumé reviews entirely from the initial stages of recruiting.”"
+			},
+			{
+				
+				title: "The Benefits of<br class=toggle3> Skills-Based Hiring",
+				summary: "Traditional resume criteria have limited access to jobs for many groups of people — like minorities, women, people without college degrees and people with criminal records — who have the skills those jobs require. While résumés are still an important tool for employers and job seekers, tools like Indeed Assessments, which focuses on the skills recruiters need for specific roles, offer job seekers a chance to get hired based on their unique skill sets."
+			},
+			{
+				title: "A Larger Pool of<br class=toggle3> Qualified Candidates",
+				summary: "For talent-acquisition leaders, skills-based hiring could mean inviting candidates to take online assessments based on their skills, rather than simply reviewing a résumé. That way candidates can demonstrate the skills a role requires before the interview stage. “When employers don’t engage in skills-based hiring, they risk missing out on the opportunity to attract a larger pool of talented, hard-working, dependable candidates,” Mukherjee says."
+			},
+			{
+				title: "Better Opportunities for All",
+				summary: "When job seekers are given the right opportunities, they accept responsibilities that lead to raises, promotions and, eventually, better jobs. “For talent-acquisition leaders and employers, skills-based hiring means you’re more likely to hire people who perform well in their roles,” Mukherjee says. “The alignment between employee and job can provide multiple long-term benefits, including improved productivity, profitability and greater innovation.” "
+			},
+			
+			{
+				title: "Get more hiring insights<br class=toggle3> from Indeed.",
+				summary: ""
+			}
+		],
+		images: {
+			method: "js", 
+			desktop: [
+				'https://tpc.googlesyndication.com/simgad/11836397495994951259?',
+				'https://tpc.googlesyndication.com/simgad/10815715263144353110?',
+				'https://tpc.googlesyndication.com/simgad/5683061359269141020?',
+				'https://tpc.googlesyndication.com/simgad/11502721204121902600?',
+				'https://tpc.googlesyndication.com/simgad/2468148892135846562?'
+			],
+			tablet: [
+				'https://tpc.googlesyndication.com/simgad/9908063826310447567?',
+				'https://tpc.googlesyndication.com/simgad/16672066250860063888?',
+				'https://tpc.googlesyndication.com/simgad/16761170680190300593?',
+				'https://tpc.googlesyndication.com/simgad/16698402481443781760?',
+				'https://tpc.googlesyndication.com/simgad/4659878542899797521?'
+			],
+			credit: ""
+		}
+            
+    }
+  
+</script>
+
+
+<script id="utility-script">
+     
+  // -------- ******* UTILITY ******* --------- 
+   
+  var CreateClass = function CreateClass(name, rules, id) {
+    var style = document.createElement('style');
+  
+    if (id) {
+      style.setAttribute('id', id);
+    }
+  
+    style.type = 'text/css';
+    style.media = 'all';
+    style.innerHTML = name + "{" + rules + "}";
+    document.getElementsByTagName('head')[0].appendChild(style); 
+  };
+  
+  function getValue(fromWhere, type) {
+    var value = "";
+  
+    if (document.querySelector(fromWhere)) {
+      if (type == "html") {
+        value = document.querySelector(fromWhere).innerHTML;
+      } else if (type == "text") {
+        value = document.querySelector(fromWhere).textContent;
+      }
+    } else {
+      if (window.DEBUG) {
+        console.error("DOM element " + fromWhere + " wasn't found");
+      }
+    }
+  
+    return value;
+  }
+  
+  function setStyle(Element, whatStyle, value) {
+    var tempItem = document.querySelectorAll(Element);
+    var numberOfItems = tempItem.length;
+  
+    for (var i = 0; i < numberOfItems; i++) {
+      var currentItem = tempItem[i];
+      currentItem.style[whatStyle] = value;
+    }
+  }
+  
+  function setClick(Element, action) {
+    var tempItem = document.querySelectorAll(Element);
+    var numberOfItems = tempItem.length;
+  
+    for (var i = 0; i < numberOfItems; i++) {
+      var currentItem = tempItem[i];
+      currentItem.addEventListener('click', action, false); 
+  
+      currentItem.style.cursor = "pointer";
+    }
+  }
+  
+  function setClickClass(whichClass, action) {
+    var classname = document.getElementsByClassName(whichClass);
+  
+    for (var i = 0; i < classname.length; i++) {
+      classname[i].addEventListener('click', action, false);
+    }
+  }
+
+</script>
+
+
+<script id="stage-script">
+  
+class Stage {
+    constructor (data) {
+        var stage = document.createElement('div');
+        if (data.id) { stage.setAttribute('id', data.id);}
+        else {stage.setAttribute('id', "willow-ad-stage");}
+        if (data.class) {stage.className += data.class;}
+
+        this.stage = stage;
+
+        if (data.container) { 
+            var adContainer = document.querySelector(data.container);
+            adContainer.appendChild(stage);
+        }
+        else {
+            document.body.setAttribute('id', "ad-body");
+            document.body.appendChild(stage);
+        }
+
+        return stage;
+    }
+
+
+    stageDefaultStyle() {
+       this.stage.style.margin = "0px";
+       this.stage.style.padding = "0px";
+    }
+}
+
+</script>
+
+<script id="sprite-script">
+
+class Sprite {
+    constructor (data) {
+        var obj;
+
+        if (data.element) {
+            obj = document.createElement(data.element);
+        }
+        else {
+            obj = document.createElement('div');
+        }
+        
+        this.obj = obj;
+        if (data.id) { obj.setAttribute('id', data.id); }
+        else { obj.setAttribute('id',''); }
+
+        if (data.class) {
+            obj.className += data.class;
+        }
+
+        if (data.position) {obj.style.position = data.position;}
+
+        if (data.display) {
+            obj.style.display = data.display;
+        }
+    
+        if (data.width) {
+            obj.width = data.width;
+            obj.style.width = data.width + 'px';
+        }
+        else {this.width = 0;}
+    
+        if (data.height) {
+            obj.height = data.height;
+            obj.style.height = data.height + 'px';
+        }
+        else {this.height = 0;}
+    
+        if (data.image)
+        {
+            var imgW = data.width +'px';
+            var imgH = data.height +'px';
+    
+            var style = obj.style;
+            style.width = imgW;
+            style.height = imgH;
+            style.backgroundImage = 'url(' +data.image+ ')';
+            style.backgroundRepeat = 'no-repeat';
+            if (!data.cover){style.backgroundSize = imgW +' '+ imgH;}
+            
+        }
+        
+        if (data.button) {
+            var btn = document.createElement("button");
+            if (data.button.text) {
+                btn.innerHTML = data.button.text;
+            }
+            obj.appendChild(btn);
+        }
+
+        if (data.text){
+            if (data.text.color) {obj.style.color = data.text.color;}
+            if (data.text.fontSize) {obj.style.fontSize = data.text.fontSize;}
+            if (data.text.fontFamily) {obj.style.fontFamily = data.text.fontFamily;}
+            if (data.text.maxWidth) {obj.style.maxWidth = data.text.width;}
+            if (data.text.lineHeight) { obj.style.lineHeight = data.text.lineHeight;}
+            if (data.text.fontWeight) { obj.style.fontWeight = data.text.fontWeight;}
+            obj.innerHTML = data.text.content;
+        }
+
+        if (data.color){
+            var imgW = data.width +'px';
+            var imgH = data.height +'px';
+
+            var style = obj.style;
+            style.width = imgW;
+            style.height = imgH;
+            style.backgroundColor = data.color;
+        }
+
+        if (data.gradient)
+        {
+            var style =     this.obj.style;
+            style.width =   data.gradient.width + "px";
+            style.height =  data.gradient.height + "px";
+            style.background = '-webkit-linear-gradient('   + data.gradient.direction + ',' + data.gradient.color1 + ', ' + data.gradient.color2 +')'; 
+            style.background = '-o-linear-gradient('        + data.gradient.direction + ',' + data.gradient.color1 + ', ' + data.gradient.color2 +')'; 
+            style.background = '-moz-linear-gradient('      + data.gradient.direction + ',' + data.gradient.color1 + ', ' + data.gradient.color2 +')'; 
+            style.background = 'linear-gradient('           + data.gradient.direction + ',' + data.gradient.color1 + ', ' + data.gradient.color2 +')'; 
+        }
+
+        if (data.container){data.container.appendChild(obj);}
+
+        if (data.border)
+        {
+            var borderObj = document.createElement('div');
+            borderObj.setAttribute('id', data.id + "-Border");
+            borderObj.style.width = data.width + 'px';
+            borderObj.style.height = data.height + 'px';
+            borderObj.style.position = 'absolute';
+            borderObj.style.margin = '0px';
+            borderObj.style.zIndex = 999999;
+            borderObj.style.border = data.border.thickness+ "px solid "+data.border.color+"";
+            borderObj.style.boxSizing="border-box";
+            borderObj.style.pointerEvents = "none";
+            if (data.border.radius){borderObj.style.borderRadius = data.border.radius;}
+            obj.appendChild(borderObj);
+        }
+
+
+        if (data.click){
+            var obj = this.obj;
+            obj.addEventListener('click', data.click.function,false);
+            obj.style.cursor="pointer";
+        }
+
+        if (data.over){
+            var obj = this.obj;
+            obj.addEventListener('mouseover', data.over.function,false);
+            obj.style.cursor="pointer";
+        }
+
+        if (data.out){
+            var obj = this.obj;
+            obj.addEventListener('mouseout', data.out.function,false);
+            obj.style.cursor="pointer";
+        }
+
+        if (data.mousemove){
+            var obj = this.obj;
+            obj.addEventListener('mousemove', data.mousemove.function,false);
+        }
+
+        var xval = 0;
+        var yval = 0;
+
+        if (data.x) { xval = data.x;}
+        if (data.y) { yval = data.y;}
+        if (data.z) {
+            var style = obj.style;
+            style.zIndex = data.z;
+        }
+
+        if (data.x || data.y) {
+            obj.style.transform = "translate("+ xval + "px," + yval + "px)";
+        }
+
+        if (data.mask){
+            obj.style.clip = 'rect('+data.mask.y+'px,' +
+            (data.mask.x + data.mask.width)+'px,' + 
+            (data.mask.y + data.mask.height)+'px,' + 
+            data.mask.x+'px)';
+        }
+    }
+
+    click (f) {
+        var obj = this.obj;
+        obj.addEventListener('click', f);
+        obj.style.cursor="pointer";
+    }
+
+    over (func) {
+        var obj = this.obj;
+        obj.addEventListener('mouseover', func);
+        obj.style.cursor="pointer";
+    }
+
+    out (func) {
+        var obj = this.obj;
+        obj.addEventListener('mousemove', func);
+    }
+
+    html (newtext) {
+        var obj = this.obj;
+        obj.innerHTML = newtext;
+    }
+
+    text (newtext) {
+        var obj = this.obj;
+        obj.innerText = newtext;
+    }
+}
+
+  var isMobile = /Mobi/i.test(navigator.userAgent);
+  var isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+  var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  var ua = window.navigator.userAgent;
+  var iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
+  var webkit = !!ua.match(/WebKit/i);
+  var iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
+  
+  function detectIE() {
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf('MSIE ');
+  
+    if (msie > 0) {
+      return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+    }
+  
+    var trident = ua.indexOf('Trident/');
+  
+    if (trident > 0) {
+      // IE 11 => return version number
+      var rv = ua.indexOf('rv:');
+      return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+    }
+  
+    var edge = ua.indexOf('Edge/');
+  
+    if (edge > 0) {
+      // Edge (IE 12+) => return version number
+      return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+    } // other browser
+  
+  
+    return false;
+  }
+  
+  var version = detectIE();
+  
+  if (typeof DEBUG !== 'undefined') {
+    console.group("https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjssmVspzFhXB7KAdgDFcUy22sLSfIiQab5HW7putMMQcVr6YP8Z7RMrDvj78APR4Q_kdCZS_HEA2XwJmSAKo_sSIlTTXQ-midupfF3vll5ajYd9jAcAG3iSSoltm_NTElqze1oWyM1KiC7Fkpi0noRT1SXyqKSF6sAlQdTOU3eJS2ultJIHDmosABcBtB_B3c7V8RCCYZRPSHJ36qqie4NErpoOHldqaH9deHSEOi-pJDPryU070mfsdrsFKu1uVZSMg__S6rtCgETjNCVVrLgpO_Pepz3ei_R1SvSwQedVa5Gs49Cnzt4TMz42DYA4%2526sig%253DCg0ArKJSzGsKCz6c1XpUEAE%2526fbs_aeid%253D%255Bgw_fbsaeid%255D%2526urlfix%253D1%2526adurl%253D device detection ", 'background: #000; color: #eee; font-size: 12px');
+    console.log("user agent: ", ua);
+    console.log("is IE: ", version);
+    console.log("isMobile: ", isMobile);
+    console.log("isIOS: ", isIOS);
+    console.log("webkit: ", webkit);
+    console.log("iOSSafari: ", iOSSafari);
+    console.groupEnd("device detection");
+  }
+
+</script>
+
+
+<script id="slideshow-script">
+  
+class Slideshow {
+
+	constructor (data) {
+
+		var intervalTimer;
+		this.intervalTimer = intervalTimer;
+		var scope = this;
+		scope.id = data.id;
+
+		var cardHolder = new Sprite({
+			id:data.id,
+			class:      data.class,
+			container:data.container
+		});
+
+		this.cardHolder = cardHolder;
+		this.obj = cardHolder;
+
+		cardHolder.counter = data.counter;
+		cardHolder.numberOfitem = data.images.length;
+		cardHolder.counter = data.images.length;
+
+		cardHolder.obj.style.width = Number(data.images.length * 3 * data.width) + "px";
+
+		var eachImgWidth;
+
+		if (data.responsive) {
+			eachImgWidth = data.container.offsetWidth;
+
+			window.addEventListener("resize", function () {
+				eachImgWidth = data.container.offsetWidth;
+				scope.resize({width: eachImgWidth});
+			});
+		}
+		else {
+			eachImgWidth = data.width;
+		}
+
+		if (data.auto) {
+
+			var countTracker = 0;
+			var slideMoveDuration = 0.75;
+
+			if (data.auto.duration) {slideMoveDuration = Number(data.auto.duration / 1000);}
+
+			if (data.auto.initialdelay) {
+				setTimeout(function(){ 
+					lauchAutoSlideshow ();
+				}, data.auto.initialdelay);
+			}
+
+			else { lauchAutoSlideshow (); }
+
+			function lauchAutoSlideshow () {
+				scope.intervalTimer = setInterval(function(){ 
+					scope.move({
+						direction: data.auto.direction,
+						duration: slideMoveDuration,
+						pause: false
+					});
+
+					if (data.auto.count > 0) {
+						countTracker ++;
+						if (countTracker == data.auto.count) {
+							clearInterval(scope.intervalTimer);
+						}
+					}
+
+				}, data.auto.delay);
+			}
+		}
+
+		if (data.nav) {
+			var rightNav = data.nav.left;
+			var leftNav = data.nav.right;
+
+			leftNav.addEventListener('click', function() {
+				
+				scope.move({
+					direction: "reverse",
+					duration: 0.75
+				}); // move left
+
+			},false);
+
+			rightNav.addEventListener('click', function() {
+				
+				
+				scope.move({
+					direction: "forward",
+					duration: 0.75
+				}); // move left
+
+			},false);
+		}
+
+		if (data.counter) {
+			var scope = this;
+			var idForPM = String(data.id);
+		cardHolder.obj.addEventListener("custom", data.counter, false);
+		}
+
+		if (data.dots) {
+			scope.dots(data);
+		}
+
+		var _i = 0;
+		for (var j = 0; j < 3; j++)
+		{
+			for (var i = 0; i < data.images.length; i++) {
+				var box = new Sprite({
+					id:data.id + "-cardHolder-box-" + _i,
+					class: "ss-box-style",
+					container:cardHolder.obj,
+					width: eachImgWidth
+					});
+
+					box.obj.setAttribute('data-index-number', _i);
+
+					var tempCSS;
+					var tempIMG;
+
+					if (adData.images.method == "css") {
+						tempCSS = "picStyle slide-image-properties slide-image-" + (_i % data.images.length + 1);
+						tempIMG = null;
+					}
+					else {
+						if (adData.size == 1605) { tempCSS = "picStyle-1605"; }
+						else if (adData.size == 1125) { tempCSS = "picStyle-1125"; }
+						else { tempCSS = "picStyle"; } 
+            
+            tempIMG = data.images[i];
+        	}
+
+					var cardPic = new Sprite({
+						id: data.id + "-cardHolder-box-cardpic-" + _i,
+						container:box.obj,
+						image: tempIMG,
+						class: tempCSS
+					});
+
+					_i ++;
+			}
+		}
+
+		var element = cardHolder.obj.querySelector('.ss-box-style');
+		var style = getComputedStyle(element);
+		var computedWidth = style.width;
+		var tempStringtoprocess = computedWidth.length - 2;
+		var tempres = computedWidth.substr(0,tempStringtoprocess);
+
+		TweenMax.set(cardHolder.obj, {delay:0,x:-(data.images.length * tempres)});
+
+		if (data.width) {cardHolder.width = data.width;}
+		else {cardHolder.width = tempres;}		
+		return this;
+	}
+
+	replace (data) {
+		var scope = this;
+		var whichIndex = data.index;
+		var newImgLoc = data.url;
+		var thisParent = this.obj.obj;
+
+		var childCount = thisParent.childElementCount;
+		var numberOfSlideElement = childCount/3;
+		var findIndex = [
+			data.index,
+			data.index + numberOfSlideElement,
+			data.index + numberOfSlideElement + numberOfSlideElement
+		];
+
+		for (var i = 0; i <  findIndex.length; i++) {
+			var foundOnes = thisParent.querySelector('[data-index-number="'+ findIndex[i] +'"]');
+			foundOnes.firstChild.style.backgroundImage = 'url(' +data.url+ ')';
+		}
+	}
+
+
+	dots (data) {
+
+		var scope = this;
+
+		var dotHolder = new Sprite({
+			id:data.id + "-dotHolder",
+			element: "div",
+			class: data.dots.background,
+			container: data.container
+		});
+
+		var dotHolder = new Sprite({
+			id:data.id + "-dotHolder",
+			element: "ul",
+			class: data.dots.class,
+			container: data.container
+		});
+
+		for (var i = 0; i < data.images.length; i++) {
+
+			var eachDots = new Sprite({
+				id:data.id + "-dot-" + i,
+				element: "li",
+				container: dotHolder.obj
+			});  
+			
+			if (data.dots.interactive) {
+				eachDots.obj.addEventListener('click', function() {
+					scope.jumptoframe();
+				},false);
+			}
+
+			if (i == 0) {
+				eachDots.obj.style.backgroundColor = data.dots.active;
+			}
+			else {
+				eachDots.obj.style.backgroundColor = data.dots.inactive;
+			}
+			
+
+			eachDots.obj.setAttribute('data-active', data.dots.active);
+			eachDots.obj.setAttribute('data-inactive', data.dots.inactive);
+			eachDots.obj.setAttribute('data-index-number', i);
+			eachDots.obj.setAttribute('data-parent', scope.cardHolder.obj.id);
+			eachDots.obj.setAttribute('data-total', data.images.length);
+
+		}
+
+		if (typeof DEBUG !== 'undefined') console.log("dot generated: ",data.images.length);
+	}
+
+	updateDotPosition (data) {
+		var scope = this;
+		var currentIndex = Number((data.selected % data.total));
+		for (var i = 0; i < data.total; i++) {
+		
+			try {
+				var tempDot = document.getElementById(data.parent + "-dot-" + i);
+				var activeColor = tempDot.dataset.active;
+				var inActiveColor = tempDot.dataset.inactive;
+
+				if (i != currentIndex) {tempDot.style.backgroundColor = inActiveColor;}
+				else {tempDot.style.backgroundColor = activeColor;}
+			}
+			catch (Error) {}
+		
+		
+		}
+
+		if (typeof DEBUG !== 'undefined') console.log("update dot position: ",data.selected);
+	}
+
+	jumptoframe () {
+		var parent = event.target.dataset.parent;
+		var totalSlides = event.target.dataset.total;
+		var currentCounter = Number(event.target.dataset.indexNumber);
+
+		if (window.DEBUG) {console.log(this); } 
+
+		this.jump(event);
+
+		try {
+			this.updateDotPosition({
+				parent: parent,
+				total: totalSlides,
+				selected: currentCounter
+		});
+		} catch(Error) {console.error("");} 
+
+		try {
+			var e = new CustomEvent("custom", {detail: currentCounter});
+			document.getElementById(parent).dispatchEvent(e);
+		} catch(Error) {console.error(Error);} 
+	}
+
+
+	jump (event) {
+		var scope = this;
+		var parent = event.target.dataset.parent;
+		var totalSlides = event.target.dataset.total;
+		var parentElement = document.getElementById(parent);
+		var currentCounter = event.target.dataset.indexNumber;
+		var element = parentElement.querySelector('.ss-box-style');
+		var style = getComputedStyle(element);
+		var computedWidth = style.width;
+		var tempStringtoprocess = computedWidth.length - 2;
+		var tempres = computedWidth.substr(0,tempStringtoprocess);
+		var totalOffset = -((tempres  * currentCounter));
+		TweenMax.to(parentElement,0.5, {delay:0,x:totalOffset});
+	}
+
+
+
+	move (data) {
+		var cardHolder = this.cardHolder;
+		var animationDuration;
+		var displacement;
+		var whichDirection = data.direction;
+		var element = cardHolder.obj.querySelector('.ss-box-style');
+		var style = getComputedStyle(element);
+		var computedWidth = style.width;
+		var tempStringtoprocess = computedWidth.length - 2;
+		var tempres = computedWidth.substr(0,tempStringtoprocess);
+		
+		if (data.duration) { animationDuration = data.duration;} else { animationDuration = 0.75; }
+		if (data.delta) { displacement = data.delta; } else { displacement = tempres;}
+		if (data.pause == false) {
+
+		}
+		else {
+			clearInterval(this.intervalTimer);
+		}
+		
+		if ((whichDirection == "forward") || (whichDirection == "left")) {cardHolder.counter --;}
+		else if ((whichDirection == "reverse") || (whichDirection == "right")) {cardHolder.counter ++;}
+
+
+		TweenMax.to(cardHolder.obj, animationDuration, {
+		x: -(cardHolder.counter * displacement), 
+		ease:Power4.easeInOut,
+		onComplete:checkForDeltaX,
+		onCompleteParams:[cardHolder]
+		});
+
+		function checkForDeltaX (ss) {
+
+			function calculateMatrixX_Distance (whichOne) {
+				var stripStyle = window.getComputedStyle(whichOne, null);
+				var stripTransform = stripStyle.getPropertyValue("-webkit-transform") ||
+									stripStyle.getPropertyValue("-moz-transform") ||
+									stripStyle.getPropertyValue("-ms-transform") ||
+									stripStyle.getPropertyValue("-o-transform") ||
+									stripStyle.getPropertyValue("transform");
+
+				if (stripTransform){
+					var values = stripTransform.split('(')[1];
+					values = values.split(')')[0];
+					values = values.split(',');
+					return values[4];
+				}
+			}
+
+			var deltaX = calculateMatrixX_Distance (ss.obj);
+			if (deltaX <= -(displacement * (ss.numberOfitem + 1)))
+			{
+				ss.counter = 1;
+				TweenMax.set(ss.obj,{x:-displacement});
+			}
+			if (deltaX >= 0)
+			{
+				ss.counter = ss.numberOfitem;
+				TweenMax.set(ss.obj,{x:-(displacement * ss.numberOfitem)});
+			}
+
+			if (typeof window.DEBUG !== 'undefined') console.log("move slide completed");
+		}
+
+		this.updateDotPosition({
+			parent: cardHolder.obj.id,
+			total: cardHolder.numberOfitem,
+			selected: cardHolder.counter
+		});
+
+		var sIndex = Number(cardHolder.counter % cardHolder.numberOfitem);
+
+		if (sIndex >= 0) {
+			try {
+				var event = new CustomEvent("custom", {detail: sIndex});
+				cardHolder.obj.dispatchEvent(event);
+
+			} catch(Error) {console.error(Error);}     
+		}
+		else {
+			try {
+				var event = new CustomEvent("custom", {detail: 0});
+				cardHolder.obj.dispatchEvent(event);
+
+				this.updateDotPosition({
+					parent: cardHolder.obj.id,
+					total: cardHolder.numberOfitem,
+					selected: 0
+				});
+
+			} catch(Error) {console.error(Error);}  
+		}
+
+		if (typeof window.DEBUG !== 'undefined') console.log("move slide init");
+	} 
+
+	resize (data) {
+		var computedWidth, style, element, tempStringtoprocess, tempres, totalOffset;
+		var cardHolder = this.cardHolder;
+		var currentCounter = cardHolder.counter;
+		var numberOfImagesinSSx3 = cardHolder.obj.childElementCount;
+		
+		for (var i = 0; i < numberOfImagesinSSx3; i++) {
+			var tempItems = cardHolder.obj.children[i];
+			tempItems.style.width = data.width + "px";
+		}
+	
+		try {   element = cardHolder.obj.querySelector('.ss-box-style'); } catch (Error) {}
+		try {  style = getComputedStyle(element); } catch (Error) {}
+		try {  computedWidth = style.width; } catch (Error) {}
+		
+		tempStringtoprocess = computedWidth.length - 2;
+		tempres = computedWidth.substr(0,tempStringtoprocess);
+		if (data.width) {cardHolder.width = data.width;}
+		else {cardHolder.width = tempres;}
+		totalOffset = -((tempres  * currentCounter));
+		TweenMax.set(cardHolder.obj, {delay:0,x:totalOffset});
+
+		cardHolder.obj.style.width = Number(numberOfImagesinSSx3 * data.width) + "px";
+
+	}
+}
+
+  
+  var FullScreenMobile = function FullScreenMobile(container) {
+    var currentWindowWidth = window.innerWidth;
+  
+    if (currentWindowWidth < 728) {
+      var adBody = document.getElementsByTagName("BODY")[0];
+  
+      if (window.DEBUG) {
+        console.group("https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjssmVspzFhXB7KAdgDFcUy22sLSfIiQab5HW7putMMQcVr6YP8Z7RMrDvj78APR4Q_kdCZS_HEA2XwJmSAKo_sSIlTTXQ-midupfF3vll5ajYd9jAcAG3iSSoltm_NTElqze1oWyM1KiC7Fkpi0noRT1SXyqKSF6sAlQdTOU3eJS2ultJIHDmosABcBtB_B3c7V8RCCYZRPSHJ36qqie4NErpoOHldqaH9deHSEOi-pJDPryU070mfsdrsFKu1uVZSMg__S6rtCgETjNCVVrLgpO_Pepz3ei_R1SvSwQedVa5Gs49Cnzt4TMz42DYA4%2526sig%253DCg0ArKJSzGsKCz6c1XpUEAE%2526fbs_aeid%253D%255Bgw_fbsaeid%255D%2526urlfix%253D1%2526adurl%253D DFP-native-Mobile-FullScreen", 'background: #000; color: violet; font-size: 12px');
+        console.log("containers: ", adBody, container);
+      }
+  
+      if (window["$sf"]) {
+        if (window.DEBUG) {
+          console.log("safe frame is supported");
+        }
+  
+        var SFGeom = $sf.ext.geom();
+        deviceHeight = SFGeom.win.h;
+        deviceWidth = SFGeom.win.w;
+  
+        if (deviceHeight < 600) {
+          deviceHeight = 568;
+        }
+
+        adBody.style.height = deviceHeight + "px";
+        adBody.style.width = deviceWidth + "px";
+        container.style.height = deviceHeight + "px";
+        container.style.width = deviceWidth + "px";
+        var w = window,
+            sf = w["$sf"],
+            ext = sf && sf.ext;
+  
+        if (ext) {
+          ext.expand({
+            l: deviceWidth,
+            t: deviceHeight
+          });
+  
+          if (window.DEBUG) {
+            console.log("safe frame exp exists and device width and height is set: ", deviceWidth, deviceHeight);
+          }
+        } else {
+          if (window.DEBUG) {
+            console.log("SF api expansion is not supporting");
+          }
+        }
+      } else {
+        if (window.DEBUG) {
+          console.log("safe frame is NOT supported");
+        }
+  
+        container.style.height = 600 + "px";
+        container.style.width = window.innerWidth + "px";
+        adBody.style.height = 600 + "px";
+        adBody.style.width = window.innerWidth + "px";
+      }
+    }
+  };
+
+  /*window.DEBUG = true;*/
+  var slideLog = [];
+  var childIndex = 0;
+  var currentIndex = 0;
+  var imageQueue = [];
+  var desktopLargeImages = [];
+  var desktopSmallImages = [];
+  var mobileImages = [];
+  var adCopyQueue = [];
+  var pageTitles = [];
+  var pageSummary = [];
+  var pageCta;
+  var number_of_slides;
+  var adType;
+  var logoImgLoc;
+  var LogoDesktop;
+  var LogoTablet;
+  var LogoMobile;
+  var storyCompleted = false;
+  var virgin = true;
+  var newWidth;
+  
+  var GalleryImageInfo = {
+    imageSetToUse: null,
+    desktop: {
+      width: 600,
+      height: 600
+    },
+    tablet: {
+      width: 728,
+      height: 300,
+      breakpoint: 969
+    },
+    mobile: {
+      width: null,
+      height: 300,
+      breakpoint: 705
+    },
+    selected: {
+      images: null,
+      width: null,
+      height: null
+    }
+  };
+
+  var widthOftheContainer = null; 
+  var stage, adContainer, advertisement_slug, contentContainer, next_slide, logo, slideCounterDisplay, navigation, navLeftArrow, navRightArrow, SS_images, galleryContainer, galleryImgContainer, navDotsHolder; 
+
+  
+  var currentGalleryFrame = 0;
+  var okeyToupdate = true;
+  var adBGcolor;
+  var picCredit;
+  var CL_LD;
+  var userCorrectAnswer = 0;
+  
+  
+  window.initializeLocalPreview = function () {
+    if (typeof window.EB !== 'undefined') {}
+  };
+  
+  var writeImageCSS = function writeImageCSS(data) {
+    if (data.desktop) {
+      CreateClass('.stageStyle .adContainerStyle .galleryContainerStyle .slide-image-' + data.counter, "background-image: url(./" + data.desktop + ");", "desktop-image-" + data.id);
+    }
+  
+    if (data.tablet) {
+      CreateClass('@media all and (min-width: 705px) and (max-width: 969px)', ".stageStyle .adContainerStyle .galleryContainerStyle .slide-image-" + data.counter + " {background-image: url(./" + data.tablet + ");}", "small-desktop-image-" + data.id);
+      CreateClass('@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)', ".stageStyle .adContainerStyle .galleryContainerStyle .slide-image-" + data.counter + " {background-image: url(./" + data.tablet + ");}", "tablet-image-" + data.id);
+    }
+  
+    if (data.mobile) {
+      CreateClass('@media all and (min-width: 351px) and (max-width: 704px)', ".stageStyle .adContainerStyle .galleryContainerStyle .slide-image-" + data.counter + " {background-image: url(./" + data.mobile + ");}", "large-mobile-image-" + data.id);
+      CreateClass('@media all and (min-width: 300px) and (max-width: 350px)', ".stageStyle .adContainerStyle .galleryContainerStyle .slide-image-" + data.counter + " {background-image: url(./" + data.mobile + ");}", "small-mobile-image-" + data.id);
+    }
+  };
+  
+  var getInternetExplorerVersion = function getInternetExplorerVersion() {
+    var rv = -1;
+  
+    if (navigator.appName == "Microsoft Internet Explorer") {
+      var ua = navigator.userAgent;
+      var re = new RegExp("MSIE ([0-9]{1,}[.0-9]{0,})");
+      if (re.exec(ua) != null) rv = parseFloat(RegExp.$1);
+    } else if (navigator.appName == "Netscape") {
+      var _ua = navigator.userAgent;
+  
+      var _re = new RegExp("Trident/.*rv:([0-9]{1,}[.0-9]{0,})");
+  
+      if (_re.exec(_ua) != null) rv = parseFloat(RegExp.$1);
+    }
+  
+    return rv;
+  };
+  
+  var returnVersion = getInternetExplorerVersion(); //alert(returnVersion);
+  
+  var trackingPerceltageQ1 = false;
+  var trackingPerceltageQ2 = false;
+  var trackingPerceltageQ3 = false;
+  var trackingPerceltageQ4 = false;
+  
+  
+  
+  var init = function init() {
+    
+  
+    number_of_slides = 5;
+    window.adData.logo.desktop ? LogoDesktop = window.adData.logo.desktop : 'https://tpc.googlesyndication.com/simgad/185478954394285137?';
+    window.adData.logo.tablet ? LogoTablet = window.adData.logo.tablet : 'https://tpc.googlesyndication.com/simgad/3223293407837858465?';
+    window.adData.logo.mobile ? LogoMobile = window.adData.logo.mobile : 'https://tpc.googlesyndication.com/simgad/3223293407837858465?'; //logoImgLoc_black = adData.logo_desktop;
+  
+    var ctaBGcolor = adData.CTA.background;
+    var ctaCopycolor = adData.CTA.color; // var paragraphTitleCopyColor = adData.paragraph_title_color;
+  
+    var paragraphCopyColor = adData.general.text_color;
+    adData.images.credit ? picCredit = adData.images.credit : "";
+    adBGcolor = adData.general.background_color;
+    galleryContainer = document.getElementById("contentContainer"); // sending in tracking information
+    
+    for (var i = 0; i < number_of_slides; i++) {
+      var dImages = void 0,
+          dsImages = void 0,
+          mImages = void 0;
+      var adCopy = adData.copy[i];
+      adCopyQueue.push(adCopy);
+      adData.images.desktop ? dImages = adData.images.desktop[i] : "";
+      adData.images.tablet ? dsImages = adData.images.tablet[i] : "";
+      adData.images.mobile ? mImages = adData.images.mobile[i] : "";
+      desktopLargeImages.push(dImages);
+      desktopSmallImages.push(dsImages);
+      mobileImages.push(mImages);
+    }
+  
+    stage = document.getElementById("adWrapper");
+    adContainer = document.getElementById("adContainer");
+  
+    if (adData.general.type == "desktop") {
+      var ADMaxWidth = adData.general.maxWidth;
+  
+      if (ADMaxWidth == 1605) {
+        adContainer.className += " maxWidth-1605";
+      }
+    }
+  
+    if (adData.general.border_color != "") {
+      adContainer.style.border = "1px solid " + adData.general.border_color;
+    }
+  
+    stage.style.display = "block";
+  
+    var checkingForContainerWidth = function checkingForContainerWidth() {
+      var tempWidth = document.getElementById("adContainer").offsetWidth;
+  
+      if (tempWidth == 1126 || tempWidth == 1124) {
+        tempWidth = 1125;
+      } else if (tempWidth == 976 || tempWidth == 969) {
+        tempWidth = 969;
+      } else if (tempWidth == 704 || tempWidth == 706) {
+        tempWidth = 705;
+      }
+  
+      return tempWidth;
+    };
+  
+    if (widthOftheContainer == undefined) widthOftheContainer = checkingForContainerWidth();
+    navigation = document.getElementById("navigation");
+    slideCounterDisplay = document.getElementById("slideCounterDisplay");
+    slideCounterDisplay.innerHTML = "1 of " + number_of_slides;
+    navLeftArrow = document.getElementById("LeftArrowBtn");
+    navRightArrow = document.getElementById("RightArrowBtn");
+  
+    if (number_of_slides > 1) {
+      navLeftArrow.addEventListener("click", function () {
+        navClickedLeft();
+      });
+      navRightArrow.addEventListener("click", function () {
+        navClickedRight();
+      });
+    } else {
+      navLeftArrow.style.display = "none";
+      navRightArrow.style.display = "none";
+    }
+  
+    galleryImgContainer = document.getElementById("galleryImgContainer");
+    var slideCopyContainer = document.getElementById("slideCopyContainer"); // loading Slide Content 
+  
+  
+  
+    (function () {
+      for (var _i = 0; _i < number_of_slides; _i++) {
+        var slides = new Sprite({
+          id: "slide-" + _i,
+          class: "copy-slide-style",
+          container: slideCopyContainer
+        });
+        var tempTitle = "";
+        var tempSummary = "";
+        var tempCta = "";
+        adData.copy[_i]["title"] ? tempTitle = "<p class='page-title'>" + adData.copy[_i]["title"] + "</p>" : tempTitle = "";
+        adData.copy[_i]["summary"] ? tempSummary = "<p class='summary-style'>" + adData.copy[_i]["summary"] + "</p>" : tempSummary = "";
+  
+        if (_i == number_of_slides - 1) {
+          tempCta = "<p class='ctaStyle'>" + adData.CTA.content;
+        } else {
+          tempCta = "";
+        }
+  
+        var framebodycopy = new Sprite({
+          id: "framebodycopy-" + _i,
+          container: slides.obj,
+          class: "frame-copy-style",
+          text: {
+            content: tempTitle + tempSummary + tempCta
+          }
+        });
+      }
+  
+      if (typeof window.DEBUG !== 'undefined') console.log("content fully loaded");
+    })();
+  
+    newWidth = document.getElementById("galleryImgContainer").offsetWidth;
+  
+    var settingGalleryImageSize = function settingGalleryImageSize(containerWidth) {
+      if (typeof window.DEBUG !== 'undefined') {
+        console.group("https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjssmVspzFhXB7KAdgDFcUy22sLSfIiQab5HW7putMMQcVr6YP8Z7RMrDvj78APR4Q_kdCZS_HEA2XwJmSAKo_sSIlTTXQ-midupfF3vll5ajYd9jAcAG3iSSoltm_NTElqze1oWyM1KiC7Fkpi0noRT1SXyqKSF6sAlQdTOU3eJS2ultJIHDmosABcBtB_B3c7V8RCCYZRPSHJ36qqie4NErpoOHldqaH9deHSEOi-pJDPryU070mfsdrsFKu1uVZSMg__S6rtCgETjNCVVrLgpO_Pepz3ei_R1SvSwQedVa5Gs49Cnzt4TMz42DYA4%2526sig%253DCg0ArKJSzGsKCz6c1XpUEAE%2526fbs_aeid%253D%255Bgw_fbsaeid%255D%2526urlfix%253D1%2526adurl%253D Setting Gallery ImageSize", 'background: #000; color: #ccc; font-size: 12px');
+        console.log("image container width: ", containerWidth);
+      }
+  
+      if (containerWidth < GalleryImageInfo.mobile.breakpoint) {
+        GalleryImageInfo.selected.width = newWidth;
+        GalleryImageInfo.selected.height = GalleryImageInfo.mobile.height;
+        GalleryImageInfo.selected.images = mobileImages.slice(0);
+        if (typeof window.DEBUG !== 'undefined') console.log("gallery image size set to mobile", GalleryImageInfo);
+      } 
+	  
+	  else if (containerWidth < GalleryImageInfo.tablet.breakpoint && containerWidth >= GalleryImageInfo.mobile.breakpoint || isIOS) {
+        GalleryImageInfo.selected.width = newWidth;
+        GalleryImageInfo.selected.height = GalleryImageInfo.tablet.height;
+        GalleryImageInfo.selected.images = desktopSmallImages.slice(0);
+        if (typeof window.DEBUG !== 'undefined') console.log("gallery image size set to tablet", GalleryImageInfo);
+      } 
+	  
+	  else if (containerWidth >= GalleryImageInfo.tablet.breakpoint) {  
+        GalleryImageInfo.desktop.width = newWidth;
+        GalleryImageInfo.selected.height = GalleryImageInfo.desktop.height;
+        GalleryImageInfo.selected.images = desktopLargeImages.slice(0);
+        if (typeof window.DEBUG !== 'undefined') console.log("gallery image size set to desktop", GalleryImageInfo);
+      }
+  
+      if (typeof window.DEBUG !== 'undefined') console.groupEnd("Setting Gallery ImageSize");
+    };
+  
+    
+    settingGalleryImageSize(widthOftheContainer);
+    
+  
+  setTimeout(function(){ 
+      newWidth = document.getElementById("galleryImgContainer").offsetWidth;
+      CL_LD = new Slideshow({ 
+      images: GalleryImageInfo.selected.images,
+      width: newWidth , // update this 
+      height: 600,
+      id: "gallery",
+      class: "ss-card-style",
+      container: galleryImgContainer,
+      responsive: true
+    });
+      //CL_LD.resize({width: newWidth});
+  }, 50);
+  
+  
+  
+    if (adData.images.method == "css") {
+      for (var _i2 = 0; _i2 < number_of_slides; _i2++) {
+        writeImageCSS({
+          counter: parseInt(_i2 + 1),
+          desktop: desktopLargeImages[_i2],
+          tablet: desktopSmallImages[_i2],
+          mobile: mobileImages[_i2],
+          id: _i2
+        });
+      }
+    }
+  
+    var greyBarBelowLogo = new Sprite({
+      id: "greyBarBelowLogo",
+      class: "greyBarBelowLogo-style",
+      container: galleryImgContainer
+    });
+  
+    if (picCredit) {
+      var pCredit = new Sprite({
+        id: "pCredit",
+        container: galleryContainer,
+        class: "pCredit-Style",
+        text: {
+          content: picCredit
+        }
+      });
+      if (typeof window.DEBUG !== 'undefined') console.log("picture credit found");
+    } // loading Logo
+  
+  
+    (function () {
+      var logo = document.getElementById("logo");
+      logo.addEventListener("click", function () {
+		  ET.exit({type:"clickURL", location: "logo"});
+		});
+  
+      try {
+        var logoDesktop = document.getElementById("desktopLogo");
+        logoDesktop.addEventListener("click", function () {
+			 ET.exit({type:"clickURL", location: "logo"});
+		});
+        logoDesktop.style.backgroundImage = "url(" + LogoDesktop + ")";
+      } catch (Error) {
+        if (typeof window.DEBUG !== 'undefined') console.error("issues on loading desktop logo image");
+      }
+  
+      try {
+        var logoTablet = document.getElementById("tabletLogo");
+        logoTablet.style.backgroundImage = "url(" + LogoTablet + ")";
+      } catch (Error) {
+        if (typeof window.DEBUG !== 'undefined') console.error("issues on loading tablet logo image");
+      }
+  
+      adData.logo.height ? logo.style.height = adData.logo.height + "px" : "";
+      if (typeof window.DEBUG !== 'undefined') console.log("logo loaded");
+    })();
+  
+    setStyle(".slideshow-style", "background-color", adBGcolor);
+
+
+    setClick(".ctaStyle", function () {
+		ET.exit({type:"clickURL", location: "cta"});
+	});
+
+
+    if (adData.CTA.background) setStyle(".ctaStyle", "background-color", adData.CTA.background);else {
+      setStyle(".ctaStyle", "background-color", adData.general.text_color);
+    }
+    if (adData.CTA.color) setStyle(".ctaStyle", "color", ctaCopycolor);else {
+      setStyle(".ctaStyle", "color", adData.general.background_color);
+    }
+    if (adData.CTA.outline) setStyle(".ctaStyle", "border", "1px solid " + adData.CTA.outline);
+  
+    if (adData.logo_height > 30) {
+      var tempPTTopPadding = adData.logo_height - 30;
+      setStyle(".page-title", "padding-top", tempPTTopPadding + "px");
+    }
+  
+    setStyle(".slideCounterDisplayStyle", "color", paragraphCopyColor);
+    setStyle(".galleryContainerStyle", "background-color", adBGcolor);
+    setStyle(".frame-copy-style", "color", paragraphCopyColor);
+  
+    if (adData.navigation.arrowColor) {
+      setStyle(".nav-left-arrowStyle", "border-top", "1px solid " + adData.navigation.arrowColor);
+      setStyle(".nav-left-arrowStyle", "border-left", "1px solid " + adData.navigation.arrowColor);
+      setStyle(".nav-right-arrowStyle", "border-top", "1px solid " + adData.navigation.arrowColor);
+      setStyle(".nav-right-arrowStyle", "border-left", "1px solid " + adData.navigation.arrowColor);
+    } else {
+      setStyle(".nav-left-arrowStyle", "border-top", "1px solid " + paragraphCopyColor);
+      setStyle(".nav-left-arrowStyle", "border-left", "1px solid " + paragraphCopyColor);
+      setStyle(".nav-right-arrowStyle", "border-top", "1px solid " + paragraphCopyColor);
+      setStyle(".nav-right-arrowStyle", "border-left", "1px solid " + paragraphCopyColor);
+    }
+  
+    if (adBGcolor == "#fff" || adBGcolor == "#ffffff") {} else {
+      setStyle(".adContainerStyle", "border", "unset");
+    }
+  
+    var dots = function dots() {
+      var dotHolder = document.getElementById("dots");
+  
+      if (number_of_slides > 1) {
+        for (var _i3 = 0; _i3 < number_of_slides; _i3++) {
+          var eachDots = new Sprite({
+            id: "dot-" + _i3,
+            element: "li",
+            container: dotHolder
+          });
+  
+          if (_i3 == 0) {
+            eachDots.obj.style.backgroundColor = adData.navigation.dots.active;
+          } else {
+            eachDots.obj.style.backgroundColor = adData.navigation.dots.inactive;
+          }
+  
+          eachDots.obj.style.width = adData.navigation.dots.size + "px";
+          eachDots.obj.style.height = adData.navigation.dots.size + "px";
+          eachDots.obj.style["margin-left"] = adData.navigation.dots.spacing / 2 + "px";
+          eachDots.obj.style["margin-right"] = adData.navigation.dots.spacing / 2 + "px";
+          eachDots.obj.setAttribute("data-active", adData.navigation.dots.active);
+          eachDots.obj.setAttribute("data-inactive", adData.navigation.dots.inactive);
+          eachDots.obj.setAttribute("data-index-number", _i3);
+          eachDots.obj.setAttribute("data-total", number_of_slides);
+  
+          if (adData.navigation.dots.shape) {
+            if (adData.navigation.dots.shape == "square") {
+              eachDots.obj.style.borderRadius = "0%";
+            }
+          }
+        }
+      }
+    };
+  
+    adData.navigation.dots ? dots() : "";
+  
+    var navClickedLeft = function navClickedLeft(event) {
+      newWidth = document.getElementById("galleryImgContainer").offsetWidth;
+      console.log(newWidth);
+      if (okeyToupdate == true) {
+        okeyToupdate = false;
+        currentGalleryFrame--;
+
+		ET.prev();
+  
+        if (currentGalleryFrame < 0) {currentGalleryFrame = number_of_slides - 1;}
+  
+        updateSlideCounter("forward");
+        CL_LD.move({
+          direction: "forward",
+          delta: newWidth,
+          duration: 0.75
+        }); 
+  
+      }
+  
+      if (typeof DEBUG !== 'undefined') console.log("::nav left clicked::");
+    };
+  
+    var navClickedRight = function navClickedRight(event) {
+        newWidth = document.getElementById("galleryImgContainer").offsetWidth;
+        console.log(newWidth);
+      if (okeyToupdate == true) {
+        okeyToupdate = false;
+        currentGalleryFrame++;
+
+       
+        ET.next();
+  
+        if (currentGalleryFrame == number_of_slides) {currentGalleryFrame = 0;}
+  
+        CL_LD.move({
+          direction: "reverse",
+          delta: newWidth,
+          duration: 0.75
+        }); 
+  
+        navLeftArrow.style.display = "block";
+        updateSlideCounter("reverse");
+  
+      
+      }
+  
+      if (typeof window.DEBUG !== 'undefined') console.log("::nav right clicked::");
+    };
+  
+    var bodyCopyUpdate = function bodyCopyUpdate(selectedOne) {
+      for (var i = 0; i < number_of_slides; i++) {
+        if (i != selectedOne) {
+          TweenMax.to("#slide-" + i, 0.6, {
+            autoAlpha: 0
+          });
+        } else {
+          TweenMax.to("#slide-" + i, 0.8, {
+            autoAlpha: 1,
+            onComplete: resetSliderVar
+          });
+        }
+      }
+  
+      function resetSliderVar() {
+        okeyToupdate = true;
+      }
+  
+      if (number_of_slides > 1) adData.navigation.dots ? updateDot(selectedOne) : "";
+    };
+  
+    bodyCopyUpdate(currentGalleryFrame);
+  
+    var updateSlideCounter = function updateSlideCounter(direction) {
+      currentIndex = currentGalleryFrame;
+      bodyCopyUpdate(currentGalleryFrame);
+  
+      if (currentIndex + 1 == number_of_slides) {
+        setStyle(".pCredit-Style", "display", "block");
+        TweenMax.fromTo(".pCredit-Style", 0.5, {
+          opacity: 0
+        }, {
+          opacity: 1
+        });
+      } else {
+        TweenMax.to(".pCredit-Style", 0.5, {
+          opacity: 0
+        });
+      }
+  
+      var targetElement = document.getElementById("slideCounterDisplay");
+      targetElement.innerHTML = currentIndex + 1 + " of " + number_of_slides;
+    }; // end of updateSlideCounter
+  
+  
+    function updateDot(whichOne) {
+      for (var i = 0; i < number_of_slides; i++) {
+        var eachDots = document.getElementById("dot-" + i);
+  
+        if (i == whichOne) {
+          eachDots.style.backgroundColor = adData.navigation.dots.active;
+        } else {
+          eachDots.style.backgroundColor = adData.navigation.dots.inactive;
+        }
+      }
+  
+      if (typeof window.DEBUG !== 'undefined') console.log("::nav dot updated -- ", whichOne + "  ::");
+    }
+  
+    var runOnWindowResize = function runOnWindowResize() {
+      widthOftheContainer = checkingForContainerWidth();
+      newWidth = document.getElementById("galleryImgContainer").offsetWidth;
+  
+      if (typeof window.DEBUG !== 'undefined') {
+        console.group("https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjssmVspzFhXB7KAdgDFcUy22sLSfIiQab5HW7putMMQcVr6YP8Z7RMrDvj78APR4Q_kdCZS_HEA2XwJmSAKo_sSIlTTXQ-midupfF3vll5ajYd9jAcAG3iSSoltm_NTElqze1oWyM1KiC7Fkpi0noRT1SXyqKSF6sAlQdTOU3eJS2ultJIHDmosABcBtB_B3c7V8RCCYZRPSHJ36qqie4NErpoOHldqaH9deHSEOi-pJDPryU070mfsdrsFKu1uVZSMg__S6rtCgETjNCVVrLgpO_Pepz3ei_R1SvSwQedVa5Gs49Cnzt4TMz42DYA4%2526sig%253DCg0ArKJSzGsKCz6c1XpUEAE%2526fbs_aeid%253D%255Bgw_fbsaeid%255D%2526urlfix%253D1%2526adurl%253D browser resize: ", 'background: #000; color: violet; font-size: 12px');
+        console.log("current unit width - " + widthOftheContainer);
+      }
+  
+      if (widthOftheContainer < GalleryImageInfo.mobile.breakpoint) {
+        GalleryImageInfo.selected.width = widthOftheContainer;
+        GalleryImageInfo.selected.height = GalleryImageInfo.mobile.height;
+  
+        if (adData.images.method == "js") {
+          for (var i = 0; i < number_of_slides; i++) {
+            CL_LD.replace({
+              index: i,
+              url: mobileImages[i]
+            });
+          }
+        }
+  
+        if (typeof window.DEBUG !== 'undefined') {
+          console.log("selected set -- mobile");
+        }
+      } else if (widthOftheContainer < GalleryImageInfo.tablet.breakpoint && widthOftheContainer >= GalleryImageInfo.mobile.breakpoint) {
+        GalleryImageInfo.selected.width = GalleryImageInfo.tablet.width;
+        GalleryImageInfo.selected.height = GalleryImageInfo.tablet.height;
+  
+        if (adData.images.method == "js") {
+          for (var i = 0; i < number_of_slides; i++) {
+            CL_LD.replace({
+              index: i,
+              url: desktopSmallImages[i]
+            });
+          }
+        }
+  
+        if (typeof window.DEBUG !== 'undefined') {
+          console.log("selected set -- tablet / small desktop");
+        }
+      } else if (widthOftheContainer >= GalleryImageInfo.tablet.breakpoint) {
+        GalleryImageInfo.selected.width = GalleryImageInfo.desktop.width;
+        GalleryImageInfo.selected.height = GalleryImageInfo.desktop.height;
+  
+        if (adData.images.method == "js") {
+          for (var i = 0; i < number_of_slides; i++) {
+            CL_LD.replace({
+              index: i,
+              url: desktopLargeImages[i]
+            });
+          }
+        }
+  
+      }
+  
+      CL_LD.resize({ width: newWidth });
+  
+    };
+  
+    window.addEventListener("resize", runOnWindowResize);
+  };
+  
+
+
+  if (window.adData.general.platform == "google-native") {
+    init();
+  }
+
+ 
+  var creativeId = "HTMLResponsiveRichMediaBanner";
+  var creativeVersion = "1.1.0";
+  var lastModified = "2017-02-07";
+  var lastUploaded = "2017-02-07";
+  var templateVersion = "2.0.24";
+  var templateName = "cf_deluxe_banner_mobile_flex_xl_messaging_1x1_" + creativeVersion + "_6266"; // cf_[format_name]_[template_name]_[wxh]_version_BlockID
+  var scrollPos = { x: undefined, y: undefined };
+  var adId, rnd, uid;
+  var runOnce = false;
+  var safeframe;
+  var currentPercentageData;
+  var runningresize = true;
+  var SFintervalfunc;
+  var adBody;
+  var adBodyHeight; 
+  var listenerQueue;
+  var creativeIFrameId;
+  var adjustDimensionCalled = 0;
+  
+
+    
+  function runOnWindowResize(data) {
+    var winW, winH, finalWidth, finalHeight, widthOftheContainer;
+    var adWrapper = document.getElementById("adWrapper");
+    var adWrappoerWidth = adWrapper.offsetWidth;
+    var adWrappoerHeight = adWrapper.offsetHeight;
+    adBody = document.querySelector(".willow-ad");
+  
+    try {
+      if (adBody.offsetHeight != 0) {
+        adBodyHeight = adBody.offsetHeight - 40;
+      }
+    } catch (Error) {}
+  
+    var initialWidth = adWrappoerWidth;
+    var initialHeight = adWrappoerHeight;
+  
+    if (data && typeof data.sfGeomObj !== "undefined") {
+      winW = data.sfGeomObj.win.w;
+      console.log("safe frame width: ", winW);
+    } else {
+      winW = window.innerWidth;
+    }
+  
+    if (data && typeof data.sfGeomObj !== "undefined") {
+      if (fixWidth == false) {
+        winH = data.sfGeomObj.win.h;
+        console.log("safe frame width: ", winH);
+        fixWidth = true;
+      }
+    } else {
+      winH = window.innerHeight;
+    }
+  
+    try {
+      console.log("safeframe: ", data.sfGeomObj);
+    } catch (error) {
+      console.log("safe frame data didn't load");
+    }
+  
+    var determinedOrientation = winH <= winW ? "land" : "port";
+  
+    if (initialHeight > adWrappoerHeight) {
+      finalWidth = Math.round(adWrappoerHeight * .66666);
+      finalHeight = adWrappoerHeight;
+    } else {
+      finalWidth = initialWidth;
+      finalHeight = adWrappoerHeight;
+    }
+  
+    try {
+      widthOftheContainer = document.body.ownerDocument.defaultView.frameElement.parentElement.parentElement.parentElement.offsetWidth;
+    } catch (Error) {}
+  
+    if (widthOftheContainer == undefined) {
+      widthOftheContainer = finalWidth;
+      adWrapper.style.width = determinedOrientation === "port" ? "100%" : finalWidth + "px";
+    } else {
+      adWrapper.style.width = widthOftheContainer + "px";
+    }
+  
+    adWrapper.style.height = adBodyHeight + "px"; 
+  
+    CL_LD.resize({width: widthOftheContainer});
+
+    setStyle(".ss-card-style-mobile .ss-box-style", "width", widthOftheContainer + "px");
+  }
+  
+  var adjustDimension = function adjustDimension(data) {
+    adjustDimensionCalled++;
+    var deviceHeight = window.screen.availHeight; // window.innerHeight, window.screen.availHeight
+  
+    var deviceWidth = window.screen.availWidth; // window.innerWidth, window.screen.availWidth
+  
+    var adWrapper = document.getElementById("adWrapper");
+    var adWrapperWidth = adWrapper.offsetWidth; // outer width 
+  
+    var adWrapperHeight = adWrapper.offsetHeight; // outer height
+  
+    var initialWidth = adWrapperWidth;
+    var LargePhoneOffsetVal = 177;
+  
+    if (typeof DEBUG !== 'undefined') {
+      console.group("https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjssmVspzFhXB7KAdgDFcUy22sLSfIiQab5HW7putMMQcVr6YP8Z7RMrDvj78APR4Q_kdCZS_HEA2XwJmSAKo_sSIlTTXQ-midupfF3vll5ajYd9jAcAG3iSSoltm_NTElqze1oWyM1KiC7Fkpi0noRT1SXyqKSF6sAlQdTOU3eJS2ultJIHDmosABcBtB_B3c7V8RCCYZRPSHJ36qqie4NErpoOHldqaH9deHSEOi-pJDPryU070mfsdrsFKu1uVZSMg__S6rtCgETjNCVVrLgpO_Pepz3ei_R1SvSwQedVa5Gs49Cnzt4TMz42DYA4%2526sig%253DCg0ArKJSzGsKCz6c1XpUEAE%2526fbs_aeid%253D%255Bgw_fbsaeid%255D%2526urlfix%253D1%2526adurl%253D Adjust-Dimension", 'background: #000; color: violet; font-size: 12px'); //console.log("data: ",data);
+  
+      console.log("number of times adjustDimension called: ", adjustDimensionCalled);
+      data && typeof data.sfGeomObj !== "undefined" ? console.log(data.sfGeomObj) : "safeFrame data not available";
+      console.log("initial dimension (w x h): ", adWrapperWidth, ":", adWrapperHeight);
+    }
+  
+    var initialHeight = Math.round(adWrapperWidth * 1.7);
+  
+    if (typeof DEBUG !== 'undefined') {
+      console.log("initial height setting:", initialHeight, " <-- calculated value"); //console.log("current ad height:", adWrapperHeight);  
+    }
+  
+    var tempWidth = data && typeof data.sfGeomObj !== "undefined" ? data.sfGeomObj.win.w : deviceWidth;
+    var tempHeight = data && typeof data.sfGeomObj !== "undefined" ? data.sfGeomObj.win.h : deviceHeight;
+    var winO = window.orientation || null;
+    var determinedOrientation = tempHeight <= tempWidth || winO === 90 || winO === -90 ? "landscape" : "portrait";
+    if (typeof DEBUG !== 'undefined') console.log("device orientation:", determinedOrientation); // 0 if its portrait, 90 if its landscape
+  
+    var finalWidth;
+    var finalHeight; // if creative content would overflow available display space reduce creative content area
+  
+    if (initialHeight > adWrapperHeight) {
+      finalWidth = Math.round(adWrapperHeight * 0.66666);
+      finalHeight = adWrapperHeight;
+      if (typeof DEBUG !== 'undefined') console.log("setting generated height and width");
+    } else {
+      finalWidth = initialWidth;
+      finalHeight = initialHeight;
+      if (typeof DEBUG !== 'undefined') console.log("setting actual height and width");
+    }
+  
+    if (deviceWidth < 705) {
+      if (typeof DEBUG !== 'undefined') console.log("device: Mobile");
+      adWrapper.style.width = determinedOrientation === "portrait" ? "100%" : finalWidth + "px";
+  
+      if (deviceWidth <= 320) {
+        finalHeight = 567;
+        if (typeof DEBUG !== 'undefined') console.log("device: Mobile - iphone 5, SE ...");
+      } else if (deviceWidth > 320 && deviceWidth <= 375) {
+        if (deviceHeight < 700) {
+          finalHeight = 630;
+          if (typeof DEBUG !== 'undefined') console.log("device: Mobile - iphone 6, 7, 8 ...");
+        } else {
+          finalHeight = 630;
+          if (typeof DEBUG !== 'undefined') console.log("device: Mobile - iphone X ...");
+        }
+      } else if (deviceWidth > 375) {
+        if (deviceHeight < 800) {
+          finalHeight = 666;
+          if (typeof DEBUG !== 'undefined') console.log("device: Mobile - iphone 6+, 7+, 8+ ...");
+        } else {
+          finalHeight = 719;
+          if (typeof DEBUG !== 'undefined') console.log("device: Mobile - iphone XR, XE ...");
+        }
+      }
+  
+      adWrapper.style.height = finalHeight + "px";
+    } else {
+      if (typeof DEBUG !== 'undefined') console.log("device: Desktop / Tablet");
+    }
+  
+    if (typeof DEBUG !== 'undefined') {
+      console.log("final dimension (w x h): ", finalWidth, ":", finalHeight);
+      console.groupEnd("Size-Content-Area");
+    } 
+  
+  };
+ 
+        
+</script>
+  
+<script id="width-switch-script">
+  
+  var updateStyle = window.adData.size; 
+  
+  var x = [
+      window.matchMedia("(max-width: 1125px)"),
+      window.matchMedia("(max-width: 969px)")
+  ]
+  
+  
+  function switchSides() {
+          if (updateStyle === 1605) {
+              document.getElementById("adContainer").style.maxWidth = "1605px";
+              document.getElementById("galleryImgContainer").style.width = "calc(100% - 525px)";
+              document.getElementById("slideCopyContainer").style.width = "525px";
+              document.getElementById("slideCopyContainer").style.right = "0px";
+              document.getElementById("slideCopyContainer").style.left = "unset";
+          }
+          // max 1125px 
+          if (x[0].matches && updateStyle === 1605) {
+              document.getElementById("slideCopyContainer").style.width = "calc(100% - 600px)";
+              document.getElementById("galleryImgContainer").style.width = "600px";
+          }
+          // max 975px
+          if (x[1].matches && updateStyle === 1605) {
+              document.getElementById("slideCopyContainer").style.width = "100%";
+              document.getElementById("slideCopyContainer").style.left = "0px";
+              document.getElementById("galleryImgContainer").style.width = "100%";
+          }
+  
+           if (x[0].matches && updateStyle === 1125) {
+              document.getElementById("galleryImgContainer").style.width = "600px";
+          }
+  
+           if (x[1].matches && updateStyle === 1125) {
+              document.getElementById("galleryImgContainer").style.width = "100%";
+          }  
+      }
+  
+      for (var i = 0; i < x.length; i++) {
+          switchSides(x[i])
+          x[i].addListener(switchSides)
+      }
+  
+  </script>
+
+<div style="display: none;">
+<img src="./B28079316.340068574" border="0" height="1" width="1" alt="Advertisement">
+
+<img src="./0000585019-img-5f" width="0" height="0" referrerpolicy="no-referrer-when-downgrade" style="display:none;">
+</div>
+    
+    <div id="impression-pixel" class="impression-tracker"><img src="https://2e72c79cef0120ef43e3b3b8e208dcd0.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" width="1" height="1" border="0"></div>
+  <div id="impression-pixel-2" class="impression-tracker"><img src="https://2e72c79cef0120ef43e3b3b8e208dcd0.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" width="1" height="1" border="0"></div>
+    
+    
+    <script id="exclusivity-script" type="text/javascript">parent.postMessage({ exclusive: false, type: '', div: 'mid1' }, '*');</script>
+    
+    <script type="text/javascript" id="custom-script">		navRightArrow.addEventListener("click", changeLogo);
+		navLeftArrow.addEventListener("click", changeLogo);
+		
+function changeLogo(){
+	if(currentIndex == 1 || currentIndex == 2 ) {
+		document.getElementById("tabletLogo").style.backgroundImage = 'url("https://tpc.googlesyndication.com/simgad/185478954394285137?")';
+	}
+	else {
+		document.getElementById("tabletLogo").style.backgroundImage = 'url("https://static01.nytimes.com/ads/adsolutions/Indeed/Indeed_Logo_White.png")'
+	}
+}	</script>
+    
+  
+</div><script src="./rx_lidar.js"></script><script type="text/javascript">osdlfm();</script><div style="bottom:0;right:0;width:100px;height:100px;background:initial !important;position:absolute !important;max-width:100% !important;max-height:100% !important;pointer-events:none !important;image-rendering:pixelated !important;z-index:2147483647;background-image:url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAWBAMAAACrl3iAAAAABlBMVEUAAAD+AciWmZzWAAAAAnRSTlMAApidrBQAAAB5SURBVBjTbVABEsAgCKIf+P/XbgoprdnV4kaIAP+1WBeKwoHIarSS8Z51GURenXUXmv/cw25tQ7u31uGLFfHxDX+AJtNEWIcUGn3wZTMhHuTbZ5Pz0wd8VtOlMdD2ngvoaCwF9t9cS5BfBePsSl1dJsEZGEeCDD3VH3gkBa31I9wqAAAAAElFTkSuQmCC&#39;) !important;"></div></span> <iframe id="iframe_509107712563" name="iframe_509107712563" data-dv-frm="509107712563" width="0" height="0" src="./saved_resource(8).html" style="display: none;"></iframe><script type="text/javascript" async="true" src="./dvtp_src(1).js"></script><script> (function () {
+var advertisers = [32074718, 25068398,33597638,33635318,33597998,30252878,33614678,43944758,4538914019,31519358,28995638,4666807094,30224678,31469558];
+if (advertisers.indexOf(4693501811) == -1 && Math.random() <= 0.6) {
+var dvtp_src = document.createElement('script'); dvtp_src.type = 'text/javascript'; dvtp_src.setAttribute('async', 'true');
+var turl = encodeURIComponent('https://www.nytimes.com/interactive/2022/08/01/upshot/rich-poor-friendships.html'); dvtp_src.setAttribute('src','https://cdn.doubleverify.com/dvtp_src.js#dvp_scripthash=1&t2te=0&seltag=1&adsrv=104&sadv=4693501811&ord=3046674666&litm=6056257850&scrt=138396937823&splc=/29390238/nyt/upshot&adu=28672958&unit=0x0&btreg=6056257850138396937823&btadsrv=6056257850138396937823&cb=45753480&ctx=20447730&cmp=DV432810&spos=mid1&turl='+turl);
+if (document.currentScript){ document.currentScript.before(dvtp_src); }
+else {     var currentScript = document.scripts[document.scripts.length - 1];     if (currentScript) { currentScript.before(dvtp_src); } }}})(); </script>
+  
+  
+  
+
+</body></html>
