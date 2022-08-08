@@ -7,3 +7,5 @@
 .Rdata
 .httr-oauth
 .DS_Store
+
+internal/county_outcomes.csv
