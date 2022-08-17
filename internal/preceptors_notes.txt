@@ -149,6 +149,10 @@ Some goals for this week:
 create_website(dir = ".",
                title = "Economic Connectedness",
                gh_pages = TRUE)
+               
+Note that a student who forgets gh_pages = TRUE will make a website which still builds but which does not have a docs/ directory and which, therefore, won't work easily with Github Pages.
+
+Just getting a site built and then using Github pages so that they appeared on the web took the full hour.
 
 
 2) Organize the distill website better. First, there should be a get/clean data script which is only run by hand and which writes out a data file. 
