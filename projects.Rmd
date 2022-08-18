@@ -6,7 +6,35 @@ title: "Final Projects"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-A total of 68 students have completed the Course. Congratulations! Here are their Final Projects.
+A total of 80 students have completed the Course. Congratulations! Here are their Final Projects.
+
+## August 2022
+
+[Rachel Heiss](https://github.com/rachelheiss): [These Prices are Defying Gravity: Broadway Trends 1985 - 2022](https://rachelheiss.github.io/broadway_project/). Today's Broadway tickets cost much more than they did in the 80s, but more people are going to shows.  
+
+[Maxwell Lu](https://github.com/chemax7): [Heart Disease: Risk Factors and Demographics](https://chemax7.github.io/Heart-Disease/). I found that men contract heart disease significantly more than women, American Indians/Alaskan Natives make up more percentage of those with heart disease than any other race.  
+
+[Krish Saluja](https://github.com/krishsal9801/): [Variables that Accurately Predict the Likelihood of a Stroke](https://krishsal9801.github.io/Final-Data-Science-Project/). Heart disease and hypertension are the most effective factors that help to accurately predict whether or not a person will suffer from a stroke.  
+
+[Sam Yeh](https://github.com/syeh5413): [Comparing Cryptopunk Data With Cryptopunk Attributes](https://github.com/syeh5413/punk-final-project). The price of Cryptopunks vary based on many attributes, but collectors buy Cryptopunks that have favorable attributes, such as lighter skin color.  
+
+[Elif Kuyuk](https://github.com/ekuyuk): [Factors that affect a Student's Academic Performance](https://ekuyuk.github.io/Student-Performance/). A higher range of scores were noted for students taking a standard lunch; female students were observed to have higher writing and reading scores.  
+
+[Krish Badri](https://github.com/krishbadri/): [Growth of Small vs Large Market-Cap Stocks](https://krishbadri.github.io/Growth-of-Small-vs-Large-Market-Cap-Stocks/). The average small market cap stock in the S&P 500 is growing at a rate much faster than the average growth of high market cap stocks at the top of the S&P 500 Weighting List.  
+
+[Miriam Heiss](https://github.com/miriamheiss): [Classical vs Contemporary Music](https://www.miriamheiss.com/final-project/). Taylor Swift's average Song length is almost 3 minutes more than J. S. Bach's, disproving the point  'Classical Music is too long'.  
+
+[Melvin Agbai](https://github.com/HyperTails1343): [What is the most popular used car by brand?](hypertails1343.github.io/final-project). The most popular car varies between consumers  
+
+[Varun Khedkar](https://github.com/varnkxband44): [Intelligence Quotient and Potential Indicators of Success](https://github.com/varnkxband44/cbIQpiS). Intelligence Quotient does not directly correspond with may be defined as success, however does hold a clear indirect impact on the key precursors to success.  
+
+[Jihan Bhuiyan](https://github.com/PC8923): [An Analysis of Monkeypox Demographics](https://pc8923.github.io/final-project/). While it may appear that monkeypox only impacts gay and bisexual men, this doesn't correspond with previous monkeypox outbreaks and is likely due to restrictions on testing set by governments.  
+
+[Mann Talati](https://github.com/manntalati): [NCAA Women's Volleyball Statistics](https://manntalati.github.io/NCAA_Womens_Volleyball_2012-2019/). While several teams are able to attack the ball through their attack attempts there is a very low chance of the team achieving the kill due to a block or a dig leaving the ratio of a kill to attack attempt close to 1:4 or 25% chance of achieving a kill.  
+
+[Selim Coskunuzer](https://github.com/SelimC06): [Observing NFL players Average Salary by Category over the years 2014-2020](https://selimc06.github.io/Final-Project/). NFL players salary data over a few years to see if it has differed  
+
+
 
 ## June 2022
 

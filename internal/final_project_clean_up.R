@@ -5,13 +5,13 @@
 library(tidyverse)
 library(janitor) 
 
-x <- read_tsv("~/Downloads/final-projects-bootcamp-june-2022 - Sheet1.tsv", skip = 6) %>% 
+x <- read_tsv("~/Downloads/final-projects-bootcamp-august-2022 - Sheet1.tsv", skip = 6) %>% 
   janitor::clean_names() %>% 
 
 
   mutate(output = paste0("[", name, "](", github_account, "): [",
                          project_name, "](", project_url, "). ", 
-                         one_sentence_description_of_project)) %>% 
+                         one_sentence_takeaway_of_project)) %>% 
   select(output) %>% 
   sample_frac()
 
