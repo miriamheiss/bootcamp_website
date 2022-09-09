@@ -24,7 +24,7 @@ A total of 80 students have completed the Course. Congratulations! Here are thei
 
 [Miriam Heiss](https://github.com/miriamheiss): [Classical vs Contemporary Music](https://www.miriamheiss.com/final-project/). Taylor Swift's average Song length is almost 3 minutes more than J. S. Bach's, disproving the point  'Classical Music is too long'.  
 
-[Melvin Agbai](https://github.com/HyperTails1343): [What is the most popular used car by brand?](hypertails1343.github.io/final-project). The most popular car varies between consumers  
+[Dorothy Tang](https://github.com/Dorotho): [How the COVID-19 Pandemic Changed Emotions](https://dorotho.github.io/Final_project_2/). A survey measured people’s feelings, on 7 different emotions, during the COVID-19 pandemic in the U.S.
 
 [Varun Khedkar](https://github.com/varnkxband44): [Intelligence Quotient and Potential Indicators of Success](https://github.com/varnkxband44/cbIQpiS). Intelligence Quotient does not directly correspond with may be defined as success, however does hold a clear indirect impact on the key precursors to success.  
 
