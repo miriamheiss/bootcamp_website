@@ -785,6 +785,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1857,15 +1858,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2119,33 +2126,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<p><a href="https://davidkane.substack.com/embed">Sign up for our e-mail
-list</a> to receive updates going forward.</p>
-<p><strong>Kane’s (Free) Data Science Course</strong> is offered
-occasionally, always running four weeks. The next session starts on
-<strong>Monday, July 25, 2022</strong>. The workload is 10 hours per
-week: 3 hours in class with <a href="https://www.davidkane.info/">former
-Harvard Preceptor David Kane</a>, lecturing live on Zoom at around 8:00
-PM EDT and 7 hours of work completed by students on their own. By the
-end of this course, students will be able to do basic data science! The
-course is for high school students, but those a bit younger or older are
-always welcome. There is no charge.</p>
+<p><a href="https://davidkane.substack.com/embed">Sign up for our e-mail list</a> to receive updates going forward.</p>
+<p><strong>Kane’s (Free) Data Science Course</strong> is offered occasionally, always running four weeks. The next session starts on <strong>Monday, October 10, 2022</strong>. The workload is 10 hours per week: 3 hours in class with <a href="https://www.davidkane.info/">former Harvard Preceptor David Kane</a>, lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! Although the course is normally restricted to high school students, all ages are welcome for this session. <strong>There is no charge.</strong></p>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="index_files/figure-html5/animation-1.gif" /><!-- --></p>
 </div>
-<p>Check out the <a
-href="https://bootcamp.davidkane.info/projects.html">final projects</a>
-created by prior students.</p>
-<p>There are no prerequisites. The programming language we will be using
-is R. You must have a computer with R, RStudio and Git <a
-href="https://happygitwithr.com">installed</a>. The course is designed
-for absolute beginners. No programming or statistics experience is
-required.</p>
-<p><a href="https://davidkane.substack.com/embed">Sign up for our e-mail
-list</a> to receive updates. The next session of the course is not yet
-scheduled.</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>Check out the <a href="https://bootcamp.davidkane.info/projects.html">final projects</a> created by prior students.</p>
+<p>There are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git <a href="https://happygitwithr.com">installed</a>. The course is designed for absolute beginners. No programming or statistics experience is required.</p>
+<p><a href="https://davidkane.substack.com/embed">Sign up for our e-mail list</a> to receive updates.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

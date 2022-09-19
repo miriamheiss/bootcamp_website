@@ -10,7 +10,7 @@ A total of 80 students have completed the Course. Congratulations! Here are thei
 
 ## August 2022
 
-[Rachel Heiss](https://github.com/rachelheiss): [These Prices are Defying Gravity: Broadway Trends 1985 - 2022](https://rachelheiss.github.io/broadway_project/). Today's Broadway tickets cost much more than they did in the 80s, but more people are going to shows.  
+[Miriam Heiss](https://github.com/miriamheiss): [Classical vs Contemporary Music](https://www.miriamheiss.com/final-project/). Taylor Swift's average Song length is almost 3 minutes more than J. S. Bach's, disproving the point  'Classical Music is too long'.  
 
 [Maxwell Lu](https://github.com/chemax7): [Heart Disease: Risk Factors and Demographics](https://chemax7.github.io/Heart-Disease/). I found that men contract heart disease significantly more than women, American Indians/Alaskan Natives make up more percentage of those with heart disease than any other race.  
 
@@ -22,7 +22,7 @@ A total of 80 students have completed the Course. Congratulations! Here are thei
 
 [Krish Badri](https://github.com/krishbadri/): [Growth of Small vs Large Market-Cap Stocks](https://krishbadri.github.io/Growth-of-Small-vs-Large-Market-Cap-Stocks/). The average small market cap stock in the S&P 500 is growing at a rate much faster than the average growth of high market cap stocks at the top of the S&P 500 Weighting List.  
 
-[Miriam Heiss](https://github.com/miriamheiss): [Classical vs Contemporary Music](https://www.miriamheiss.com/final-project/). Taylor Swift's average Song length is almost 3 minutes more than J. S. Bach's, disproving the point  'Classical Music is too long'.  
+[Rachel Heiss](https://github.com/rachelheiss): [These Prices are Defying Gravity: Broadway Trends 1985 - 2022](https://rachelheiss.github.io/broadway_project/). Today's Broadway tickets cost much more than they did in the 80s, but more people are going to shows.  
 
 [Dorothy Tang](https://github.com/Dorotho): [How the COVID-19 Pandemic Changed Emotions](https://dorotho.github.io/Final_project_2/). A survey measured people’s feelings, on 7 different emotions, during the COVID-19 pandemic in the U.S.
 

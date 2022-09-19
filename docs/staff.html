@@ -785,6 +785,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1857,15 +1858,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2124,47 +2131,38 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="images/david_kane.png" width="50%" /></p>
 </div>
-<p><a href="https://www.davidkane.info">David Kane</a> is the former
-Preceptor in Statistical Methods and Mathematics in the Department of
-Government at Harvard University.</p>
+<p><a href="https://www.davidkane.info">David Kane</a> is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University.</p>
 <p> </p>
 <h2 id="tejas-mundhe">Tejas Mundhe</h2>
 <!-- There is something weird, I think, about this photo. It always shows up when I build it locally. But, once pushed to the web, it is fine. -->
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="images/tejas.jpeg" width="50%" /></p>
 </div>
-<p><a href="https://github.com/TejasMundhe">Tejas Mundhe</a> is an
-incoming Sophomore at Walnut Hills High School with a passion for Data
-Science.</p>
+<p><a href="https://github.com/TejasMundhe">Tejas Mundhe</a> is an incoming Sophomore at Walnut Hills High School with a passion for Data Science.</p>
 <p> </p>
 <h2 id="stephanie-saab">Stephanie Saab</h2>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="images/saab.jpg" width="50%" /></p>
 </div>
-<p><a href="https://github.com/AM-lmn">Stephanie Saab</a> is a second
-year student at the University of Toronto.</p>
+<p><a href="https://github.com/AM-lmn">Stephanie Saab</a> is a second year student at the University of Toronto.</p>
 <p> </p>
 <h2 id="yuhan-wu">Yuhan Wu</h2>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="images/yuhan.jpg" width="50%" /></p>
 </div>
-<p><a href="https://github.com/UhanWu">Yuhan Wu</a> is an incoming
-junior at Newton North High School who is interested in Data Science and
-Applied Mathematics.</p>
+<p><a href="https://github.com/UhanWu">Yuhan Wu</a> is an incoming junior at Newton North High School who is interested in Data Science and Applied Mathematics.</p>
 <p> </p>
 <h2 id="arghayan-jeiyasarangkan">Arghayan Jeiyasarangkan</h2>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="images/arghayan.png" width="50%" /></p>
 </div>
-<p>Arghayan Jeiyasarangkan is an upcoming sophomore at the University Of
-Ottawa studying biomedical science in French Immersion.</p>
+<p>Arghayan Jeiyasarangkan is an upcoming sophomore at the University Of Ottawa studying biomedical science in French Immersion.</p>
 <p> </p>
 <h2 id="felix-cai">Felix Cai</h2>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="images/cai.png" width="50%" /></p>
 </div>
-<p>Felix Cai is an upcoming second year Medical Sciences student at
-Western University.</p>
+<p>Felix Cai is an upcoming second year Medical Sciences student at Western University.</p>
 <p> </p>
 <h2 id="jackson-roe">Jackson Roe</h2>
 <div class="layout-chunk" data-layout="l-body">
@@ -2172,8 +2170,7 @@ Western University.</p>
 </div>
 <p>Jackson Roe is a rising senior at Dublin Coffman High School.</p>
 <p> </p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

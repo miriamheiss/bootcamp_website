@@ -9,4 +9,6 @@
 
 * Set up empty project for first class so your set up looks like student set up.
 
+* Set up new Github organization.
+
 * Be careful about forks. If you have students fork from repo class-2022-08-01, you can not then change the name of this tutorial to class-2022-08-02 and then have them fork from it again. The reason is that these are the same repo, but with a name change, and you can't fork twice from the same repo.
