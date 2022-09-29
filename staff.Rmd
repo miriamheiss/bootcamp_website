@@ -19,8 +19,15 @@ knitr::include_graphics("images/david_kane.png")
 
 &nbsp;
 
+## Miriam Heiss
 
+```{r miriam, out.width = "50%"}
+knitr::include_graphics("images/miriam.jpeg")
+```
 
+[Miriam Heiss](https://github.com/miriamheiss) is a rising 9th grader (homeschooled), organist of 5 years, and amateur Data Scientist. 
+
+&nbsp;
 
 ## Tejas Mundhe
 
