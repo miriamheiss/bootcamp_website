@@ -22,7 +22,7 @@ knitr::include_graphics("images/david_kane.png")
 ## Miriam Heiss
 
 ```{r miriam, out.width = "50%"}
-knitr::include_graphics("images/miriam.jpeg")
+knitr::include_graphics("images/miriam.jpg")
 ```
 
 [Miriam Heiss](https://github.com/miriamheiss) is a 8th grader (homeschooled), organist of 5 years, and amateur Data Scientist. 
