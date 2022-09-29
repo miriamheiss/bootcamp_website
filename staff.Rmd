@@ -25,7 +25,7 @@ knitr::include_graphics("images/david_kane.png")
 knitr::include_graphics("images/miriam.jpeg")
 ```
 
-[Miriam Heiss](https://github.com/miriamheiss) is a 8th graders (homeschooled), organist of 5 years, and amateur Data Scientist. 
+[Miriam Heiss](https://github.com/miriamheiss) is a 8th grader (homeschooled), organist of 5 years, and amateur Data Scientist. 
 
 &nbsp;
 
